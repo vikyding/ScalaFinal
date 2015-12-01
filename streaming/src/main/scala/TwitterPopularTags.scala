@@ -3,7 +3,9 @@
   */
 
 
-import org.apache.spark.streaming.{Seconds, StreamingContext}
+import java.io.{File, FileWriter}
+
+import org.apache.spark.streaming.{Time, Seconds, StreamingContext}
 
 import org.apache.spark.streaming.twitter._
 import org.apache.spark.SparkConf
@@ -35,18 +37,24 @@ object TwitterPopularTags {
     val TwitterStream=TwitterUtils.createStream(ssc,None,filters).filter(_.getLang == "en")
 
 
+    val TweetWords=Parser.Parse(TwitterStream)
+
+    val originalTweet= for( rdd <- TweetWords) yield rdd._1.toString +" " + rdd._2
 
 
+    //val list = prepare.reduceByKey((a, b) => a ++ b)
 
-    val data=Parser.Parse(TwitterStream)
+    val fw = new FileWriter(new File("/Users/mengchending/Desktop/result/tweets"))
 
-    data.foreachRDD(rdd=>{
-      val list=rdd.take(10)
-      list.foreach(aa=>println(aa))
-
+    originalTweet.foreachRDD(rdd=> {
+      rdd.collect.foreach(f => {
+        fw.write(f + "\n")
+        fw.flush
+      })
     })
 
-    data.saveAsTextFiles("/Users/mengchending/Desktop/result/re")
+    fw.flush()
+    //tweets.saveAsTextFiles("/Users/mengchending/Desktop/result/re")
 
 
 

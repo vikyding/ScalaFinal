@@ -13,7 +13,7 @@ object Parser {
     for(
       aa <-tweetstream
 
-    ) yield (aa.getId,Tokenizer.tokenizeToString(aa.getText))
+    ) yield (aa.getId,Tokenizer.tokenizeToString(aa.getText.toLowerCase))
 
   }
 

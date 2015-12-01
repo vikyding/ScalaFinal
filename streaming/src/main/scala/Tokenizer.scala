@@ -82,7 +82,7 @@ object Tokenizer {
 
   val AtMention = """@[a-zA-Z0-9_]+\s*:?"""
 
-  val Singnature ="""RT"""
+  val Singnature ="""rt"""
 
   // I was worried this would conflict with at-mentions
   // but seems ok in sample of 5800: 7 changes all email fixes

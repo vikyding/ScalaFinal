@@ -6,6 +6,8 @@ import java.util.StringTokenizer
 import org.apache.spark.mllib.linalg.{Vectors, Vector}
 import scala.math._
 import org.apache.spark.mllib.clustering.KMeans
+import java.io.File
+
 /**
  * @author yaoyuanzhi
  */
@@ -15,23 +17,31 @@ object clustering{
 
     val conf = new SparkConf().setAppName("hello").setMaster("local").set("master.clustering", "1g")
     System.setProperty("master.clustering", "1g")
+
     val sc = new SparkContext(conf)
 
     println("test")
-    val textFile = sc.textFile("/Users/mengchending/Desktop/result/re-1448966168000/part*")
+
+    val textFile = sc.textFile("/Users/mengchending/Desktop/result/tweets")
+
+    textFile.foreach(aa=>println(aa))
 
     val numOfFile = textFile.count
+
     println("file count " + numOfFile)
 
-    val vocabulary = textFile.flatMap(e => {
 
-      val trip = new StringTokenizer(e, "\t")
+    val vocabulary = textFile.flatMap( e => {
+
+      val trip: StringTokenizer = new StringTokenizer(e, " ")
+
       val id = trip.nextToken()
 
       if (!trip.hasMoreTokens()) {
         var termList: Array[(String, Long)] = new Array[(String, Long)](0)
         termList
-      } else {
+      }
+      else {
         val str = new StringTokenizer(trip.nextToken(), " ")
 
         var termList: Array[(String, Long)] = new Array[(String, Long)](0)
@@ -44,21 +54,22 @@ object clustering{
       }
     }).distinct().keys.sortBy(identity)
 
-
-    vocabulary.foreach(s => printf(s + "\n"))
+    vocabulary.foreach(s => println(s + "\n"))
 
     val dictionary = vocabulary.zipWithIndex.collectAsMap.toMap
 
 
     val lines = textFile.flatMap(e => {
 
-      val trip = new StringTokenizer(e, "\t");
+      val trip = new StringTokenizer(e, " ")
+
       val id = trip.nextToken()
+
       if (!trip.hasMoreTokens()) {
         var termList: Array[(Long, String)] = new Array[(Long, String)](0)
         termList
       } else {
-        val str = trip.nextToken();
+        val str = trip.nextToken()
 
         var termList = Array((id.trim().toLong, str))
 
@@ -68,12 +79,13 @@ object clustering{
 
 
 
+
     lines.foreach(f => println(f + ""))
 
     val tups = lines.flatMap {
       case (id, line) =>
       {
-        val str = new StringTokenizer(line, " ");
+        val str = new StringTokenizer(line, " ")
         var tuples: Array[((Long, String), Long)] = new Array[((Long, String), Long)](0)
         while (str.hasMoreTokens()) {
           val term = str.nextToken()
@@ -84,12 +96,14 @@ object clustering{
     }
 
 
-    tups.foreach(f => printf(f + "\n"))
+    tups.foreach(f => println(f + "\n"))
+
     //collect TF
     val TF_count = tups.reduceByKey(_ + _)
     println("number of occurrence of each word in each document")
     TF_count.foreach(t => printf(t + "\n"))
     val pairs = TF_count.map { case (tuple, count) => (tuple._2, 1L) }
+
     //calculate IDF
     val IDF = pairs.reduceByKey(_ + _)
     println("number of documents a word appears in")
@@ -103,8 +117,10 @@ object clustering{
 
     val IDFMap = IDFList.collectAsMap.toMap
 
+
     //calculate the number of features
     val numOfFeatures = vocabulary.count
+
     //calculate TF-IDF
     val prepare = TF_count.map {
       case (tuple, count) => (tuple._1, Array((tuple._2, count)))
@@ -115,6 +131,7 @@ object clustering{
       f._2.foreach(f => print(f))
       println("")
     })
+
 
     //feature construction
     val dataset = list.flatMap(e => {
@@ -128,7 +145,7 @@ object clustering{
 
 
 
-    val clusters = KMeans.train(dataset, 3,6)
+    val clusters = KMeans.train(dataset,2,10)
 
     val WSSSE = clusters.computeCost(dataset)
 
@@ -146,12 +163,13 @@ object clustering{
 
     //clusterResult.foreach(f=>println(f))
 
-    val fw = new FileWriter("/Users/mengchending/Desktop/answer/")
+    val fw = new FileWriter(new File("/Users/mengchending/Desktop/answer/result"))
 
 
 
 
     val result = lines.join(clusterResult)
+
     result.collect.foreach(f => {
       fw.write(f._2._1 + "\tcluster" + f._2._2 + "\n")
       fw.flush
@@ -168,7 +186,8 @@ object clustering{
     var indexArray = new Array[Int](0)
     var valueArray = new Array[Double](0)
     //      println("information for "+Id)
-    frequency.foreach(f => {
+    frequency.foreach(
+      f => {
       indexArray = indexArray ++ Array(dictionary(f._1).toInt)
       val idf = IDFMap(f._1)
       val tf = f._2.toDouble / numTerms.toDouble

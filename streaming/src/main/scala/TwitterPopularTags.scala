@@ -2,7 +2,7 @@
   * Created by mengchending on 11/17/15.
   */
 
-import org.apache.spark.api.python.WriteInputFormatTestDataGenerator
+
 import org.apache.spark.streaming.{Seconds, StreamingContext}
 
 import org.apache.spark.streaming.twitter._
@@ -38,7 +38,7 @@ object TwitterPopularTags {
 
 
 
-    val data=Parser.Parser(TwitterStream)
+    val data=Parser.Parse(TwitterStream)
 
     data.foreachRDD(rdd=>{
       val list=rdd.take(10)
@@ -46,7 +46,7 @@ object TwitterPopularTags {
 
     })
 
-
+    data.saveAsTextFiles("/Users/mengchending/Desktop/result/re")
 
 
 
@@ -70,5 +70,6 @@ object TwitterPopularTags {
 
     ssc.start()
     ssc.awaitTermination()
+
   }
 }

@@ -703,9 +703,9 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-agent;0.13.8!test-agent.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.8!apply-macro.jar
-[debug] :: resolution report :: resolve 661ms :: artifacts dl 42ms
+[debug] :: resolution report :: resolve 604ms :: artifacts dl 20ms
 [debug] 	report for default#streaming$sbt_2.10;1.0 default produced in /Users/mengchending/IdeaProjects/streaming/target/resolution-cache/reports/default-streaming$sbt_2.10-default.xml
-[debug] 	resolve done (661ms resolve - 42ms download)
+[debug] 	resolve done (604ms resolve - 20ms download)
 [debug] Using inline dependencies specified in Scala.
 [debug] :: resolving dependencies :: default#streaming$sources_2.10;1.0
 [debug] 	confs: [default]
@@ -1069,6 +1069,6 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_8_2;0.13.8!precompiled-2_8_2.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_9_2;0.13.8!precompiled-2_9_2.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_9_3;0.13.8!precompiled-2_9_3.jar(src)
-[debug] :: resolution report :: resolve 170ms :: artifacts dl 33ms
+[debug] :: resolution report :: resolve 133ms :: artifacts dl 28ms
 [debug] 	report for default#streaming$sources_2.10;1.0 default produced in /Users/mengchending/IdeaProjects/streaming/target/resolution-cache/reports/default-streaming$sources_2.10-default.xml
-[debug] 	resolve done (170ms resolve - 33ms download)
+[debug] 	resolve done (133ms resolve - 28ms download)

@@ -7,27 +7,18 @@ import twitter4j.Status
 
 object Parser {
 
-  def Parser(tweetstream:DStream[Status]):DStream[(Long,String)] ={
+
+  def Parse(tweetstream:DStream[Status]):DStream[(Long,String)] ={
 
     for(
       aa <-tweetstream
 
-    ) yield (aa.getId,aa.getText)
+    ) yield (aa.getId,Tokenizer.tokenizeToString(aa.getText))
 
   }
 
-  def SplitAndFilter(tweet:String)={
-    val rStart= """^(?:RT\s@|@)(?:\S*:)(\S*)$""".r
-    val words= tweet match{
-      case rStart(s)=>s
-      case _=>
-      {
-        throw new IllegalArgumentException(tweet)
-      }
-    }
 
 
-  }
 
 
 }

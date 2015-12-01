@@ -9,6 +9,7 @@ libraryDependencies += "org.apache.spark" %% "spark-core" % "1.3.0"
 libraryDependencies += "org.apache.spark" %% "spark-streaming" % "1.3.0"
 
 //libraryDependencies += "org.apache.spark" %% "spark-streaming-twitter" % "1.5.1"
+libraryDependencies += "org.apache.spark" % "spark-mllib_2.10" % "1.3.0"
 
 libraryDependencies += "org.twitter4j" % "twitter4j-core" % "3.0.6"
 

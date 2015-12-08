@@ -11,6 +11,7 @@
 
 
 Cluster result analyis:
+
 Our project could cluster tweet stream into a number of clusters as predefined. One of the clusters will always contain much more tweets than other clusters do and this cluster usually comes with an index of 0 or 1. That is a result based on k-means clustering mechanism.
 In this project, firstly a tf-idf computation will be made and each word's tf-idf value will be computed and be regarded as points in a dimensional space. Program algorithem will use these this value points to do further action.
 K-means: one of the most commonly used clustering algorithm that cluster data points into predefined number of clusters. When realize this clusting in k-means, the algorithm randonly choose a few starting centroid point and form vectors based on these centroids with another chosen points. The algorithm will compute when assigning points to centroid and find if the sum of squares is the smallest. 

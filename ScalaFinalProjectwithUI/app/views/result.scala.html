@@ -1,0 +1,30 @@
+@(clusters:List[String])
+
+@main("Re to Play"){
+
+<div class="container">
+
+    <div class="row">
+        <div class="col-sm-3 col-md-2 sidebar">
+            <ul class="nav nav-sidebar">
+                <li><a href="#">Details<span class="sr-only">(current)</span></a></li>
+            </ul>
+        </div>
+        <div class="col-sm-9 main">
+            <h1 class="page-header">Result of the Clustering</h1>
+
+            <div class="row placeholders">
+                @for(cluster<-clusters){
+                <div class="span4">
+                    <p>@cluster</p>
+                </div>
+                }
+            </div>
+
+        </div>
+    </div>
+
+    }
+
+
+

@@ -4,7 +4,7 @@
 		module="streaming$sources_javadoc_2.10"
 		revision="1.0"
 		status="integration"
-		publication="20151201022442"
+		publication="20151206191125"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>
@@ -492,11 +492,9 @@
 		</dependency>
 		<dependency org="org.codehaus.jackson" name="jackson-mapper-asl" rev="1.9.11" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
 			<artifact name="jackson-mapper-asl" type="src" ext="jar" conf="sources" e:classifier="sources"/>
-			<artifact name="jackson-mapper-asl" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
 		</dependency>
 		<dependency org="org.codehaus.jackson" name="jackson-core-asl" rev="1.9.11" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
 			<artifact name="jackson-core-asl" type="src" ext="jar" conf="sources" e:classifier="sources"/>
-			<artifact name="jackson-core-asl" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
 		</dependency>
 		<dependency org="org.jodd" name="jodd-core" rev="3.6.3" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
 			<artifact name="jodd-core" type="src" ext="jar" conf="sources" e:classifier="sources"/>

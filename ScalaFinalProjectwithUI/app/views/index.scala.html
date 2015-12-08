@@ -1,0 +1,22 @@
+@(message:String)
+
+@main("Welcome to Play"){
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-7">
+    <img src="@routes.Assets.at("/images/twitter.jpg")" class="img-responsive" alt="Cinque Terre" align="center">
+        </div>
+        <div class="col-sm-5">
+            <form action="@routes.Application.start()" method="post">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="filePath" name="filePath">
+                </div>
+                <button type="submit" class="btn btn-default">Load</button>
+            </form>
+       </div>
+</div>
+    </div>
+
+
+}

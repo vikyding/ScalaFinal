@@ -4,7 +4,7 @@ import org.apache.spark.SparkContext
 import org.apache.spark.SparkConf
 import java.util.StringTokenizer
 import org.apache.spark.mllib.linalg.{Vectors, Vector}
-import scala.math._
+import org.apache.spark.rdd.RDD
 import org.apache.spark.mllib.clustering.KMeans
 import java.io.File
 
@@ -13,53 +13,99 @@ import java.io.File
  */
 object clustering{
 
+
+
+  def getDataset(list:RDD[(Long,Array[(String,Long)])],IDFMap:Map[String, Double],numOfFeatures:Long,dictionary:Map[String,Long]):RDD[Vector]={
+   list.flatMap(e => {
+      val tfs = e._2
+      //calculate the number of terms in each document
+      var numTerm = 0L
+      tfs.foreach(f => { numTerm = numTerm + f._2 })
+      val vector = getVector(IDFMap, numOfFeatures, tfs, numTerm, dictionary, e._1)
+      Array(vector)
+    })
+
+
+  }
+
+
+
+  def getVector(IDFMap: Map[String, Double], numOfFeatures: Long, frequency: Array[(String, Long)], numTerms: Long, dictionary: Map[String, Long], Id: Long): Vector = {
+    var indexArray = new Array[Int](0)
+    var valueArray = new Array[Double](0)
+    //      println("information for "+Id)
+    frequency.foreach(
+      f => {
+        indexArray = indexArray ++ Array(dictionary(f._1).toInt)
+        val idf = IDFMap(f._1)
+        val tf = f._2.toDouble / numTerms.toDouble
+        //      println("information of "+f._1+" tf"+tf+" idf"+idf)
+        valueArray = valueArray ++ Array(tf * idf)
+      })
+
+    val result: Vector = Vectors.sparse(numOfFeatures.toInt, indexArray, valueArray)
+    result
+  }
+
+
   def main(args: Array[String]): Unit = {
 
-    val conf = new SparkConf().setAppName("hello").setMaster("local").set("master.clustering", "1g")
-    System.setProperty("master.clustering", "1g")
 
-    val sc = new SparkContext(conf)
+      val conf = new SparkConf().setAppName("AppName").setMaster("local").set("master.clustering", "1g")
+      System.setProperty("master.clustering", "1g")
 
-    println("test")
+      val sc = new SparkContext(conf)
 
-    val textFile = sc.textFile("/Users/mengchending/Desktop/result/tweets")
+      val stopWord= sc.textFile("/Users/mengchending/Desktop/stopwords.txt").filter(_.length()>1).collect()
 
-    textFile.foreach(aa=>println(aa))
+      stopWord.foreach(aa=>print("\""+aa+"\","))
 
-    val numOfFile = textFile.count
-
-    println("file count " + numOfFile)
+      val text= sc.textFile("/Users/mengchending/Desktop/result/tweets").filter(_.length>0)
 
 
-    val vocabulary = textFile.flatMap( e => {
 
-      val trip: StringTokenizer = new StringTokenizer(e, " ")
+     val textFile=TfIdf.delimite(text,stopWord)
 
-      val id = trip.nextToken()
+    val tweets=TfIdf.getTweets(text)
 
-      if (!trip.hasMoreTokens()) {
-        var termList: Array[(String, Long)] = new Array[(String, Long)](0)
-        termList
-      }
-      else {
-        val str = new StringTokenizer(trip.nextToken(), " ")
+    val vocabulary= TfIdf.getVocabulary(textFile)
 
-        var termList: Array[(String, Long)] = new Array[(String, Long)](0)
-        while (str.hasMoreTokens) {
-          val term = str.nextToken().trim()
-          termList = termList ++ Array((term, 1L))
+    val dictionary= TfIdf.getDictionary(vocabulary)
 
-        }
-        termList
-      }
-    }).distinct().keys.sortBy(identity)
+    val tups=TfIdf.getTups(textFile)
 
-    vocabulary.foreach(s => println(s + "\n"))
+    val numOfFile= TfIdf.getNumOfFile(textFile)
 
-    val dictionary = vocabulary.zipWithIndex.collectAsMap.toMap
+    val tf=TfIdf.calculateTF(tups)
+
+    val idf=TfIdf.calculateIDF(tups,numOfFile)
+
+    val tfidf=TfIdf.calculateTFIDF(vocabulary,tf)
+
+    val numOfFeatures= TfIdf.getNumOfFeatures(vocabulary)
+
+    val dataset=getDataset(tfidf,idf,numOfFeatures,dictionary)
+
+    val clusters = KMeans.train(dataset,20,20)
 
 
-    val lines = textFile.flatMap(e => {
+    val WSSSE = clusters.computeCost(dataset)
+
+    val clusterResult = tfidf.flatMap(e => {
+      val id = e._1
+      val tfs = e._2
+      //calculate the number of terms in each document
+      var numTerm = 0L
+      tfs.foreach(f => { numTerm = numTerm + f._2 })
+      val vector = getVector(idf, numOfFeatures, tfs, numTerm, dictionary, e._1)
+      val cluster = clusters.predict(vector)
+      Array((id, cluster))
+    })
+
+
+    val fw = new FileWriter(new File("/Users/mengchending/Desktop/answer/result"))
+
+    val lines=textFile.flatMap(e => {
 
       val trip = new StringTokenizer(e, " ")
 
@@ -77,126 +123,36 @@ object clustering{
       }
     })
 
+    //lines.foreach(aa=>println(aa+"!"))
 
+  // val result = lines.join(clusterResult)
 
+    val result =tweets.join(clusterResult)
 
-    lines.foreach(f => println(f + ""))
+    val find=result map( r => {
+      val clusterid=r._2._2
+      val tweetId=r._1
+      ((clusterid,tweetId),1L)
+    })
 
-    val tups = lines.flatMap {
-      case (id, line) =>
-      {
-        val str = new StringTokenizer(line, " ")
-        var tuples: Array[((Long, String), Long)] = new Array[((Long, String), Long)](0)
-        while (str.hasMoreTokens()) {
-          val term = str.nextToken()
-          tuples = tuples ++ Array(((id, term), 1L))
+    val res=find.reduceByKey(_+_) map (
+      rr=>
+        {
+          (rr._1._1,1L)
         }
-        tuples
-      }
-    }
+      )
 
-
-    tups.foreach(f => println(f + "\n"))
-
-    //collect TF
-    val TF_count = tups.reduceByKey(_ + _)
-    println("number of occurrence of each word in each document")
-    TF_count.foreach(t => printf(t + "\n"))
-    val pairs = TF_count.map { case (tuple, count) => (tuple._2, 1L) }
-
-    //calculate IDF
-    val IDF = pairs.reduceByKey(_ + _)
-    println("number of documents a word appears in")
-    IDF.foreach(f => println(f + "\n"))
-    val IDFList = IDF.map {
-      case (term, count) => {
-        val idf = log10(numOfFile / (count.toDouble))
-        (term, idf)
-      }
-    }
-
-    val IDFMap = IDFList.collectAsMap.toMap
-
-
-    //calculate the number of features
-    val numOfFeatures = vocabulary.count
-
-    //calculate TF-IDF
-    val prepare = TF_count.map {
-      case (tuple, count) => (tuple._1, Array((tuple._2, count)))
-    }
-    val list = prepare.reduceByKey((a, b) => a ++ b)
-    list.foreach(f => {
-      println(f._1 + " ")
-      f._2.foreach(f => print(f))
-      println("")
-    })
-
-
-    //feature construction
-    val dataset = list.flatMap(e => {
-      val tfs = e._2
-      //calculate the number of terms in each document
-      var numTerm = 0L
-      tfs.foreach(f => { numTerm = numTerm + f._2 })
-      val vector = getVector(IDFMap, numOfFeatures, tfs, numTerm, dictionary, e._1)
-      Array(vector)
-    })
+    val fres=res.reduceByKey(_+_)
 
 
 
-    val clusters = KMeans.train(dataset,2,10)
+    fres.collect.foreach(f => {
 
-    val WSSSE = clusters.computeCost(dataset)
-
-    val clusterResult = list.flatMap(e => {
-      val id = e._1
-      val tfs = e._2
-      //calculate the number of terms in each document
-      var numTerm = 0L
-      tfs.foreach(f => { numTerm = numTerm + f._2 })
-      val vector = getVector(IDFMap, numOfFeatures, tfs, numTerm, dictionary, e._1)
-      val cluster = clusters.predict(vector)
-      Array((id, cluster))
-    })
-
-
-    //clusterResult.foreach(f=>println(f))
-
-    val fw = new FileWriter(new File("/Users/mengchending/Desktop/answer/result"))
-
-
-
-
-    val result = lines.join(clusterResult)
-
-    result.collect.foreach(f => {
-      fw.write(f._2._1 + "\tcluster" + f._2._2 + "\n")
+      fw.write(f._1.toString+" \tcluster"+" has "+f._2+ " tweets \n")
       fw.flush
     })
     fw.flush()
     println("Within Set Sum of Squared Errors = " + WSSSE)
-  }
-
-
-
-
-
-  def getVector(IDFMap: Map[String, Double], numOfFeatures: Long, frequency: Array[(String, Long)], numTerms: Long, dictionary: Map[String, Long], Id: Long): Vector = {
-    var indexArray = new Array[Int](0)
-    var valueArray = new Array[Double](0)
-    //      println("information for "+Id)
-    frequency.foreach(
-      f => {
-      indexArray = indexArray ++ Array(dictionary(f._1).toInt)
-      val idf = IDFMap(f._1)
-      val tf = f._2.toDouble / numTerms.toDouble
-      //      println("information of "+f._1+" tf"+tf+" idf"+idf)
-      valueArray = valueArray ++ Array(tf * idf)
-    })
-
-    val result: Vector = Vectors.sparse(numOfFeatures.toInt, indexArray, valueArray)
-    result
   }
 
 }

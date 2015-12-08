@@ -9,7 +9,7 @@
 [debug] == resolving dependencies for default#streaming$sources_javadoc_2.10;1.0 [compile]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.10.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@651e4f63
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@31d72924
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.4
 [debug] 	found org.scala-lang#scala-library;2.10.4 in sbt-chain
 [debug] 	[2.10.4] org.scala-lang#scala-library;2.10.4
@@ -18,7 +18,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.apache.spark#spark-core_2.10;1.3.0 [compile->default(compile)]
 [info] Resolving org.apache.spark#spark-core_2.10;1.3.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1a39444
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@164149d
 [debug] sbt-chain: module revision found in cache: org.apache.spark#spark-core_2.10;1.3.0
 [debug] 	found org.apache.spark#spark-core_2.10;1.3.0 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.apache.spark#spark-core_2.10;1.3.0 [compile->runtime]
@@ -26,7 +26,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.apache.spark#spark-core_2.10;1.3.0 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->com.twitter#chill_2.10;0.5.0 [compile->default(compile)]
 [info] Resolving com.twitter#chill_2.10;0.5.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@245df87
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5966c87c
 [debug] sbt-chain: module revision found in cache: com.twitter#chill_2.10;0.5.0
 [debug] 	found com.twitter#chill_2.10;0.5.0 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->com.twitter#chill_2.10;0.5.0 [compile->runtime]
@@ -34,7 +34,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->com.twitter#chill_2.10;0.5.0 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->com.twitter#chill-java;0.5.0 [compile->default(compile)]
 [info] Resolving com.twitter#chill-java;0.5.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@53ef1fe3
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2905f92e
 [debug] sbt-chain: module revision found in cache: com.twitter#chill-java;0.5.0
 [debug] 	found com.twitter#chill-java;0.5.0 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->com.twitter#chill-java;0.5.0 [compile->runtime]
@@ -42,7 +42,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->com.twitter#chill-java;0.5.0 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->com.esotericsoftware.kryo#kryo;2.21 [compile->default(compile)]
 [info] Resolving com.esotericsoftware.kryo#kryo;2.21 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2dc33ee3
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2d3b85d1
 [debug] sbt-chain: module revision found in cache: com.esotericsoftware.kryo#kryo;2.21
 [debug] 	found com.esotericsoftware.kryo#kryo;2.21 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->com.esotericsoftware.kryo#kryo;2.21 [compile->runtime]
@@ -50,7 +50,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->com.esotericsoftware.kryo#kryo;2.21 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->com.esotericsoftware.reflectasm#reflectasm;1.07 [compile->default(compile)]
 [info] Resolving com.esotericsoftware.reflectasm#reflectasm;1.07 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1ce50969
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@f61760f
 [debug] sbt-chain: module revision found in cache: com.esotericsoftware.reflectasm#reflectasm;1.07
 [debug] 	found com.esotericsoftware.reflectasm#reflectasm;1.07 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->com.esotericsoftware.reflectasm#reflectasm;1.07 [compile->runtime]
@@ -58,7 +58,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->com.esotericsoftware.reflectasm#reflectasm;1.07 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->com.esotericsoftware.minlog#minlog;1.2 [compile->default(compile)]
 [info] Resolving com.esotericsoftware.minlog#minlog;1.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@16900b91
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@39385bc8
 [debug] sbt-chain: module revision found in cache: com.esotericsoftware.minlog#minlog;1.2
 [debug] 	found com.esotericsoftware.minlog#minlog;1.2 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->com.esotericsoftware.minlog#minlog;1.2 [compile->runtime]
@@ -66,7 +66,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->com.esotericsoftware.minlog#minlog;1.2 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.objenesis#objenesis;1.2 [compile->default(compile)]
 [info] Resolving org.objenesis#objenesis;1.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@38635031
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6a28b2d2
 [debug] sbt-chain: module revision found in cache: org.objenesis#objenesis;1.2
 [debug] 	found org.objenesis#objenesis;1.2 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.objenesis#objenesis;1.2 [compile->runtime]
@@ -74,7 +74,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.objenesis#objenesis;1.2 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.apache.hadoop#hadoop-client;2.2.0 [compile->default(compile)]
 [info] Resolving org.apache.hadoop#hadoop-client;2.2.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5fc92de1
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@45acfe73
 [debug] sbt-chain: module revision found in cache: org.apache.hadoop#hadoop-client;2.2.0
 [debug] 	found org.apache.hadoop#hadoop-client;2.2.0 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.apache.hadoop#hadoop-client;2.2.0 [compile->runtime]
@@ -82,7 +82,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.apache.hadoop#hadoop-client;2.2.0 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.apache.hadoop#hadoop-common;2.2.0 [compile->default(compile)]
 [info] Resolving org.apache.hadoop#hadoop-common;2.2.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@59c33927
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@67d5ec7f
 [debug] sbt-chain: module revision found in cache: org.apache.hadoop#hadoop-common;2.2.0
 [debug] 	found org.apache.hadoop#hadoop-common;2.2.0 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.apache.hadoop#hadoop-common;2.2.0 [compile->runtime]
@@ -90,7 +90,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.apache.hadoop#hadoop-common;2.2.0 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.apache.hadoop#hadoop-annotations;2.2.0 [compile->default(compile)]
 [info] Resolving org.apache.hadoop#hadoop-annotations;2.2.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@29c03f08
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@69296eb8
 [debug] sbt-chain: module revision found in cache: org.apache.hadoop#hadoop-annotations;2.2.0
 [debug] 	found org.apache.hadoop#hadoop-annotations;2.2.0 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.apache.hadoop#hadoop-annotations;2.2.0 [compile->runtime]
@@ -98,7 +98,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.apache.hadoop#hadoop-annotations;2.2.0 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->commons-cli#commons-cli;1.2 [compile->default(compile)]
 [info] Resolving commons-cli#commons-cli;1.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4bdf6b0c
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5e7a8783
 [debug] sbt-chain: module revision found in cache: commons-cli#commons-cli;1.2
 [debug] 	found commons-cli#commons-cli;1.2 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->commons-cli#commons-cli;1.2 [compile->runtime]
@@ -106,7 +106,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->commons-cli#commons-cli;1.2 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.apache.commons#commons-math;2.1 [compile->default(compile)]
 [info] Resolving org.apache.commons#commons-math;2.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@410cef4a
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@fcd242b
 [debug] sbt-chain: module revision found in cache: org.apache.commons#commons-math;2.1
 [debug] 	found org.apache.commons#commons-math;2.1 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.apache.commons#commons-math;2.1 [compile->runtime]
@@ -114,7 +114,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.apache.commons#commons-math;2.1 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->commons-httpclient#commons-httpclient;3.1 [compile->default(compile)]
 [info] Resolving commons-httpclient#commons-httpclient;3.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@47c06de4
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6688a526
 [debug] sbt-chain: module revision found in cache: commons-httpclient#commons-httpclient;3.1
 [debug] 	found commons-httpclient#commons-httpclient;3.1 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->commons-httpclient#commons-httpclient;3.1 [compile->runtime]
@@ -122,7 +122,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->commons-httpclient#commons-httpclient;3.1 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->commons-logging#commons-logging;1.1.1 [compile->default(compile)]
 [info] Resolving commons-logging#commons-logging;1.1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2d9b37e2
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@8ef9dbe
 [debug] sbt-chain: module revision found in cache: commons-logging#commons-logging;1.1.1
 [debug] 	found commons-logging#commons-logging;1.1.1 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->commons-logging#commons-logging;1.1.1 [compile->runtime]
@@ -130,7 +130,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->commons-logging#commons-logging;1.1.1 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->log4j#log4j;1.2.17 [compile->default(compile)]
 [info] Resolving log4j#log4j;1.2.17 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@31800eb0
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7335378b
 [debug] sbt-chain: module revision found in cache: log4j#log4j;1.2.17
 [debug] 	found log4j#log4j;1.2.17 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->log4j#log4j;1.2.17 [compile->runtime]
@@ -138,7 +138,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->log4j#log4j;1.2.17 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->commons-lang#commons-lang;2.5 [compile->default(compile)]
 [info] Resolving commons-lang#commons-lang;2.5 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@72a724bc
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1e2dec0
 [debug] sbt-chain: module revision found in cache: commons-lang#commons-lang;2.5
 [debug] 	found commons-lang#commons-lang;2.5 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->commons-lang#commons-lang;2.5 [compile->runtime]
@@ -146,7 +146,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->commons-lang#commons-lang;2.5 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->commons-configuration#commons-configuration;1.6 [compile->default(compile)]
 [info] Resolving commons-configuration#commons-configuration;1.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6bb03e76
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7b98e41
 [debug] sbt-chain: module revision found in cache: commons-configuration#commons-configuration;1.6
 [debug] 	found commons-configuration#commons-configuration;1.6 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->commons-configuration#commons-configuration;1.6 [compile->runtime]
@@ -154,7 +154,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->commons-configuration#commons-configuration;1.6 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->commons-collections#commons-collections;3.2.1 [compile->default(compile)]
 [info] Resolving commons-collections#commons-collections;3.2.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5427a4de
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@674c3bc4
 [debug] sbt-chain: module revision found in cache: commons-collections#commons-collections;3.2.1
 [debug] 	found commons-collections#commons-collections;3.2.1 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->commons-collections#commons-collections;3.2.1 [compile->runtime]
@@ -162,7 +162,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->commons-collections#commons-collections;3.2.1 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->commons-digester#commons-digester;1.8 [compile->default(compile)]
 [info] Resolving commons-digester#commons-digester;1.8 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3182e24f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@36f40127
 [debug] sbt-chain: module revision found in cache: commons-digester#commons-digester;1.8
 [debug] 	found commons-digester#commons-digester;1.8 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->commons-digester#commons-digester;1.8 [compile->runtime]
@@ -170,7 +170,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->commons-digester#commons-digester;1.8 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->commons-beanutils#commons-beanutils;1.7.0 [compile->default(compile)]
 [info] Resolving commons-beanutils#commons-beanutils;1.7.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@49a98767
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6aabd911
 [debug] sbt-chain: module revision found in cache: commons-beanutils#commons-beanutils;1.7.0
 [debug] 	found commons-beanutils#commons-beanutils;1.7.0 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->commons-beanutils#commons-beanutils;1.7.0 [compile->runtime]
@@ -178,7 +178,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->commons-beanutils#commons-beanutils;1.7.0 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.apache.avro#avro;1.7.4 [compile->default(compile)]
 [info] Resolving org.apache.avro#avro;1.7.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@69212fd3
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5ddc74
 [debug] sbt-chain: module revision found in cache: org.apache.avro#avro;1.7.4
 [debug] 	found org.apache.avro#avro;1.7.4 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.apache.avro#avro;1.7.4 [compile->runtime]
@@ -186,7 +186,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.apache.avro#avro;1.7.4 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.apache.commons#commons-compress;1.4.1 [compile->default(compile)]
 [info] Resolving org.apache.commons#commons-compress;1.4.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2760c05
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6b56e490
 [debug] sbt-chain: module revision found in cache: org.apache.commons#commons-compress;1.4.1
 [debug] 	found org.apache.commons#commons-compress;1.4.1 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.apache.commons#commons-compress;1.4.1 [compile->runtime]
@@ -194,7 +194,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.apache.commons#commons-compress;1.4.1 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.tukaani#xz;1.0 [compile->default(compile)]
 [info] Resolving org.tukaani#xz;1.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3098a932
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@df70676
 [debug] sbt-chain: module revision found in cache: org.tukaani#xz;1.0
 [debug] 	found org.tukaani#xz;1.0 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.tukaani#xz;1.0 [compile->runtime]
@@ -202,7 +202,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.tukaani#xz;1.0 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.6.4 [compile->default(compile)]
 [info] Resolving org.slf4j#slf4j-api;1.6.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7af1eebd
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2e482074
 [debug] sbt-chain: module revision found in cache: org.slf4j#slf4j-api;1.6.4
 [debug] 	found org.slf4j#slf4j-api;1.6.4 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.6.4 [compile->runtime]
@@ -210,7 +210,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.6.4 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->com.google.protobuf#protobuf-java;2.5.0 [compile->default(compile)]
 [info] Resolving com.google.protobuf#protobuf-java;2.5.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3cb63507
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2fc34356
 [debug] sbt-chain: module revision found in cache: com.google.protobuf#protobuf-java;2.5.0
 [debug] 	found com.google.protobuf#protobuf-java;2.5.0 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->com.google.protobuf#protobuf-java;2.5.0 [compile->runtime]
@@ -218,7 +218,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->com.google.protobuf#protobuf-java;2.5.0 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.apache.hadoop#hadoop-auth;2.2.0 [compile->default(compile)]
 [info] Resolving org.apache.hadoop#hadoop-auth;2.2.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4a09a4e5
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@76f99e4d
 [debug] sbt-chain: module revision found in cache: org.apache.hadoop#hadoop-auth;2.2.0
 [debug] 	found org.apache.hadoop#hadoop-auth;2.2.0 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.apache.hadoop#hadoop-auth;2.2.0 [compile->runtime]
@@ -226,7 +226,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.apache.hadoop#hadoop-auth;2.2.0 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.apache.hadoop#hadoop-hdfs;2.2.0 [compile->default(compile)]
 [info] Resolving org.apache.hadoop#hadoop-hdfs;2.2.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@27f074e3
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7aaf819c
 [debug] sbt-chain: module revision found in cache: org.apache.hadoop#hadoop-hdfs;2.2.0
 [debug] 	found org.apache.hadoop#hadoop-hdfs;2.2.0 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.apache.hadoop#hadoop-hdfs;2.2.0 [compile->runtime]
@@ -234,7 +234,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.apache.hadoop#hadoop-hdfs;2.2.0 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.mortbay.jetty#jetty-util;6.1.26 [compile->default(compile)]
 [info] Resolving org.mortbay.jetty#jetty-util;6.1.26 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4de23832
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@67548c39
 [debug] sbt-chain: module revision found in cache: org.mortbay.jetty#jetty-util;6.1.26
 [debug] 	found org.mortbay.jetty#jetty-util;6.1.26 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.mortbay.jetty#jetty-util;6.1.26 [compile->runtime]
@@ -242,7 +242,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.mortbay.jetty#jetty-util;6.1.26 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.apache.hadoop#hadoop-mapreduce-client-app;2.2.0 [compile->default(compile)]
 [info] Resolving org.apache.hadoop#hadoop-mapreduce-client-app;2.2.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4682c5e3
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2f24d58
 [debug] sbt-chain: module revision found in cache: org.apache.hadoop#hadoop-mapreduce-client-app;2.2.0
 [debug] 	found org.apache.hadoop#hadoop-mapreduce-client-app;2.2.0 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.apache.hadoop#hadoop-mapreduce-client-app;2.2.0 [compile->runtime]
@@ -250,7 +250,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.apache.hadoop#hadoop-mapreduce-client-app;2.2.0 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0 [compile->default(compile)]
 [info] Resolving org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@74b9c90f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1f3640cd
 [debug] sbt-chain: module revision found in cache: org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0
 [debug] 	found org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0 [compile->runtime]
@@ -258,7 +258,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.apache.hadoop#hadoop-yarn-common;2.2.0 [compile->default(compile)]
 [info] Resolving org.apache.hadoop#hadoop-yarn-common;2.2.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7f01680e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@170c5c95
 [debug] sbt-chain: module revision found in cache: org.apache.hadoop#hadoop-yarn-common;2.2.0
 [debug] 	found org.apache.hadoop#hadoop-yarn-common;2.2.0 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.apache.hadoop#hadoop-yarn-common;2.2.0 [compile->runtime]
@@ -266,7 +266,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.apache.hadoop#hadoop-yarn-common;2.2.0 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.apache.hadoop#hadoop-yarn-api;2.2.0 [compile->default(compile)]
 [info] Resolving org.apache.hadoop#hadoop-yarn-api;2.2.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@28238d1e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@197232b5
 [debug] sbt-chain: module revision found in cache: org.apache.hadoop#hadoop-yarn-api;2.2.0
 [debug] 	found org.apache.hadoop#hadoop-yarn-api;2.2.0 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.apache.hadoop#hadoop-yarn-api;2.2.0 [compile->runtime]
@@ -274,7 +274,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.apache.hadoop#hadoop-yarn-api;2.2.0 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->com.google.inject#guice;3.0 [compile->default(compile)]
 [info] Resolving com.google.inject#guice;3.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@338666de
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@466cbcf4
 [debug] sbt-chain: module revision found in cache: com.google.inject#guice;3.0
 [debug] 	found com.google.inject#guice;3.0 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->com.google.inject#guice;3.0 [compile->runtime]
@@ -282,7 +282,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->com.google.inject#guice;3.0 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->javax.inject#javax.inject;1 [compile->default(compile)]
 [info] Resolving javax.inject#javax.inject;1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7fbaa255
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6713250b
 [debug] sbt-chain: module revision found in cache: javax.inject#javax.inject;1
 [debug] 	found javax.inject#javax.inject;1 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->javax.inject#javax.inject;1 [compile->runtime]
@@ -290,7 +290,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->javax.inject#javax.inject;1 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->aopalliance#aopalliance;1.0 [compile->default(compile)]
 [info] Resolving aopalliance#aopalliance;1.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@44b4a4ae
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7c423baf
 [debug] sbt-chain: module revision found in cache: aopalliance#aopalliance;1.0
 [debug] 	found aopalliance#aopalliance;1.0 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->aopalliance#aopalliance;1.0 [compile->runtime]
@@ -298,7 +298,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->aopalliance#aopalliance;1.0 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.sonatype.sisu.inject#cglib;2.2.1-v20090111 [compile->default(compile)]
 [info] Resolving org.sonatype.sisu.inject#cglib;2.2.1-v20090111 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3ff87ed1
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@644e2b50
 [debug] sbt-chain: module revision found in cache: org.sonatype.sisu.inject#cglib;2.2.1-v20090111
 [debug] 	found org.sonatype.sisu.inject#cglib;2.2.1-v20090111 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.sonatype.sisu.inject#cglib;2.2.1-v20090111 [compile->runtime]
@@ -306,7 +306,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.sonatype.sisu.inject#cglib;2.2.1-v20090111 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->asm#asm;3.1 [compile->default(compile)]
 [info] Resolving asm#asm;3.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@694bd08b
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3d37f613
 [debug] sbt-chain: module revision found in cache: asm#asm;3.1
 [debug] 	found asm#asm;3.1 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->asm#asm;3.1 [compile->runtime]
@@ -314,7 +314,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->asm#asm;3.1 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->com.sun.jersey.jersey-test-framework#jersey-test-framework-grizzly2;1.9 [compile->default(compile)]
 [info] Resolving com.sun.jersey.jersey-test-framework#jersey-test-framework-grizzly2;1.9 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7f80fffd
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@561a0244
 [debug] sbt-chain: module revision found in cache: com.sun.jersey.jersey-test-framework#jersey-test-framework-grizzly2;1.9
 [debug] 	found com.sun.jersey.jersey-test-framework#jersey-test-framework-grizzly2;1.9 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->com.sun.jersey.jersey-test-framework#jersey-test-framework-grizzly2;1.9 [compile->runtime]
@@ -322,7 +322,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->com.sun.jersey.jersey-test-framework#jersey-test-framework-grizzly2;1.9 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->com.sun.jersey#jersey-server;1.9 [compile->default(compile)]
 [info] Resolving com.sun.jersey#jersey-server;1.9 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5c359ed8
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@40ca2051
 [debug] sbt-chain: module revision found in cache: com.sun.jersey#jersey-server;1.9
 [debug] 	found com.sun.jersey#jersey-server;1.9 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->com.sun.jersey#jersey-server;1.9 [compile->runtime]
@@ -330,7 +330,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->com.sun.jersey#jersey-server;1.9 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->com.sun.jersey#jersey-json;1.9 [compile->default(compile)]
 [info] Resolving com.sun.jersey#jersey-json;1.9 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1eb346eb
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7a2ad74
 [debug] sbt-chain: module revision found in cache: com.sun.jersey#jersey-json;1.9
 [debug] 	found com.sun.jersey#jersey-json;1.9 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->com.sun.jersey#jersey-json;1.9 [compile->runtime]
@@ -338,7 +338,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->com.sun.jersey#jersey-json;1.9 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.codehaus.jettison#jettison;1.1 [compile->default(compile)]
 [info] Resolving org.codehaus.jettison#jettison;1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3f1c0c2d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@201b4a65
 [debug] sbt-chain: module revision found in cache: org.codehaus.jettison#jettison;1.1
 [debug] 	found org.codehaus.jettison#jettison;1.1 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.codehaus.jettison#jettison;1.1 [compile->runtime]
@@ -346,7 +346,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.codehaus.jettison#jettison;1.1 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->com.sun.xml.bind#jaxb-impl;2.2.3-1 [compile->default(compile)]
 [info] Resolving com.sun.xml.bind#jaxb-impl;2.2.3-1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3996769b
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3def3445
 [debug] sbt-chain: module revision found in cache: com.sun.xml.bind#jaxb-impl;2.2.3-1
 [debug] 	found com.sun.xml.bind#jaxb-impl;2.2.3-1 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->com.sun.xml.bind#jaxb-impl;2.2.3-1 [compile->runtime]
@@ -354,7 +354,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->com.sun.xml.bind#jaxb-impl;2.2.3-1 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->javax.xml.bind#jaxb-api;2.2.2 [compile->default(compile)]
 [info] Resolving javax.xml.bind#jaxb-api;2.2.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5b7b625c
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5716c1c7
 [debug] sbt-chain: module revision found in cache: javax.xml.bind#jaxb-api;2.2.2
 [debug] 	found javax.xml.bind#jaxb-api;2.2.2 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->javax.xml.bind#jaxb-api;2.2.2 [compile->runtime]
@@ -362,7 +362,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->javax.xml.bind#jaxb-api;2.2.2 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->javax.activation#activation;1.1 [compile->default(compile)]
 [info] Resolving javax.activation#activation;1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1817f242
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2955a8e5
 [debug] sbt-chain: module revision found in cache: javax.activation#activation;1.1
 [debug] 	found javax.activation#activation;1.1 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->javax.activation#activation;1.1 [compile->runtime]
@@ -370,7 +370,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->javax.activation#activation;1.1 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.codehaus.jackson#jackson-jaxrs;1.8.3 [compile->default(compile)]
 [info] Resolving org.codehaus.jackson#jackson-jaxrs;1.8.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2659e57c
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4a2d004b
 [debug] sbt-chain: module revision found in cache: org.codehaus.jackson#jackson-jaxrs;1.8.3
 [debug] 	found org.codehaus.jackson#jackson-jaxrs;1.8.3 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.codehaus.jackson#jackson-jaxrs;1.8.3 [compile->runtime]
@@ -378,7 +378,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.codehaus.jackson#jackson-jaxrs;1.8.3 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.codehaus.jackson#jackson-xc;1.8.3 [compile->default(compile)]
 [info] Resolving org.codehaus.jackson#jackson-xc;1.8.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@69898d92
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@24e7fe36
 [debug] sbt-chain: module revision found in cache: org.codehaus.jackson#jackson-xc;1.8.3
 [debug] 	found org.codehaus.jackson#jackson-xc;1.8.3 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.codehaus.jackson#jackson-xc;1.8.3 [compile->runtime]
@@ -386,7 +386,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.codehaus.jackson#jackson-xc;1.8.3 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->com.sun.jersey.contribs#jersey-guice;1.9 [compile->default(compile)]
 [info] Resolving com.sun.jersey.contribs#jersey-guice;1.9 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@64884ce9
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@70936312
 [debug] sbt-chain: module revision found in cache: com.sun.jersey.contribs#jersey-guice;1.9
 [debug] 	found com.sun.jersey.contribs#jersey-guice;1.9 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->com.sun.jersey.contribs#jersey-guice;1.9 [compile->runtime]
@@ -394,7 +394,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->com.sun.jersey.contribs#jersey-guice;1.9 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.apache.hadoop#hadoop-yarn-client;2.2.0 [compile->default(compile)]
 [info] Resolving org.apache.hadoop#hadoop-yarn-client;2.2.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5400a62e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@67025f14
 [debug] sbt-chain: module revision found in cache: org.apache.hadoop#hadoop-yarn-client;2.2.0
 [debug] 	found org.apache.hadoop#hadoop-yarn-client;2.2.0 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.apache.hadoop#hadoop-yarn-client;2.2.0 [compile->runtime]
@@ -402,7 +402,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.apache.hadoop#hadoop-yarn-client;2.2.0 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.apache.hadoop#hadoop-mapreduce-client-core;2.2.0 [compile->default(compile)]
 [info] Resolving org.apache.hadoop#hadoop-mapreduce-client-core;2.2.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@36eb5f7b
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5636ba97
 [debug] sbt-chain: module revision found in cache: org.apache.hadoop#hadoop-mapreduce-client-core;2.2.0
 [debug] 	found org.apache.hadoop#hadoop-mapreduce-client-core;2.2.0 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.apache.hadoop#hadoop-mapreduce-client-core;2.2.0 [compile->runtime]
@@ -410,7 +410,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.apache.hadoop#hadoop-mapreduce-client-core;2.2.0 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.apache.hadoop#hadoop-yarn-server-common;2.2.0 [compile->default(compile)]
 [info] Resolving org.apache.hadoop#hadoop-yarn-server-common;2.2.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6d52cad
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@327ab76d
 [debug] sbt-chain: module revision found in cache: org.apache.hadoop#hadoop-yarn-server-common;2.2.0
 [debug] 	found org.apache.hadoop#hadoop-yarn-server-common;2.2.0 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.apache.hadoop#hadoop-yarn-server-common;2.2.0 [compile->runtime]
@@ -418,7 +418,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.apache.hadoop#hadoop-yarn-server-common;2.2.0 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0 [compile->default(compile)]
 [info] Resolving org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@77f5282b
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1d59dbe5
 [debug] sbt-chain: module revision found in cache: org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0
 [debug] 	found org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0 [compile->runtime]
@@ -426,7 +426,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0 [compile->default(compile)]
 [info] Resolving org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@17199851
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5d1afaa7
 [debug] sbt-chain: module revision found in cache: org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0
 [debug] 	found org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0 [compile->runtime]
@@ -434,7 +434,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0 [compile->default(compile)]
 [info] Resolving org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5ee34f01
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3bc5bcda
 [debug] sbt-chain: module revision found in cache: org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0
 [debug] 	found org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0 [compile->runtime]
@@ -442,7 +442,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.apache.spark#spark-network-common_2.10;1.3.0 [compile->default(compile)]
 [info] Resolving org.apache.spark#spark-network-common_2.10;1.3.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7b16e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@181e308
 [debug] sbt-chain: module revision found in cache: org.apache.spark#spark-network-common_2.10;1.3.0
 [debug] 	found org.apache.spark#spark-network-common_2.10;1.3.0 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.apache.spark#spark-network-common_2.10;1.3.0 [compile->runtime]
@@ -450,7 +450,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.apache.spark#spark-network-common_2.10;1.3.0 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->io.netty#netty-all;4.0.23.Final [compile->default(compile)]
 [info] Resolving io.netty#netty-all;4.0.23.Final ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4819f38e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5857962a
 [debug] sbt-chain: module revision found in cache: io.netty#netty-all;4.0.23.Final
 [debug] 	found io.netty#netty-all;4.0.23.Final in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->io.netty#netty-all;4.0.23.Final [compile->runtime]
@@ -458,7 +458,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->io.netty#netty-all;4.0.23.Final [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.spark-project.spark#unused;1.0.0 [compile->default(compile)]
 [info] Resolving org.spark-project.spark#unused;1.0.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@78133410
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@dd948cb
 [debug] sbt-chain: module revision found in cache: org.spark-project.spark#unused;1.0.0
 [debug] 	found org.spark-project.spark#unused;1.0.0 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.spark-project.spark#unused;1.0.0 [compile->runtime]
@@ -466,7 +466,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.spark-project.spark#unused;1.0.0 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.apache.spark#spark-network-shuffle_2.10;1.3.0 [compile->default(compile)]
 [info] Resolving org.apache.spark#spark-network-shuffle_2.10;1.3.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2d1126b7
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@70b79257
 [debug] sbt-chain: module revision found in cache: org.apache.spark#spark-network-shuffle_2.10;1.3.0
 [debug] 	found org.apache.spark#spark-network-shuffle_2.10;1.3.0 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.apache.spark#spark-network-shuffle_2.10;1.3.0 [compile->runtime]
@@ -474,7 +474,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.apache.spark#spark-network-shuffle_2.10;1.3.0 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->net.java.dev.jets3t#jets3t;0.7.1 [compile->default(compile)]
 [info] Resolving net.java.dev.jets3t#jets3t;0.7.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@294dfc8a
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7df11623
 [debug] sbt-chain: module revision found in cache: net.java.dev.jets3t#jets3t;0.7.1
 [debug] 	found net.java.dev.jets3t#jets3t;0.7.1 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->net.java.dev.jets3t#jets3t;0.7.1 [compile->runtime]
@@ -482,7 +482,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->net.java.dev.jets3t#jets3t;0.7.1 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.apache.curator#curator-recipes;2.4.0 [compile->default(compile)]
 [info] Resolving org.apache.curator#curator-recipes;2.4.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@72f12080
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@30133ded
 [debug] sbt-chain: module revision found in cache: org.apache.curator#curator-recipes;2.4.0
 [debug] 	found org.apache.curator#curator-recipes;2.4.0 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.apache.curator#curator-recipes;2.4.0 [compile->runtime]
@@ -490,7 +490,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.apache.curator#curator-recipes;2.4.0 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.apache.curator#curator-framework;2.4.0 [compile->default(compile)]
 [info] Resolving org.apache.curator#curator-framework;2.4.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@74cd43ff
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@58c5adb0
 [debug] sbt-chain: module revision found in cache: org.apache.curator#curator-framework;2.4.0
 [debug] 	found org.apache.curator#curator-framework;2.4.0 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.apache.curator#curator-framework;2.4.0 [compile->runtime]
@@ -498,7 +498,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.apache.curator#curator-framework;2.4.0 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.apache.curator#curator-client;2.4.0 [compile->default(compile)]
 [info] Resolving org.apache.curator#curator-client;2.4.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@43732410
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@360fb453
 [debug] sbt-chain: module revision found in cache: org.apache.curator#curator-client;2.4.0
 [debug] 	found org.apache.curator#curator-client;2.4.0 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.apache.curator#curator-client;2.4.0 [compile->runtime]
@@ -506,7 +506,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.apache.curator#curator-client;2.4.0 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.apache.zookeeper#zookeeper;3.4.5 [compile->default(compile)]
 [info] Resolving org.apache.zookeeper#zookeeper;3.4.5 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1e34fbe6
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@75357e84
 [debug] sbt-chain: module revision found in cache: org.apache.zookeeper#zookeeper;3.4.5
 [debug] 	found org.apache.zookeeper#zookeeper;3.4.5 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.apache.zookeeper#zookeeper;3.4.5 [compile->runtime]
@@ -514,7 +514,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.apache.zookeeper#zookeeper;3.4.5 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->jline#jline;0.9.94 [compile->default(compile)]
 [info] Resolving jline#jline;0.9.94 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3e2a2a3b
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5a23b295
 [debug] sbt-chain: module revision found in cache: jline#jline;0.9.94
 [debug] 	found jline#jline;0.9.94 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->jline#jline;0.9.94 [compile->runtime]
@@ -522,7 +522,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->jline#jline;0.9.94 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->com.google.guava#guava;14.0.1 [compile->default(compile)]
 [info] Resolving com.google.guava#guava;14.0.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6c78166c
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@ea6f20
 [debug] sbt-chain: module revision found in cache: com.google.guava#guava;14.0.1
 [debug] 	found com.google.guava#guava;14.0.1 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->com.google.guava#guava;14.0.1 [compile->runtime]
@@ -530,7 +530,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->com.google.guava#guava;14.0.1 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 [compile->default(compile)]
 [info] Resolving org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7afe5cc7
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@35bc9134
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016
 [debug] 	found org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 [compile->runtime]
@@ -538,7 +538,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.apache.commons#commons-lang3;3.3.2 [compile->default(compile)]
 [info] Resolving org.apache.commons#commons-lang3;3.3.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4f2dae97
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@140dbf13
 [debug] sbt-chain: module revision found in cache: org.apache.commons#commons-lang3;3.3.2
 [debug] 	found org.apache.commons#commons-lang3;3.3.2 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.apache.commons#commons-lang3;3.3.2 [compile->runtime]
@@ -546,7 +546,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.apache.commons#commons-lang3;3.3.2 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.apache.commons#commons-math3;3.1.1 [compile->default(compile)]
 [info] Resolving org.apache.commons#commons-math3;3.1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5d8857a9
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7902c902
 [debug] sbt-chain: module revision found in cache: org.apache.commons#commons-math3;3.1.1
 [debug] 	found org.apache.commons#commons-math3;3.1.1 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.apache.commons#commons-math3;3.1.1 [compile->runtime]
@@ -554,7 +554,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.apache.commons#commons-math3;3.1.1 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.slf4j#jul-to-slf4j;1.7.10 [compile->default(compile)]
 [info] Resolving org.slf4j#jul-to-slf4j;1.7.10 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5c6e827d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@188d985a
 [debug] sbt-chain: module revision found in cache: org.slf4j#jul-to-slf4j;1.7.10
 [debug] 	found org.slf4j#jul-to-slf4j;1.7.10 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.slf4j#jul-to-slf4j;1.7.10 [compile->runtime]
@@ -562,7 +562,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.slf4j#jul-to-slf4j;1.7.10 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.slf4j#jcl-over-slf4j;1.7.10 [compile->default(compile)]
 [info] Resolving org.slf4j#jcl-over-slf4j;1.7.10 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@40356d1
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@60515b23
 [debug] sbt-chain: module revision found in cache: org.slf4j#jcl-over-slf4j;1.7.10
 [debug] 	found org.slf4j#jcl-over-slf4j;1.7.10 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.slf4j#jcl-over-slf4j;1.7.10 [compile->runtime]
@@ -570,7 +570,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.slf4j#jcl-over-slf4j;1.7.10 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.slf4j#slf4j-log4j12;1.7.10 [compile->default(compile)]
 [info] Resolving org.slf4j#slf4j-log4j12;1.7.10 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@53cb880d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@c7a9f9f
 [debug] sbt-chain: module revision found in cache: org.slf4j#slf4j-log4j12;1.7.10
 [debug] 	found org.slf4j#slf4j-log4j12;1.7.10 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.slf4j#slf4j-log4j12;1.7.10 [compile->runtime]
@@ -578,7 +578,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.slf4j#slf4j-log4j12;1.7.10 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->com.ning#compress-lzf;1.0.0 [compile->default(compile)]
 [info] Resolving com.ning#compress-lzf;1.0.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@15562838
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@12c89692
 [debug] sbt-chain: module revision found in cache: com.ning#compress-lzf;1.0.0
 [debug] 	found com.ning#compress-lzf;1.0.0 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->com.ning#compress-lzf;1.0.0 [compile->runtime]
@@ -586,7 +586,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->com.ning#compress-lzf;1.0.0 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.xerial.snappy#snappy-java;1.1.1.6 [compile->default(compile)]
 [info] Resolving org.xerial.snappy#snappy-java;1.1.1.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@8d7b0da
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5bf32cf3
 [debug] sbt-chain: module revision found in cache: org.xerial.snappy#snappy-java;1.1.1.6
 [debug] 	found org.xerial.snappy#snappy-java;1.1.1.6 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.xerial.snappy#snappy-java;1.1.1.6 [compile->runtime]
@@ -594,7 +594,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.xerial.snappy#snappy-java;1.1.1.6 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->net.jpountz.lz4#lz4;1.2.0 [compile->default(compile)]
 [info] Resolving net.jpountz.lz4#lz4;1.2.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2f80ef10
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2c0234cf
 [debug] sbt-chain: module revision found in cache: net.jpountz.lz4#lz4;1.2.0
 [debug] 	found net.jpountz.lz4#lz4;1.2.0 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->net.jpountz.lz4#lz4;1.2.0 [compile->runtime]
@@ -602,7 +602,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->net.jpountz.lz4#lz4;1.2.0 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.roaringbitmap#RoaringBitmap;0.4.5 [compile->default(compile)]
 [info] Resolving org.roaringbitmap#RoaringBitmap;0.4.5 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@20a046f5
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@14321f77
 [debug] sbt-chain: module revision found in cache: org.roaringbitmap#RoaringBitmap;0.4.5
 [debug] 	found org.roaringbitmap#RoaringBitmap;0.4.5 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.roaringbitmap#RoaringBitmap;0.4.5 [compile->runtime]
@@ -610,7 +610,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.roaringbitmap#RoaringBitmap;0.4.5 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->commons-net#commons-net;2.2 [compile->default(compile)]
 [info] Resolving commons-net#commons-net;2.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3cbf6174
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@673161f6
 [debug] sbt-chain: module revision found in cache: commons-net#commons-net;2.2
 [debug] 	found commons-net#commons-net;2.2 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->commons-net#commons-net;2.2 [compile->runtime]
@@ -618,7 +618,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->commons-net#commons-net;2.2 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.spark-project.akka#akka-remote_2.10;2.3.4-spark [compile->default(compile)]
 [info] Resolving org.spark-project.akka#akka-remote_2.10;2.3.4-spark ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5d2a7b32
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@530df9c0
 [debug] sbt-chain: module revision found in cache: org.spark-project.akka#akka-remote_2.10;2.3.4-spark
 [debug] 	found org.spark-project.akka#akka-remote_2.10;2.3.4-spark in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.spark-project.akka#akka-remote_2.10;2.3.4-spark [compile->runtime]
@@ -626,7 +626,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.spark-project.akka#akka-remote_2.10;2.3.4-spark [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.spark-project.akka#akka-actor_2.10;2.3.4-spark [compile->default(compile)]
 [info] Resolving org.spark-project.akka#akka-actor_2.10;2.3.4-spark ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@56d9f36a
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@329acbcb
 [debug] sbt-chain: module revision found in cache: org.spark-project.akka#akka-actor_2.10;2.3.4-spark
 [debug] 	found org.spark-project.akka#akka-actor_2.10;2.3.4-spark in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.spark-project.akka#akka-actor_2.10;2.3.4-spark [compile->runtime]
@@ -634,7 +634,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.spark-project.akka#akka-actor_2.10;2.3.4-spark [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->com.typesafe#config;1.2.1 [compile->default(compile)]
 [info] Resolving com.typesafe#config;1.2.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1e178e7a
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@49db9365
 [debug] sbt-chain: module revision found in cache: com.typesafe#config;1.2.1
 [debug] 	found com.typesafe#config;1.2.1 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->com.typesafe#config;1.2.1 [compile->runtime]
@@ -642,7 +642,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->com.typesafe#config;1.2.1 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->io.netty#netty;3.8.0.Final [compile->default(compile)]
 [info] Resolving io.netty#netty;3.8.0.Final ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@559d351b
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@42b1a16
 [debug] sbt-chain: module revision found in cache: io.netty#netty;3.8.0.Final
 [debug] 	found io.netty#netty;3.8.0.Final in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->io.netty#netty;3.8.0.Final [compile->runtime]
@@ -650,7 +650,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->io.netty#netty;3.8.0.Final [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.spark-project.protobuf#protobuf-java;2.5.0-spark [compile->default(compile)]
 [info] Resolving org.spark-project.protobuf#protobuf-java;2.5.0-spark ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5631ca57
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@35cae90b
 [debug] sbt-chain: module revision found in cache: org.spark-project.protobuf#protobuf-java;2.5.0-spark
 [debug] 	found org.spark-project.protobuf#protobuf-java;2.5.0-spark in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.spark-project.protobuf#protobuf-java;2.5.0-spark [compile->runtime]
@@ -658,7 +658,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.spark-project.protobuf#protobuf-java;2.5.0-spark [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [compile->default(compile)]
 [info] Resolving org.uncommons.maths#uncommons-maths;1.2.2a ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@447025ea
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7fb51c02
 [debug] sbt-chain: module revision found in cache: org.uncommons.maths#uncommons-maths;1.2.2a
 [debug] 	found org.uncommons.maths#uncommons-maths;1.2.2a in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [compile->runtime]
@@ -666,7 +666,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.spark-project.akka#akka-slf4j_2.10;2.3.4-spark [compile->default(compile)]
 [info] Resolving org.spark-project.akka#akka-slf4j_2.10;2.3.4-spark ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@50af9c61
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@137b39e6
 [debug] sbt-chain: module revision found in cache: org.spark-project.akka#akka-slf4j_2.10;2.3.4-spark
 [debug] 	found org.spark-project.akka#akka-slf4j_2.10;2.3.4-spark in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.spark-project.akka#akka-slf4j_2.10;2.3.4-spark [compile->runtime]
@@ -674,7 +674,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.spark-project.akka#akka-slf4j_2.10;2.3.4-spark [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.json4s#json4s-jackson_2.10;3.2.10 [compile->default(compile)]
 [info] Resolving org.json4s#json4s-jackson_2.10;3.2.10 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4316c86a
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1e3adbcb
 [debug] sbt-chain: module revision found in cache: org.json4s#json4s-jackson_2.10;3.2.10
 [debug] 	found org.json4s#json4s-jackson_2.10;3.2.10 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.json4s#json4s-jackson_2.10;3.2.10 [compile->runtime]
@@ -682,7 +682,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.json4s#json4s-jackson_2.10;3.2.10 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.json4s#json4s-core_2.10;3.2.10 [compile->default(compile)]
 [info] Resolving org.json4s#json4s-core_2.10;3.2.10 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@24634cfc
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@46a00da9
 [debug] sbt-chain: module revision found in cache: org.json4s#json4s-core_2.10;3.2.10
 [debug] 	found org.json4s#json4s-core_2.10;3.2.10 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.json4s#json4s-core_2.10;3.2.10 [compile->runtime]
@@ -690,7 +690,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.json4s#json4s-core_2.10;3.2.10 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.json4s#json4s-ast_2.10;3.2.10 [compile->default(compile)]
 [info] Resolving org.json4s#json4s-ast_2.10;3.2.10 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@51ac8f80
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2e4f504d
 [debug] sbt-chain: module revision found in cache: org.json4s#json4s-ast_2.10;3.2.10
 [debug] 	found org.json4s#json4s-ast_2.10;3.2.10 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.json4s#json4s-ast_2.10;3.2.10 [compile->runtime]
@@ -698,7 +698,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.json4s#json4s-ast_2.10;3.2.10 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->com.thoughtworks.paranamer#paranamer;2.6 [compile->default(compile)]
 [info] Resolving com.thoughtworks.paranamer#paranamer;2.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@59c2920a
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@652c4bf8
 [debug] sbt-chain: module revision found in cache: com.thoughtworks.paranamer#paranamer;2.6
 [debug] 	found com.thoughtworks.paranamer#paranamer;2.6 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->com.thoughtworks.paranamer#paranamer;2.6 [compile->runtime]
@@ -706,7 +706,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->com.thoughtworks.paranamer#paranamer;2.6 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.scala-lang#scalap;2.10.0 [compile->default(compile)]
 [info] Resolving org.scala-lang#scalap;2.10.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@68c5ef3e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6ec432d
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scalap;2.10.0
 [debug] 	found org.scala-lang#scalap;2.10.0 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.scala-lang#scalap;2.10.0 [compile->runtime]
@@ -714,7 +714,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.scala-lang#scalap;2.10.0 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.apache.mesos#mesos;0.21.0 [compile->default(compile)]
 [info] Resolving org.apache.mesos#mesos;0.21.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@12727fe1
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5d9d0df2
 [debug] sbt-chain: module revision found in cache: org.apache.mesos#mesos;0.21.0
 [debug] 	found org.apache.mesos#mesos;0.21.0 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.apache.mesos#mesos;0.21.0 [compile->runtime]
@@ -722,7 +722,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.apache.mesos#mesos;0.21.0 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->com.clearspring.analytics#stream;2.7.0 [compile->default(compile)]
 [info] Resolving com.clearspring.analytics#stream;2.7.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@73b52f2e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@702f1b53
 [debug] sbt-chain: module revision found in cache: com.clearspring.analytics#stream;2.7.0
 [debug] 	found com.clearspring.analytics#stream;2.7.0 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->com.clearspring.analytics#stream;2.7.0 [compile->runtime]
@@ -730,7 +730,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->com.clearspring.analytics#stream;2.7.0 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->io.dropwizard.metrics#metrics-core;3.1.0 [compile->default(compile)]
 [info] Resolving io.dropwizard.metrics#metrics-core;3.1.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@435ea59e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3dbca2f1
 [debug] sbt-chain: module revision found in cache: io.dropwizard.metrics#metrics-core;3.1.0
 [debug] 	found io.dropwizard.metrics#metrics-core;3.1.0 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->io.dropwizard.metrics#metrics-core;3.1.0 [compile->runtime]
@@ -738,7 +738,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->io.dropwizard.metrics#metrics-core;3.1.0 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->io.dropwizard.metrics#metrics-jvm;3.1.0 [compile->default(compile)]
 [info] Resolving io.dropwizard.metrics#metrics-jvm;3.1.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6d859bb7
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@322d3cb0
 [debug] sbt-chain: module revision found in cache: io.dropwizard.metrics#metrics-jvm;3.1.0
 [debug] 	found io.dropwizard.metrics#metrics-jvm;3.1.0 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->io.dropwizard.metrics#metrics-jvm;3.1.0 [compile->runtime]
@@ -746,7 +746,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->io.dropwizard.metrics#metrics-jvm;3.1.0 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->io.dropwizard.metrics#metrics-json;3.1.0 [compile->default(compile)]
 [info] Resolving io.dropwizard.metrics#metrics-json;3.1.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6ade6925
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@59e4b990
 [debug] sbt-chain: module revision found in cache: io.dropwizard.metrics#metrics-json;3.1.0
 [debug] 	found io.dropwizard.metrics#metrics-json;3.1.0 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->io.dropwizard.metrics#metrics-json;3.1.0 [compile->runtime]
@@ -754,7 +754,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->io.dropwizard.metrics#metrics-json;3.1.0 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->io.dropwizard.metrics#metrics-graphite;3.1.0 [compile->default(compile)]
 [info] Resolving io.dropwizard.metrics#metrics-graphite;3.1.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@273dd428
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@44124945
 [debug] sbt-chain: module revision found in cache: io.dropwizard.metrics#metrics-graphite;3.1.0
 [debug] 	found io.dropwizard.metrics#metrics-graphite;3.1.0 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->io.dropwizard.metrics#metrics-graphite;3.1.0 [compile->runtime]
@@ -762,7 +762,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->io.dropwizard.metrics#metrics-graphite;3.1.0 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->com.fasterxml.jackson.core#jackson-databind;2.4.4 [compile->default(compile)]
 [info] Resolving com.fasterxml.jackson.core#jackson-databind;2.4.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3edbb03f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6e2c106
 [debug] sbt-chain: module revision found in cache: com.fasterxml.jackson.core#jackson-databind;2.4.4
 [debug] 	found com.fasterxml.jackson.core#jackson-databind;2.4.4 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->com.fasterxml.jackson.core#jackson-databind;2.4.4 [compile->runtime]
@@ -770,7 +770,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->com.fasterxml.jackson.core#jackson-databind;2.4.4 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->com.fasterxml.jackson.core#jackson-core;2.4.4 [compile->default(compile)]
 [info] Resolving com.fasterxml.jackson.core#jackson-core;2.4.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@70a46246
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2d17f0f9
 [debug] sbt-chain: module revision found in cache: com.fasterxml.jackson.core#jackson-core;2.4.4
 [debug] 	found com.fasterxml.jackson.core#jackson-core;2.4.4 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->com.fasterxml.jackson.core#jackson-core;2.4.4 [compile->runtime]
@@ -778,7 +778,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->com.fasterxml.jackson.core#jackson-core;2.4.4 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->com.fasterxml.jackson.module#jackson-module-scala_2.10;2.4.4 [compile->default(compile)]
 [info] Resolving com.fasterxml.jackson.module#jackson-module-scala_2.10;2.4.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5d5dd608
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@59695585
 [debug] sbt-chain: module revision found in cache: com.fasterxml.jackson.module#jackson-module-scala_2.10;2.4.4
 [debug] 	found com.fasterxml.jackson.module#jackson-module-scala_2.10;2.4.4 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->com.fasterxml.jackson.module#jackson-module-scala_2.10;2.4.4 [compile->runtime]
@@ -786,7 +786,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->com.fasterxml.jackson.module#jackson-module-scala_2.10;2.4.4 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.scala-lang#scala-reflect;2.10.4 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-reflect;2.10.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@a210355
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5f0a44a9
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.10.4
 [debug] 	found org.scala-lang#scala-reflect;2.10.4 in sbt-chain
 [debug] 	[2.10.4] org.scala-lang#scala-reflect;2.10.4
@@ -795,7 +795,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.scala-lang#scala-reflect;2.10.4 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->com.fasterxml.jackson.core#jackson-annotations;2.4.4 [compile->default(compile)]
 [info] Resolving com.fasterxml.jackson.core#jackson-annotations;2.4.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3d0b0136
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@27a4f308
 [debug] sbt-chain: module revision found in cache: com.fasterxml.jackson.core#jackson-annotations;2.4.4
 [debug] 	found com.fasterxml.jackson.core#jackson-annotations;2.4.4 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->com.fasterxml.jackson.core#jackson-annotations;2.4.4 [compile->runtime]
@@ -803,7 +803,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->com.fasterxml.jackson.core#jackson-annotations;2.4.4 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.apache.ivy#ivy;2.4.0 [compile->default(compile)]
 [info] Resolving org.apache.ivy#ivy;2.4.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7302f033
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@431cd9d1
 [debug] sbt-chain: module revision found in cache: org.apache.ivy#ivy;2.4.0
 [debug] 	found org.apache.ivy#ivy;2.4.0 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.apache.ivy#ivy;2.4.0 [compile->runtime]
@@ -811,7 +811,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.apache.ivy#ivy;2.4.0 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->oro#oro;2.0.8 [compile->default(compile)]
 [info] Resolving oro#oro;2.0.8 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1242bae7
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@65dddb7a
 [debug] sbt-chain: module revision found in cache: oro#oro;2.0.8
 [debug] 	found oro#oro;2.0.8 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->oro#oro;2.0.8 [compile->runtime]
@@ -819,7 +819,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->oro#oro;2.0.8 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.tachyonproject#tachyon-client;0.5.0 [compile->default(compile)]
 [info] Resolving org.tachyonproject#tachyon-client;0.5.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2f667f05
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3f14f456
 [debug] sbt-chain: module revision found in cache: org.tachyonproject#tachyon-client;0.5.0
 [debug] 	found org.tachyonproject#tachyon-client;0.5.0 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.tachyonproject#tachyon-client;0.5.0 [compile->runtime]
@@ -827,7 +827,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.tachyonproject#tachyon-client;0.5.0 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.tachyonproject#tachyon;0.5.0 [compile->default(compile)]
 [info] Resolving org.tachyonproject#tachyon;0.5.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@590082ea
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5f4206f8
 [debug] sbt-chain: module revision found in cache: org.tachyonproject#tachyon;0.5.0
 [debug] 	found org.tachyonproject#tachyon;0.5.0 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.tachyonproject#tachyon;0.5.0 [compile->runtime]
@@ -835,7 +835,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.tachyonproject#tachyon;0.5.0 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->commons-io#commons-io;2.4 [compile->default(compile)]
 [info] Resolving commons-io#commons-io;2.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2465a0df
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@eaa7a5f
 [debug] sbt-chain: module revision found in cache: commons-io#commons-io;2.4
 [debug] 	found commons-io#commons-io;2.4 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->commons-io#commons-io;2.4 [compile->runtime]
@@ -843,7 +843,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->commons-io#commons-io;2.4 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.spark-project#pyrolite;2.0.1 [compile->default(compile)]
 [info] Resolving org.spark-project#pyrolite;2.0.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7b784c61
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@32c7cd0b
 [debug] sbt-chain: module revision found in cache: org.spark-project#pyrolite;2.0.1
 [debug] 	found org.spark-project#pyrolite;2.0.1 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.spark-project#pyrolite;2.0.1 [compile->runtime]
@@ -851,7 +851,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.spark-project#pyrolite;2.0.1 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->net.sf.py4j#py4j;0.8.2.1 [compile->default(compile)]
 [info] Resolving net.sf.py4j#py4j;0.8.2.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@31aeaac8
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@422da1e8
 [debug] sbt-chain: module revision found in cache: net.sf.py4j#py4j;0.8.2.1
 [debug] 	found net.sf.py4j#py4j;0.8.2.1 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->net.sf.py4j#py4j;0.8.2.1 [compile->runtime]
@@ -859,7 +859,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->net.sf.py4j#py4j;0.8.2.1 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.apache.spark#spark-streaming_2.10;1.3.0 [compile->default(compile)]
 [info] Resolving org.apache.spark#spark-streaming_2.10;1.3.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1ffef85f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@13cbf07a
 [debug] sbt-chain: module revision found in cache: org.apache.spark#spark-streaming_2.10;1.3.0
 [debug] 	found org.apache.spark#spark-streaming_2.10;1.3.0 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.apache.spark#spark-streaming_2.10;1.3.0 [compile->runtime]
@@ -867,7 +867,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.apache.spark#spark-streaming_2.10;1.3.0 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.apache.spark#spark-mllib_2.10;1.3.0 [compile->default(compile)]
 [info] Resolving org.apache.spark#spark-mllib_2.10;1.3.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1eeb82e3
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@55af188e
 [debug] sbt-chain: module revision found in cache: org.apache.spark#spark-mllib_2.10;1.3.0
 [debug] 	found org.apache.spark#spark-mllib_2.10;1.3.0 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.apache.spark#spark-mllib_2.10;1.3.0 [compile->runtime]
@@ -875,7 +875,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.apache.spark#spark-mllib_2.10;1.3.0 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.apache.spark#spark-sql_2.10;1.3.0 [compile->default(compile)]
 [info] Resolving org.apache.spark#spark-sql_2.10;1.3.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@112e0fc5
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@67151b3b
 [debug] sbt-chain: module revision found in cache: org.apache.spark#spark-sql_2.10;1.3.0
 [debug] 	found org.apache.spark#spark-sql_2.10;1.3.0 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.apache.spark#spark-sql_2.10;1.3.0 [compile->runtime]
@@ -883,7 +883,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.apache.spark#spark-sql_2.10;1.3.0 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.apache.spark#spark-catalyst_2.10;1.3.0 [compile->default(compile)]
 [info] Resolving org.apache.spark#spark-catalyst_2.10;1.3.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1902a537
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7dac999a
 [debug] sbt-chain: module revision found in cache: org.apache.spark#spark-catalyst_2.10;1.3.0
 [debug] 	found org.apache.spark#spark-catalyst_2.10;1.3.0 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.apache.spark#spark-catalyst_2.10;1.3.0 [compile->runtime]
@@ -891,7 +891,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.apache.spark#spark-catalyst_2.10;1.3.0 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.scala-lang#scala-compiler;2.10.4 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-compiler;2.10.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@640735cf
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@40bfd5c4
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.10.4
 [debug] 	found org.scala-lang#scala-compiler;2.10.4 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.scala-lang#scala-compiler;2.10.4 [compile->runtime]
@@ -899,7 +899,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.scala-lang#scala-compiler;2.10.4 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.scalamacros#quasiquotes_2.10;2.0.1 [compile->default(compile)]
 [info] Resolving org.scalamacros#quasiquotes_2.10;2.0.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7fa81ed
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7e43cd5b
 [debug] sbt-chain: module revision found in cache: org.scalamacros#quasiquotes_2.10;2.0.1
 [debug] 	found org.scalamacros#quasiquotes_2.10;2.0.1 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.scalamacros#quasiquotes_2.10;2.0.1 [compile->runtime]
@@ -907,7 +907,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.scalamacros#quasiquotes_2.10;2.0.1 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->com.twitter#parquet-column;1.6.0rc3 [compile->default(compile)]
 [info] Resolving com.twitter#parquet-column;1.6.0rc3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@47ac078e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1229556
 [debug] sbt-chain: module revision found in cache: com.twitter#parquet-column;1.6.0rc3
 [debug] 	found com.twitter#parquet-column;1.6.0rc3 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->com.twitter#parquet-column;1.6.0rc3 [compile->runtime]
@@ -915,7 +915,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->com.twitter#parquet-column;1.6.0rc3 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->com.twitter#parquet-common;1.6.0rc3 [compile->default(compile)]
 [info] Resolving com.twitter#parquet-common;1.6.0rc3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@312a9bb6
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1b96a35a
 [debug] sbt-chain: module revision found in cache: com.twitter#parquet-common;1.6.0rc3
 [debug] 	found com.twitter#parquet-common;1.6.0rc3 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->com.twitter#parquet-common;1.6.0rc3 [compile->runtime]
@@ -923,7 +923,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->com.twitter#parquet-common;1.6.0rc3 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->com.twitter#parquet-encoding;1.6.0rc3 [compile->default(compile)]
 [info] Resolving com.twitter#parquet-encoding;1.6.0rc3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6f9c50b4
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6a6a4060
 [debug] sbt-chain: module revision found in cache: com.twitter#parquet-encoding;1.6.0rc3
 [debug] 	found com.twitter#parquet-encoding;1.6.0rc3 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->com.twitter#parquet-encoding;1.6.0rc3 [compile->runtime]
@@ -931,7 +931,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->com.twitter#parquet-encoding;1.6.0rc3 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->com.twitter#parquet-generator;1.6.0rc3 [compile->default(compile)]
 [info] Resolving com.twitter#parquet-generator;1.6.0rc3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5848782f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@63c5a8d6
 [debug] sbt-chain: module revision found in cache: com.twitter#parquet-generator;1.6.0rc3
 [debug] 	found com.twitter#parquet-generator;1.6.0rc3 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->com.twitter#parquet-generator;1.6.0rc3 [compile->runtime]
@@ -939,7 +939,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->com.twitter#parquet-generator;1.6.0rc3 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->commons-codec#commons-codec;1.5 [compile->default(compile)]
 [info] Resolving commons-codec#commons-codec;1.5 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5262b863
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1094ef
 [debug] sbt-chain: module revision found in cache: commons-codec#commons-codec;1.5
 [debug] 	found commons-codec#commons-codec;1.5 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->commons-codec#commons-codec;1.5 [compile->runtime]
@@ -947,7 +947,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->commons-codec#commons-codec;1.5 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->com.twitter#parquet-hadoop;1.6.0rc3 [compile->default(compile)]
 [info] Resolving com.twitter#parquet-hadoop;1.6.0rc3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4b5de02d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7553817c
 [debug] sbt-chain: module revision found in cache: com.twitter#parquet-hadoop;1.6.0rc3
 [debug] 	found com.twitter#parquet-hadoop;1.6.0rc3 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->com.twitter#parquet-hadoop;1.6.0rc3 [compile->runtime]
@@ -955,7 +955,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->com.twitter#parquet-hadoop;1.6.0rc3 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->com.twitter#parquet-format;2.2.0-rc1 [compile->default(compile)]
 [info] Resolving com.twitter#parquet-format;2.2.0-rc1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7fde96f1
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6ecfadd4
 [debug] sbt-chain: module revision found in cache: com.twitter#parquet-format;2.2.0-rc1
 [debug] 	found com.twitter#parquet-format;2.2.0-rc1 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->com.twitter#parquet-format;2.2.0-rc1 [compile->runtime]
@@ -963,7 +963,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->com.twitter#parquet-format;2.2.0-rc1 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->com.twitter#parquet-jackson;1.6.0rc3 [compile->default(compile)]
 [info] Resolving com.twitter#parquet-jackson;1.6.0rc3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5dd85ede
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@354c3d73
 [debug] sbt-chain: module revision found in cache: com.twitter#parquet-jackson;1.6.0rc3
 [debug] 	found com.twitter#parquet-jackson;1.6.0rc3 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->com.twitter#parquet-jackson;1.6.0rc3 [compile->runtime]
@@ -971,7 +971,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->com.twitter#parquet-jackson;1.6.0rc3 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.codehaus.jackson#jackson-mapper-asl;1.9.11 [compile->default(compile)]
 [info] Resolving org.codehaus.jackson#jackson-mapper-asl;1.9.11 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1b32cac9
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@328f5c6
 [debug] sbt-chain: module revision found in cache: org.codehaus.jackson#jackson-mapper-asl;1.9.11
 [debug] 	found org.codehaus.jackson#jackson-mapper-asl;1.9.11 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.codehaus.jackson#jackson-mapper-asl;1.9.11 [compile->runtime]
@@ -979,7 +979,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.codehaus.jackson#jackson-mapper-asl;1.9.11 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.codehaus.jackson#jackson-core-asl;1.9.11 [compile->default(compile)]
 [info] Resolving org.codehaus.jackson#jackson-core-asl;1.9.11 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3cc3cc9a
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@59f19a86
 [debug] sbt-chain: module revision found in cache: org.codehaus.jackson#jackson-core-asl;1.9.11
 [debug] 	found org.codehaus.jackson#jackson-core-asl;1.9.11 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.codehaus.jackson#jackson-core-asl;1.9.11 [compile->runtime]
@@ -987,7 +987,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.codehaus.jackson#jackson-core-asl;1.9.11 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.jodd#jodd-core;3.6.3 [compile->default(compile)]
 [info] Resolving org.jodd#jodd-core;3.6.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6a7b0135
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1f1e94c9
 [debug] sbt-chain: module revision found in cache: org.jodd#jodd-core;3.6.3
 [debug] 	found org.jodd#jodd-core;3.6.3 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.jodd#jodd-core;3.6.3 [compile->runtime]
@@ -995,7 +995,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.jodd#jodd-core;3.6.3 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.apache.spark#spark-graphx_2.10;1.3.0 [compile->default(compile)]
 [info] Resolving org.apache.spark#spark-graphx_2.10;1.3.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1819f5f0
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3687abfc
 [debug] sbt-chain: module revision found in cache: org.apache.spark#spark-graphx_2.10;1.3.0
 [debug] 	found org.apache.spark#spark-graphx_2.10;1.3.0 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.apache.spark#spark-graphx_2.10;1.3.0 [compile->runtime]
@@ -1003,7 +1003,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.apache.spark#spark-graphx_2.10;1.3.0 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.jblas#jblas;1.2.3 [compile->default(compile)]
 [info] Resolving org.jblas#jblas;1.2.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4f904e56
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3d77882e
 [debug] sbt-chain: module revision found in cache: org.jblas#jblas;1.2.3
 [debug] 	found org.jblas#jblas;1.2.3 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.jblas#jblas;1.2.3 [compile->runtime]
@@ -1011,7 +1011,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.jblas#jblas;1.2.3 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.scalanlp#breeze_2.10;0.11.1 [compile->default(compile)]
 [info] Resolving org.scalanlp#breeze_2.10;0.11.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@d17ce66
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@378cf999
 [debug] sbt-chain: module revision found in cache: org.scalanlp#breeze_2.10;0.11.1
 [debug] 	found org.scalanlp#breeze_2.10;0.11.1 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.scalanlp#breeze_2.10;0.11.1 [compile->runtime]
@@ -1019,7 +1019,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.scalanlp#breeze_2.10;0.11.1 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.scalanlp#breeze-macros_2.10;0.11.1 [compile->default(compile)]
 [info] Resolving org.scalanlp#breeze-macros_2.10;0.11.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5c45afdf
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@748a5b41
 [debug] sbt-chain: module revision found in cache: org.scalanlp#breeze-macros_2.10;0.11.1
 [debug] 	found org.scalanlp#breeze-macros_2.10;0.11.1 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.scalanlp#breeze-macros_2.10;0.11.1 [compile->runtime]
@@ -1027,7 +1027,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.scalanlp#breeze-macros_2.10;0.11.1 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->com.github.fommil.netlib#core;1.1.2 [compile->default(compile)]
 [info] Resolving com.github.fommil.netlib#core;1.1.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3551eee3
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@185fec8
 [debug] sbt-chain: module revision found in cache: com.github.fommil.netlib#core;1.1.2
 [debug] 	found com.github.fommil.netlib#core;1.1.2 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->com.github.fommil.netlib#core;1.1.2 [compile->runtime]
@@ -1035,7 +1035,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->com.github.fommil.netlib#core;1.1.2 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->default(compile)]
 [info] Resolving net.sourceforge.f2j#arpack_combined_all;0.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@314ac527
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@45f223b0
 [debug] sbt-chain: module revision found in cache: net.sourceforge.f2j#arpack_combined_all;0.1
 [debug] 	found net.sourceforge.f2j#arpack_combined_all;0.1 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->runtime]
@@ -1043,7 +1043,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->net.sf.opencsv#opencsv;2.3 [compile->default(compile)]
 [info] Resolving net.sf.opencsv#opencsv;2.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5db9a7db
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3dae018b
 [debug] sbt-chain: module revision found in cache: net.sf.opencsv#opencsv;2.3
 [debug] 	found net.sf.opencsv#opencsv;2.3 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->net.sf.opencsv#opencsv;2.3 [compile->runtime]
@@ -1051,7 +1051,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->net.sf.opencsv#opencsv;2.3 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->com.github.rwl#jtransforms;2.4.0 [compile->default(compile)]
 [info] Resolving com.github.rwl#jtransforms;2.4.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2825a76a
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1a340dee
 [debug] sbt-chain: module revision found in cache: com.github.rwl#jtransforms;2.4.0
 [debug] 	found com.github.rwl#jtransforms;2.4.0 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->com.github.rwl#jtransforms;2.4.0 [compile->runtime]
@@ -1059,7 +1059,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->com.github.rwl#jtransforms;2.4.0 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.spire-math#spire_2.10;0.7.4 [compile->default(compile)]
 [info] Resolving org.spire-math#spire_2.10;0.7.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@14b33b31
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@10fb58ee
 [debug] sbt-chain: module revision found in cache: org.spire-math#spire_2.10;0.7.4
 [debug] 	found org.spire-math#spire_2.10;0.7.4 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.spire-math#spire_2.10;0.7.4 [compile->runtime]
@@ -1067,7 +1067,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.spire-math#spire_2.10;0.7.4 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.spire-math#spire-macros_2.10;0.7.4 [compile->default(compile)]
 [info] Resolving org.spire-math#spire-macros_2.10;0.7.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4259a703
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@20fa1d8a
 [debug] sbt-chain: module revision found in cache: org.spire-math#spire-macros_2.10;0.7.4
 [debug] 	found org.spire-math#spire-macros_2.10;0.7.4 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.spire-math#spire-macros_2.10;0.7.4 [compile->runtime]
@@ -1075,7 +1075,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.spire-math#spire-macros_2.10;0.7.4 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.twitter4j#twitter4j-core;3.0.6 [compile->default(compile)]
 [info] Resolving org.twitter4j#twitter4j-core;3.0.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5f6ddb34
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7475a3bd
 [debug] sbt-chain: module revision found in cache: org.twitter4j#twitter4j-core;3.0.6
 [debug] 	found org.twitter4j#twitter4j-core;3.0.6 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.twitter4j#twitter4j-core;3.0.6 [compile->runtime]
@@ -1083,7 +1083,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.twitter4j#twitter4j-core;3.0.6 [compile->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.twitter4j#twitter4j-stream;3.0.6 [compile->default(compile)]
 [info] Resolving org.twitter4j#twitter4j-stream;3.0.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7366b203
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7150d786
 [debug] sbt-chain: module revision found in cache: org.twitter4j#twitter4j-stream;3.0.6
 [debug] 	found org.twitter4j#twitter4j-stream;3.0.6 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.twitter4j#twitter4j-stream;3.0.6 [compile->runtime]
@@ -3778,7 +3778,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.twitter4j#twitter4j-stream;3.0.6 [test->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.scalatest#scalatest_2.11;2.2.4 [test->default(compile)]
 [info] Resolving org.scalatest#scalatest_2.11;2.2.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7ae3219e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@60ba0fae
 [debug] sbt-chain: module revision found in cache: org.scalatest#scalatest_2.11;2.2.4
 [debug] 	found org.scalatest#scalatest_2.11;2.2.4 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.scalatest#scalatest_2.11;2.2.4 [test->runtime]
@@ -3786,7 +3786,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.scalatest#scalatest_2.11;2.2.4 [test->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.11.2 [test->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.11.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@162feb78
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@613a30b3
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.2
 [debug] 	found org.scala-lang#scala-library;2.11.2 in sbt-chain
 [debug] 	[2.11.2] org.scala-lang#scala-library;2.11.2
@@ -3795,7 +3795,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.11.2 [test->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.scala-lang#scala-reflect;2.11.2 [test->default(compile)]
 [info] Resolving org.scala-lang#scala-reflect;2.11.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@23e8f439
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7f5eb85c
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.2
 [debug] 	found org.scala-lang#scala-reflect;2.11.2 in sbt-chain
 [debug] 	[2.11.2] org.scala-lang#scala-reflect;2.11.2
@@ -3804,7 +3804,7 @@
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.scala-lang#scala-reflect;2.11.2 [test->master]
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [test->default(compile)]
 [info] Resolving org.scala-lang.modules#scala-xml_2.11;1.0.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@337f417d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@f9ea9e7
 [debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.11;1.0.2
 [debug] 	found org.scala-lang.modules#scala-xml_2.11;1.0.2 in sbt-chain
 [debug] == resolving dependencies default#streaming$sources_javadoc_2.10;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [test->runtime]
@@ -9059,371 +9059,63 @@
 [debug] 	[NOT REQUIRED] org.apache.spark#spark-streaming_2.10;1.3.0!spark-streaming_2.10.jar(doc)
 [debug] 	[NOT REQUIRED] org.apache.spark#spark-streaming_2.10;1.3.0!spark-streaming_2.10.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.spark#spark-mllib_2.10;1.3.0!spark-mllib_2.10.jar
-[debug] 		tried /Users/mengchending/.ivy2/local/org.apache.spark/spark-mllib_2.10/1.3.0/docs/spark-mllib_2.10-javadoc.jar
-[debug] 		tried /Users/mengchending/.ivy2/local/org.apache.spark/spark-mllib_2.10/1.3.0/srcs/spark-mllib_2.10-sources.jar
-[debug] 		tried /Users/mengchending/.activator/repository/org.apache.spark/spark-mllib_2.10/1.3.0/docs/spark-mllib_2.10-javadoc.jar
-[debug] 		tried /Users/mengchending/.activator/repository/org.apache.spark/spark-mllib_2.10/1.3.0/srcs/spark-mllib_2.10-sources.jar
-[debug] 		tried /Users/mengchending/Downloads/activator-dist-1.3.6/repository/org.apache.spark/spark-mllib_2.10/1.3.0/docs/spark-mllib_2.10-javadoc.jar
-[debug] 		tried /Users/mengchending/Downloads/activator-dist-1.3.6/repository/org.apache.spark/spark-mllib_2.10/1.3.0/srcs/spark-mllib_2.10-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/apache/spark/spark-mllib_2.10/1.3.0/spark-mllib_2.10-1.3.0-javadoc.jar
-[info] downloading https://repo1.maven.org/maven2/org/apache/spark/spark-mllib_2.10/1.3.0/spark-mllib_2.10-1.3.0-javadoc.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-mllib_2.10/1.3.0/spark-mllib_2.10-1.3.0-javadoc.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-mllib_2.10/1.3.0/spark-mllib_2.10-1.3.0-javadoc.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-mllib_2.10/1.3.0/spark-mllib_2.10-1.3.0-javadoc.jar
-[info] 	[SUCCESSFUL ] org.apache.spark#spark-mllib_2.10;1.3.0!spark-mllib_2.10.jar(doc) (927ms)
-[debug] 		tried https://repo1.maven.org/maven2/org/apache/spark/spark-mllib_2.10/1.3.0/spark-mllib_2.10-1.3.0-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/apache/spark/spark-mllib_2.10/1.3.0/spark-mllib_2.10-1.3.0-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-mllib_2.10/1.3.0/spark-mllib_2.10-1.3.0-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-mllib_2.10/1.3.0/spark-mllib_2.10-1.3.0-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-mllib_2.10/1.3.0/spark-mllib_2.10-1.3.0-sources.jar
-[info] 	[SUCCESSFUL ] org.apache.spark#spark-mllib_2.10;1.3.0!spark-mllib_2.10.jar(src) (471ms)
-[debug] 		tried /Users/mengchending/.ivy2/local/org.apache.spark/spark-sql_2.10/1.3.0/docs/spark-sql_2.10-javadoc.jar
-[debug] 		tried /Users/mengchending/.ivy2/local/org.apache.spark/spark-sql_2.10/1.3.0/srcs/spark-sql_2.10-sources.jar
+[debug] 	[NOT REQUIRED] org.apache.spark#spark-mllib_2.10;1.3.0!spark-mllib_2.10.jar(doc)
+[debug] 	[NOT REQUIRED] org.apache.spark#spark-mllib_2.10;1.3.0!spark-mllib_2.10.jar(src)
+[debug] 	[NOT REQUIRED] org.apache.spark#spark-sql_2.10;1.3.0!spark-sql_2.10.jar(doc)
+[debug] 	[NOT REQUIRED] org.apache.spark#spark-sql_2.10;1.3.0!spark-sql_2.10.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.spark#spark-sql_2.10;1.3.0!spark-sql_2.10.jar
-[debug] 		tried /Users/mengchending/.activator/repository/org.apache.spark/spark-sql_2.10/1.3.0/docs/spark-sql_2.10-javadoc.jar
-[debug] 		tried /Users/mengchending/.activator/repository/org.apache.spark/spark-sql_2.10/1.3.0/srcs/spark-sql_2.10-sources.jar
-[debug] 		tried /Users/mengchending/Downloads/activator-dist-1.3.6/repository/org.apache.spark/spark-sql_2.10/1.3.0/docs/spark-sql_2.10-javadoc.jar
-[debug] 		tried /Users/mengchending/Downloads/activator-dist-1.3.6/repository/org.apache.spark/spark-sql_2.10/1.3.0/srcs/spark-sql_2.10-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/apache/spark/spark-sql_2.10/1.3.0/spark-sql_2.10-1.3.0-javadoc.jar
-[info] downloading https://repo1.maven.org/maven2/org/apache/spark/spark-sql_2.10/1.3.0/spark-sql_2.10-1.3.0-javadoc.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-sql_2.10/1.3.0/spark-sql_2.10-1.3.0-javadoc.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-sql_2.10/1.3.0/spark-sql_2.10-1.3.0-javadoc.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-sql_2.10/1.3.0/spark-sql_2.10-1.3.0-javadoc.jar
-[info] 	[SUCCESSFUL ] org.apache.spark#spark-sql_2.10;1.3.0!spark-sql_2.10.jar(doc) (721ms)
-[debug] 		tried https://repo1.maven.org/maven2/org/apache/spark/spark-sql_2.10/1.3.0/spark-sql_2.10-1.3.0-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/apache/spark/spark-sql_2.10/1.3.0/spark-sql_2.10-1.3.0-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-sql_2.10/1.3.0/spark-sql_2.10-1.3.0-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-sql_2.10/1.3.0/spark-sql_2.10-1.3.0-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-sql_2.10/1.3.0/spark-sql_2.10-1.3.0-sources.jar
-[info] 	[SUCCESSFUL ] org.apache.spark#spark-sql_2.10;1.3.0!spark-sql_2.10.jar(src) (431ms)
-[debug] 		tried /Users/mengchending/.ivy2/local/org.apache.spark/spark-catalyst_2.10/1.3.0/docs/spark-catalyst_2.10-javadoc.jar
-[debug] 		tried /Users/mengchending/.ivy2/local/org.apache.spark/spark-catalyst_2.10/1.3.0/srcs/spark-catalyst_2.10-sources.jar
+[debug] 	[NOT REQUIRED] org.apache.spark#spark-catalyst_2.10;1.3.0!spark-catalyst_2.10.jar(doc)
+[debug] 	[NOT REQUIRED] org.apache.spark#spark-catalyst_2.10;1.3.0!spark-catalyst_2.10.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.spark#spark-catalyst_2.10;1.3.0!spark-catalyst_2.10.jar
-[debug] 		tried /Users/mengchending/.activator/repository/org.apache.spark/spark-catalyst_2.10/1.3.0/docs/spark-catalyst_2.10-javadoc.jar
-[debug] 		tried /Users/mengchending/.activator/repository/org.apache.spark/spark-catalyst_2.10/1.3.0/srcs/spark-catalyst_2.10-sources.jar
-[debug] 		tried /Users/mengchending/Downloads/activator-dist-1.3.6/repository/org.apache.spark/spark-catalyst_2.10/1.3.0/docs/spark-catalyst_2.10-javadoc.jar
-[debug] 		tried /Users/mengchending/Downloads/activator-dist-1.3.6/repository/org.apache.spark/spark-catalyst_2.10/1.3.0/srcs/spark-catalyst_2.10-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/apache/spark/spark-catalyst_2.10/1.3.0/spark-catalyst_2.10-1.3.0-javadoc.jar
-[info] downloading https://repo1.maven.org/maven2/org/apache/spark/spark-catalyst_2.10/1.3.0/spark-catalyst_2.10-1.3.0-javadoc.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-catalyst_2.10/1.3.0/spark-catalyst_2.10-1.3.0-javadoc.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-catalyst_2.10/1.3.0/spark-catalyst_2.10-1.3.0-javadoc.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-catalyst_2.10/1.3.0/spark-catalyst_2.10-1.3.0-javadoc.jar
-[info] 	[SUCCESSFUL ] org.apache.spark#spark-catalyst_2.10;1.3.0!spark-catalyst_2.10.jar(doc) (1997ms)
-[debug] 		tried https://repo1.maven.org/maven2/org/apache/spark/spark-catalyst_2.10/1.3.0/spark-catalyst_2.10-1.3.0-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/apache/spark/spark-catalyst_2.10/1.3.0/spark-catalyst_2.10-1.3.0-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-catalyst_2.10/1.3.0/spark-catalyst_2.10-1.3.0-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-catalyst_2.10/1.3.0/spark-catalyst_2.10-1.3.0-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-catalyst_2.10/1.3.0/spark-catalyst_2.10-1.3.0-sources.jar
-[info] 	[SUCCESSFUL ] org.apache.spark#spark-catalyst_2.10;1.3.0!spark-catalyst_2.10.jar(src) (390ms)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.10.4!scala-compiler.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.10.4!scala-compiler.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.10.4!scala-compiler.jar(doc)
 [debug] 	[NOT REQUIRED] org.scalamacros#quasiquotes_2.10;2.0.1!quasiquotes_2.10.jar
-[debug] 		tried /Users/mengchending/.ivy2/local/org.scalamacros/quasiquotes_2.10/2.0.1/docs/quasiquotes_2.10-javadoc.jar
+[debug] 	[NOT REQUIRED] org.scalamacros#quasiquotes_2.10;2.0.1!quasiquotes_2.10.jar(doc)
 [debug] 	[NOT REQUIRED] org.scalamacros#quasiquotes_2.10;2.0.1!quasiquotes_2.10.jar(src)
-[debug] 		tried /Users/mengchending/.activator/repository/org.scalamacros/quasiquotes_2.10/2.0.1/docs/quasiquotes_2.10-javadoc.jar
-[debug] 		tried /Users/mengchending/Downloads/activator-dist-1.3.6/repository/org.scalamacros/quasiquotes_2.10/2.0.1/docs/quasiquotes_2.10-javadoc.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scalamacros/quasiquotes_2.10/2.0.1/quasiquotes_2.10-2.0.1-javadoc.jar
-[info] downloading https://repo1.maven.org/maven2/org/scalamacros/quasiquotes_2.10/2.0.1/quasiquotes_2.10-2.0.1-javadoc.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalamacros/quasiquotes_2.10/2.0.1/quasiquotes_2.10-2.0.1-javadoc.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalamacros/quasiquotes_2.10/2.0.1/quasiquotes_2.10-2.0.1-javadoc.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scalamacros/quasiquotes_2.10/2.0.1/quasiquotes_2.10-2.0.1-javadoc.jar
-[info] 	[SUCCESSFUL ] org.scalamacros#quasiquotes_2.10;2.0.1!quasiquotes_2.10.jar(doc) (955ms)
-[debug] 		tried /Users/mengchending/.ivy2/local/com.twitter/parquet-column/1.6.0rc3/srcs/parquet-column-sources.jar
-[debug] 		tried /Users/mengchending/.ivy2/local/com.twitter/parquet-column/1.6.0rc3/docs/parquet-column-javadoc.jar
+[debug] 	[NOT REQUIRED] com.twitter#parquet-column;1.6.0rc3!parquet-column.jar(src)
+[debug] 	[NOT REQUIRED] com.twitter#parquet-column;1.6.0rc3!parquet-column.jar(doc)
 [debug] 	[NOT REQUIRED] com.twitter#parquet-column;1.6.0rc3!parquet-column.jar
-[debug] 		tried /Users/mengchending/.activator/repository/com.twitter/parquet-column/1.6.0rc3/srcs/parquet-column-sources.jar
-[debug] 		tried /Users/mengchending/.activator/repository/com.twitter/parquet-column/1.6.0rc3/docs/parquet-column-javadoc.jar
-[debug] 		tried /Users/mengchending/Downloads/activator-dist-1.3.6/repository/com.twitter/parquet-column/1.6.0rc3/srcs/parquet-column-sources.jar
-[debug] 		tried /Users/mengchending/Downloads/activator-dist-1.3.6/repository/com.twitter/parquet-column/1.6.0rc3/docs/parquet-column-javadoc.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/twitter/parquet-column/1.6.0rc3/parquet-column-1.6.0rc3-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/twitter/parquet-column/1.6.0rc3/parquet-column-1.6.0rc3-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/twitter/parquet-column/1.6.0rc3/parquet-column-1.6.0rc3-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/twitter/parquet-column/1.6.0rc3/parquet-column-1.6.0rc3-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/twitter/parquet-column/1.6.0rc3/parquet-column-1.6.0rc3-sources.jar
-[info] 	[SUCCESSFUL ] com.twitter#parquet-column;1.6.0rc3!parquet-column.jar(src) (390ms)
-[debug] 		tried https://repo1.maven.org/maven2/com/twitter/parquet-column/1.6.0rc3/parquet-column-1.6.0rc3-javadoc.jar
-[info] downloading https://repo1.maven.org/maven2/com/twitter/parquet-column/1.6.0rc3/parquet-column-1.6.0rc3-javadoc.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/twitter/parquet-column/1.6.0rc3/parquet-column-1.6.0rc3-javadoc.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/twitter/parquet-column/1.6.0rc3/parquet-column-1.6.0rc3-javadoc.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/twitter/parquet-column/1.6.0rc3/parquet-column-1.6.0rc3-javadoc.jar
-[info] 	[SUCCESSFUL ] com.twitter#parquet-column;1.6.0rc3!parquet-column.jar(doc) (1061ms)
-[debug] 		tried /Users/mengchending/.ivy2/local/com.twitter/parquet-common/1.6.0rc3/docs/parquet-common-javadoc.jar
+[debug] 	[NOT REQUIRED] com.twitter#parquet-common;1.6.0rc3!parquet-common.jar(doc)
 [debug] 	[NOT REQUIRED] com.twitter#parquet-common;1.6.0rc3!parquet-common.jar
-[debug] 		tried /Users/mengchending/.ivy2/local/com.twitter/parquet-common/1.6.0rc3/srcs/parquet-common-sources.jar
-[debug] 		tried /Users/mengchending/.activator/repository/com.twitter/parquet-common/1.6.0rc3/docs/parquet-common-javadoc.jar
-[debug] 		tried /Users/mengchending/.activator/repository/com.twitter/parquet-common/1.6.0rc3/srcs/parquet-common-sources.jar
-[debug] 		tried /Users/mengchending/Downloads/activator-dist-1.3.6/repository/com.twitter/parquet-common/1.6.0rc3/docs/parquet-common-javadoc.jar
-[debug] 		tried /Users/mengchending/Downloads/activator-dist-1.3.6/repository/com.twitter/parquet-common/1.6.0rc3/srcs/parquet-common-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/twitter/parquet-common/1.6.0rc3/parquet-common-1.6.0rc3-javadoc.jar
-[info] downloading https://repo1.maven.org/maven2/com/twitter/parquet-common/1.6.0rc3/parquet-common-1.6.0rc3-javadoc.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/twitter/parquet-common/1.6.0rc3/parquet-common-1.6.0rc3-javadoc.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/twitter/parquet-common/1.6.0rc3/parquet-common-1.6.0rc3-javadoc.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/twitter/parquet-common/1.6.0rc3/parquet-common-1.6.0rc3-javadoc.jar
-[info] 	[SUCCESSFUL ] com.twitter#parquet-common;1.6.0rc3!parquet-common.jar(doc) (337ms)
-[debug] 		tried https://repo1.maven.org/maven2/com/twitter/parquet-common/1.6.0rc3/parquet-common-1.6.0rc3-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/twitter/parquet-common/1.6.0rc3/parquet-common-1.6.0rc3-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/twitter/parquet-common/1.6.0rc3/parquet-common-1.6.0rc3-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/twitter/parquet-common/1.6.0rc3/parquet-common-1.6.0rc3-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/twitter/parquet-common/1.6.0rc3/parquet-common-1.6.0rc3-sources.jar
-[info] 	[SUCCESSFUL ] com.twitter#parquet-common;1.6.0rc3!parquet-common.jar(src) (305ms)
+[debug] 	[NOT REQUIRED] com.twitter#parquet-common;1.6.0rc3!parquet-common.jar(src)
 [debug] 	[NOT REQUIRED] com.twitter#parquet-encoding;1.6.0rc3!parquet-encoding.jar
-[debug] 		tried /Users/mengchending/.ivy2/local/com.twitter/parquet-encoding/1.6.0rc3/srcs/parquet-encoding-sources.jar
-[debug] 		tried /Users/mengchending/.ivy2/local/com.twitter/parquet-encoding/1.6.0rc3/docs/parquet-encoding-javadoc.jar
-[debug] 		tried /Users/mengchending/.activator/repository/com.twitter/parquet-encoding/1.6.0rc3/srcs/parquet-encoding-sources.jar
-[debug] 		tried /Users/mengchending/.activator/repository/com.twitter/parquet-encoding/1.6.0rc3/docs/parquet-encoding-javadoc.jar
-[debug] 		tried /Users/mengchending/Downloads/activator-dist-1.3.6/repository/com.twitter/parquet-encoding/1.6.0rc3/srcs/parquet-encoding-sources.jar
-[debug] 		tried /Users/mengchending/Downloads/activator-dist-1.3.6/repository/com.twitter/parquet-encoding/1.6.0rc3/docs/parquet-encoding-javadoc.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/twitter/parquet-encoding/1.6.0rc3/parquet-encoding-1.6.0rc3-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/twitter/parquet-encoding/1.6.0rc3/parquet-encoding-1.6.0rc3-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/twitter/parquet-encoding/1.6.0rc3/parquet-encoding-1.6.0rc3-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/twitter/parquet-encoding/1.6.0rc3/parquet-encoding-1.6.0rc3-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/twitter/parquet-encoding/1.6.0rc3/parquet-encoding-1.6.0rc3-sources.jar
-[info] 	[SUCCESSFUL ] com.twitter#parquet-encoding;1.6.0rc3!parquet-encoding.jar(src) (393ms)
-[debug] 		tried https://repo1.maven.org/maven2/com/twitter/parquet-encoding/1.6.0rc3/parquet-encoding-1.6.0rc3-javadoc.jar
-[info] downloading https://repo1.maven.org/maven2/com/twitter/parquet-encoding/1.6.0rc3/parquet-encoding-1.6.0rc3-javadoc.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/twitter/parquet-encoding/1.6.0rc3/parquet-encoding-1.6.0rc3-javadoc.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/twitter/parquet-encoding/1.6.0rc3/parquet-encoding-1.6.0rc3-javadoc.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/twitter/parquet-encoding/1.6.0rc3/parquet-encoding-1.6.0rc3-javadoc.jar
-[info] 	[SUCCESSFUL ] com.twitter#parquet-encoding;1.6.0rc3!parquet-encoding.jar(doc) (362ms)
+[debug] 	[NOT REQUIRED] com.twitter#parquet-encoding;1.6.0rc3!parquet-encoding.jar(src)
+[debug] 	[NOT REQUIRED] com.twitter#parquet-encoding;1.6.0rc3!parquet-encoding.jar(doc)
 [debug] 	[NOT REQUIRED] com.twitter#parquet-generator;1.6.0rc3!parquet-generator.jar
-[debug] 		tried /Users/mengchending/.ivy2/local/com.twitter/parquet-generator/1.6.0rc3/docs/parquet-generator-javadoc.jar
-[debug] 		tried /Users/mengchending/.ivy2/local/com.twitter/parquet-generator/1.6.0rc3/srcs/parquet-generator-sources.jar
-[debug] 		tried /Users/mengchending/.activator/repository/com.twitter/parquet-generator/1.6.0rc3/docs/parquet-generator-javadoc.jar
-[debug] 		tried /Users/mengchending/.activator/repository/com.twitter/parquet-generator/1.6.0rc3/srcs/parquet-generator-sources.jar
-[debug] 		tried /Users/mengchending/Downloads/activator-dist-1.3.6/repository/com.twitter/parquet-generator/1.6.0rc3/docs/parquet-generator-javadoc.jar
-[debug] 		tried /Users/mengchending/Downloads/activator-dist-1.3.6/repository/com.twitter/parquet-generator/1.6.0rc3/srcs/parquet-generator-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/twitter/parquet-generator/1.6.0rc3/parquet-generator-1.6.0rc3-javadoc.jar
-[info] downloading https://repo1.maven.org/maven2/com/twitter/parquet-generator/1.6.0rc3/parquet-generator-1.6.0rc3-javadoc.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/twitter/parquet-generator/1.6.0rc3/parquet-generator-1.6.0rc3-javadoc.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/twitter/parquet-generator/1.6.0rc3/parquet-generator-1.6.0rc3-javadoc.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/twitter/parquet-generator/1.6.0rc3/parquet-generator-1.6.0rc3-javadoc.jar
-[info] 	[SUCCESSFUL ] com.twitter#parquet-generator;1.6.0rc3!parquet-generator.jar(doc) (315ms)
-[debug] 		tried https://repo1.maven.org/maven2/com/twitter/parquet-generator/1.6.0rc3/parquet-generator-1.6.0rc3-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/twitter/parquet-generator/1.6.0rc3/parquet-generator-1.6.0rc3-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/twitter/parquet-generator/1.6.0rc3/parquet-generator-1.6.0rc3-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/twitter/parquet-generator/1.6.0rc3/parquet-generator-1.6.0rc3-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/twitter/parquet-generator/1.6.0rc3/parquet-generator-1.6.0rc3-sources.jar
-[info] 	[SUCCESSFUL ] com.twitter#parquet-generator;1.6.0rc3!parquet-generator.jar(src) (298ms)
+[debug] 	[NOT REQUIRED] com.twitter#parquet-generator;1.6.0rc3!parquet-generator.jar(doc)
+[debug] 	[NOT REQUIRED] com.twitter#parquet-generator;1.6.0rc3!parquet-generator.jar(src)
 [debug] 	[NOT REQUIRED] commons-codec#commons-codec;1.5!commons-codec.jar
 [debug] 	[NOT REQUIRED] commons-codec#commons-codec;1.5!commons-codec.jar(src)
 [debug] 	[NOT REQUIRED] commons-codec#commons-codec;1.5!commons-codec.jar(doc)
-[debug] 		tried /Users/mengchending/.ivy2/local/com.twitter/parquet-hadoop/1.6.0rc3/srcs/parquet-hadoop-sources.jar
-[debug] 		tried /Users/mengchending/.ivy2/local/com.twitter/parquet-hadoop/1.6.0rc3/docs/parquet-hadoop-javadoc.jar
+[debug] 	[NOT REQUIRED] com.twitter#parquet-hadoop;1.6.0rc3!parquet-hadoop.jar(src)
+[debug] 	[NOT REQUIRED] com.twitter#parquet-hadoop;1.6.0rc3!parquet-hadoop.jar(doc)
 [debug] 	[NOT REQUIRED] com.twitter#parquet-hadoop;1.6.0rc3!parquet-hadoop.jar
-[debug] 		tried /Users/mengchending/.activator/repository/com.twitter/parquet-hadoop/1.6.0rc3/srcs/parquet-hadoop-sources.jar
-[debug] 		tried /Users/mengchending/.activator/repository/com.twitter/parquet-hadoop/1.6.0rc3/docs/parquet-hadoop-javadoc.jar
-[debug] 		tried /Users/mengchending/Downloads/activator-dist-1.3.6/repository/com.twitter/parquet-hadoop/1.6.0rc3/srcs/parquet-hadoop-sources.jar
-[debug] 		tried /Users/mengchending/Downloads/activator-dist-1.3.6/repository/com.twitter/parquet-hadoop/1.6.0rc3/docs/parquet-hadoop-javadoc.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/twitter/parquet-hadoop/1.6.0rc3/parquet-hadoop-1.6.0rc3-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/twitter/parquet-hadoop/1.6.0rc3/parquet-hadoop-1.6.0rc3-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/twitter/parquet-hadoop/1.6.0rc3/parquet-hadoop-1.6.0rc3-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/twitter/parquet-hadoop/1.6.0rc3/parquet-hadoop-1.6.0rc3-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/twitter/parquet-hadoop/1.6.0rc3/parquet-hadoop-1.6.0rc3-sources.jar
-[info] 	[SUCCESSFUL ] com.twitter#parquet-hadoop;1.6.0rc3!parquet-hadoop.jar(src) (371ms)
-[debug] 		tried https://repo1.maven.org/maven2/com/twitter/parquet-hadoop/1.6.0rc3/parquet-hadoop-1.6.0rc3-javadoc.jar
-[info] downloading https://repo1.maven.org/maven2/com/twitter/parquet-hadoop/1.6.0rc3/parquet-hadoop-1.6.0rc3-javadoc.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/twitter/parquet-hadoop/1.6.0rc3/parquet-hadoop-1.6.0rc3-javadoc.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/twitter/parquet-hadoop/1.6.0rc3/parquet-hadoop-1.6.0rc3-javadoc.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/twitter/parquet-hadoop/1.6.0rc3/parquet-hadoop-1.6.0rc3-javadoc.jar
-[info] 	[SUCCESSFUL ] com.twitter#parquet-hadoop;1.6.0rc3!parquet-hadoop.jar(doc) (551ms)
 [debug] 	[NOT REQUIRED] com.twitter#parquet-format;2.2.0-rc1!parquet-format.jar
-[debug] 		tried /Users/mengchending/.ivy2/local/com.twitter/parquet-format/2.2.0-rc1/docs/parquet-format-javadoc.jar
-[debug] 		tried /Users/mengchending/.ivy2/local/com.twitter/parquet-format/2.2.0-rc1/srcs/parquet-format-sources.jar
-[debug] 		tried /Users/mengchending/.activator/repository/com.twitter/parquet-format/2.2.0-rc1/docs/parquet-format-javadoc.jar
-[debug] 		tried /Users/mengchending/.activator/repository/com.twitter/parquet-format/2.2.0-rc1/srcs/parquet-format-sources.jar
-[debug] 		tried /Users/mengchending/Downloads/activator-dist-1.3.6/repository/com.twitter/parquet-format/2.2.0-rc1/docs/parquet-format-javadoc.jar
-[debug] 		tried /Users/mengchending/Downloads/activator-dist-1.3.6/repository/com.twitter/parquet-format/2.2.0-rc1/srcs/parquet-format-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/twitter/parquet-format/2.2.0-rc1/parquet-format-2.2.0-rc1-javadoc.jar
-[info] downloading https://repo1.maven.org/maven2/com/twitter/parquet-format/2.2.0-rc1/parquet-format-2.2.0-rc1-javadoc.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/twitter/parquet-format/2.2.0-rc1/parquet-format-2.2.0-rc1-javadoc.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/twitter/parquet-format/2.2.0-rc1/parquet-format-2.2.0-rc1-javadoc.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/twitter/parquet-format/2.2.0-rc1/parquet-format-2.2.0-rc1-javadoc.jar
-[info] 	[SUCCESSFUL ] com.twitter#parquet-format;2.2.0-rc1!parquet-format.jar(doc) (554ms)
-[debug] 		tried https://repo1.maven.org/maven2/com/twitter/parquet-format/2.2.0-rc1/parquet-format-2.2.0-rc1-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/twitter/parquet-format/2.2.0-rc1/parquet-format-2.2.0-rc1-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/twitter/parquet-format/2.2.0-rc1/parquet-format-2.2.0-rc1-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/twitter/parquet-format/2.2.0-rc1/parquet-format-2.2.0-rc1-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/twitter/parquet-format/2.2.0-rc1/parquet-format-2.2.0-rc1-sources.jar
-[info] 	[SUCCESSFUL ] com.twitter#parquet-format;2.2.0-rc1!parquet-format.jar(src) (316ms)
-[debug] 		tried /Users/mengchending/.ivy2/local/com.twitter/parquet-jackson/1.6.0rc3/srcs/parquet-jackson-sources.jar
+[debug] 	[NOT REQUIRED] com.twitter#parquet-format;2.2.0-rc1!parquet-format.jar(doc)
+[debug] 	[NOT REQUIRED] com.twitter#parquet-format;2.2.0-rc1!parquet-format.jar(src)
+[debug] 	[NOT REQUIRED] com.twitter#parquet-jackson;1.6.0rc3!parquet-jackson.jar(src)
 [debug] 	[NOT REQUIRED] com.twitter#parquet-jackson;1.6.0rc3!parquet-jackson.jar
-[debug] 		tried /Users/mengchending/.ivy2/local/com.twitter/parquet-jackson/1.6.0rc3/docs/parquet-jackson-javadoc.jar
-[debug] 		tried /Users/mengchending/.activator/repository/com.twitter/parquet-jackson/1.6.0rc3/srcs/parquet-jackson-sources.jar
-[debug] 		tried /Users/mengchending/.activator/repository/com.twitter/parquet-jackson/1.6.0rc3/docs/parquet-jackson-javadoc.jar
-[debug] 		tried /Users/mengchending/Downloads/activator-dist-1.3.6/repository/com.twitter/parquet-jackson/1.6.0rc3/srcs/parquet-jackson-sources.jar
-[debug] 		tried /Users/mengchending/Downloads/activator-dist-1.3.6/repository/com.twitter/parquet-jackson/1.6.0rc3/docs/parquet-jackson-javadoc.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/twitter/parquet-jackson/1.6.0rc3/parquet-jackson-1.6.0rc3-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/twitter/parquet-jackson/1.6.0rc3/parquet-jackson-1.6.0rc3-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/twitter/parquet-jackson/1.6.0rc3/parquet-jackson-1.6.0rc3-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/twitter/parquet-jackson/1.6.0rc3/parquet-jackson-1.6.0rc3-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/twitter/parquet-jackson/1.6.0rc3/parquet-jackson-1.6.0rc3-sources.jar
-[info] 	[SUCCESSFUL ] com.twitter#parquet-jackson;1.6.0rc3!parquet-jackson.jar(src) (722ms)
-[debug] 		tried https://repo1.maven.org/maven2/com/twitter/parquet-jackson/1.6.0rc3/parquet-jackson-1.6.0rc3-javadoc.jar
-[info] downloading https://repo1.maven.org/maven2/com/twitter/parquet-jackson/1.6.0rc3/parquet-jackson-1.6.0rc3-javadoc.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/twitter/parquet-jackson/1.6.0rc3/parquet-jackson-1.6.0rc3-javadoc.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/twitter/parquet-jackson/1.6.0rc3/parquet-jackson-1.6.0rc3-javadoc.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/twitter/parquet-jackson/1.6.0rc3/parquet-jackson-1.6.0rc3-javadoc.jar
-[info] 	[SUCCESSFUL ] com.twitter#parquet-jackson;1.6.0rc3!parquet-jackson.jar(doc) (295ms)
-[debug] 		tried /Users/mengchending/.ivy2/local/org.codehaus.jackson/jackson-mapper-asl/1.9.11/srcs/jackson-mapper-asl-sources.jar
-[debug] 		tried /Users/mengchending/.ivy2/local/org.codehaus.jackson/jackson-mapper-asl/1.9.11/docs/jackson-mapper-asl-javadoc.jar
+[debug] 	[NOT REQUIRED] com.twitter#parquet-jackson;1.6.0rc3!parquet-jackson.jar(doc)
+[debug] 	[NOT REQUIRED] org.codehaus.jackson#jackson-mapper-asl;1.9.11!jackson-mapper-asl.jar(src)
 [debug] 	[NOT REQUIRED] org.codehaus.jackson#jackson-mapper-asl;1.9.11!jackson-mapper-asl.jar
-[debug] 		tried /Users/mengchending/.activator/repository/org.codehaus.jackson/jackson-mapper-asl/1.9.11/srcs/jackson-mapper-asl-sources.jar
-[debug] 		tried /Users/mengchending/.activator/repository/org.codehaus.jackson/jackson-mapper-asl/1.9.11/docs/jackson-mapper-asl-javadoc.jar
-[debug] 		tried /Users/mengchending/Downloads/activator-dist-1.3.6/repository/org.codehaus.jackson/jackson-mapper-asl/1.9.11/srcs/jackson-mapper-asl-sources.jar
-[debug] 		tried /Users/mengchending/Downloads/activator-dist-1.3.6/repository/org.codehaus.jackson/jackson-mapper-asl/1.9.11/docs/jackson-mapper-asl-javadoc.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.9.11/jackson-mapper-asl-1.9.11-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.9.11/jackson-mapper-asl-1.9.11-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.9.11/jackson-mapper-asl-1.9.11-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.9.11/jackson-mapper-asl-1.9.11-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.9.11/jackson-mapper-asl-1.9.11-sources.jar
-[info] 	[SUCCESSFUL ] org.codehaus.jackson#jackson-mapper-asl;1.9.11!jackson-mapper-asl.jar(src) (533ms)
-[debug] 		tried https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.9.11/jackson-mapper-asl-1.9.11-javadoc.jar
-[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.9.11/jackson-mapper-asl-1.9.11-javadoc.jar
-[debug] 		tried http://repo.typesafe.com/typesafe/releases/org/codehaus/jackson/jackson-mapper-asl/1.9.11/jackson-mapper-asl-1.9.11-javadoc.jar
-[debug] CLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/releases/org/codehaus/jackson/jackson-mapper-asl/1.9.11/jackson-mapper-asl-1.9.11-javadoc.jar
-[debug] 		tried http://repo.typesafe.com/typesafe/ivy-releases/org.codehaus.jackson/jackson-mapper-asl/1.9.11/docs/jackson-mapper-asl-javadoc.jar
-[debug] CLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/org.codehaus.jackson/jackson-mapper-asl/1.9.11/docs/jackson-mapper-asl-javadoc.jar
-[warn] 	[FAILED     ] org.codehaus.jackson#jackson-mapper-asl;1.9.11!jackson-mapper-asl.jar(doc):  (0ms)
-[warn] ==== local: tried
-[warn]   /Users/mengchending/.ivy2/local/org.codehaus.jackson/jackson-mapper-asl/1.9.11/docs/jackson-mapper-asl-javadoc.jar
-[warn] ==== activator-launcher-local: tried
-[warn]   /Users/mengchending/.activator/repository/org.codehaus.jackson/jackson-mapper-asl/1.9.11/docs/jackson-mapper-asl-javadoc.jar
-[warn] ==== activator-local: tried
-[warn]   /Users/mengchending/Downloads/activator-dist-1.3.6/repository/org.codehaus.jackson/jackson-mapper-asl/1.9.11/docs/jackson-mapper-asl-javadoc.jar
-[warn] ==== public: tried
-[warn]   https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.9.11/jackson-mapper-asl-1.9.11-javadoc.jar
-[warn] ==== typesafe-releases: tried
-[warn]   http://repo.typesafe.com/typesafe/releases/org/codehaus/jackson/jackson-mapper-asl/1.9.11/jackson-mapper-asl-1.9.11-javadoc.jar
-[warn] ==== typesafe-ivy-releasez: tried
-[warn]   http://repo.typesafe.com/typesafe/ivy-releases/org.codehaus.jackson/jackson-mapper-asl/1.9.11/docs/jackson-mapper-asl-javadoc.jar
-[debug] 		tried /Users/mengchending/.ivy2/local/org.codehaus.jackson/jackson-core-asl/1.9.11/docs/jackson-core-asl-javadoc.jar
 [debug] 	[NOT REQUIRED] org.codehaus.jackson#jackson-core-asl;1.9.11!jackson-core-asl.jar
-[debug] 		tried /Users/mengchending/.ivy2/local/org.codehaus.jackson/jackson-core-asl/1.9.11/srcs/jackson-core-asl-sources.jar
-[debug] 		tried /Users/mengchending/.activator/repository/org.codehaus.jackson/jackson-core-asl/1.9.11/docs/jackson-core-asl-javadoc.jar
-[debug] 		tried /Users/mengchending/.activator/repository/org.codehaus.jackson/jackson-core-asl/1.9.11/srcs/jackson-core-asl-sources.jar
-[debug] 		tried /Users/mengchending/Downloads/activator-dist-1.3.6/repository/org.codehaus.jackson/jackson-core-asl/1.9.11/docs/jackson-core-asl-javadoc.jar
-[debug] 		tried /Users/mengchending/Downloads/activator-dist-1.3.6/repository/org.codehaus.jackson/jackson-core-asl/1.9.11/srcs/jackson-core-asl-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.9.11/jackson-core-asl-1.9.11-javadoc.jar
-[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.9.11/jackson-core-asl-1.9.11-javadoc.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.9.11/jackson-core-asl-1.9.11-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.9.11/jackson-core-asl-1.9.11-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.9.11/jackson-core-asl-1.9.11-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.9.11/jackson-core-asl-1.9.11-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.9.11/jackson-core-asl-1.9.11-sources.jar
-[info] 	[SUCCESSFUL ] org.codehaus.jackson#jackson-core-asl;1.9.11!jackson-core-asl.jar(src) (410ms)
-[debug] 		tried http://repo.typesafe.com/typesafe/releases/org/codehaus/jackson/jackson-core-asl/1.9.11/jackson-core-asl-1.9.11-javadoc.jar
-[debug] CLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/releases/org/codehaus/jackson/jackson-core-asl/1.9.11/jackson-core-asl-1.9.11-javadoc.jar
-[debug] 		tried http://repo.typesafe.com/typesafe/ivy-releases/org.codehaus.jackson/jackson-core-asl/1.9.11/docs/jackson-core-asl-javadoc.jar
-[debug] CLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/org.codehaus.jackson/jackson-core-asl/1.9.11/docs/jackson-core-asl-javadoc.jar
-[warn] 	[FAILED     ] org.codehaus.jackson#jackson-core-asl;1.9.11!jackson-core-asl.jar(doc):  (0ms)
-[warn] ==== local: tried
-[warn]   /Users/mengchending/.ivy2/local/org.codehaus.jackson/jackson-core-asl/1.9.11/docs/jackson-core-asl-javadoc.jar
-[warn] ==== activator-launcher-local: tried
-[warn]   /Users/mengchending/.activator/repository/org.codehaus.jackson/jackson-core-asl/1.9.11/docs/jackson-core-asl-javadoc.jar
-[warn] ==== activator-local: tried
-[warn]   /Users/mengchending/Downloads/activator-dist-1.3.6/repository/org.codehaus.jackson/jackson-core-asl/1.9.11/docs/jackson-core-asl-javadoc.jar
-[warn] ==== public: tried
-[warn]   https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.9.11/jackson-core-asl-1.9.11-javadoc.jar
-[warn] ==== typesafe-releases: tried
-[warn]   http://repo.typesafe.com/typesafe/releases/org/codehaus/jackson/jackson-core-asl/1.9.11/jackson-core-asl-1.9.11-javadoc.jar
-[warn] ==== typesafe-ivy-releasez: tried
-[warn]   http://repo.typesafe.com/typesafe/ivy-releases/org.codehaus.jackson/jackson-core-asl/1.9.11/docs/jackson-core-asl-javadoc.jar
-[debug] 		tried /Users/mengchending/.ivy2/local/org.jodd/jodd-core/3.6.3/docs/jodd-core-javadoc.jar
-[debug] 		tried /Users/mengchending/.ivy2/local/org.jodd/jodd-core/3.6.3/srcs/jodd-core-sources.jar
+[debug] 	[NOT REQUIRED] org.codehaus.jackson#jackson-core-asl;1.9.11!jackson-core-asl.jar(src)
+[debug] 	[NOT REQUIRED] org.jodd#jodd-core;3.6.3!jodd-core.jar(doc)
+[debug] 	[NOT REQUIRED] org.jodd#jodd-core;3.6.3!jodd-core.jar(src)
 [debug] 	[NOT REQUIRED] org.jodd#jodd-core;3.6.3!jodd-core.jar
-[debug] 		tried /Users/mengchending/.activator/repository/org.jodd/jodd-core/3.6.3/docs/jodd-core-javadoc.jar
-[debug] 		tried /Users/mengchending/.activator/repository/org.jodd/jodd-core/3.6.3/srcs/jodd-core-sources.jar
-[debug] 		tried /Users/mengchending/Downloads/activator-dist-1.3.6/repository/org.jodd/jodd-core/3.6.3/docs/jodd-core-javadoc.jar
-[debug] 		tried /Users/mengchending/Downloads/activator-dist-1.3.6/repository/org.jodd/jodd-core/3.6.3/srcs/jodd-core-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/jodd/jodd-core/3.6.3/jodd-core-3.6.3-javadoc.jar
-[info] downloading https://repo1.maven.org/maven2/org/jodd/jodd-core/3.6.3/jodd-core-3.6.3-javadoc.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/jodd/jodd-core/3.6.3/jodd-core-3.6.3-javadoc.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/jodd/jodd-core/3.6.3/jodd-core-3.6.3-javadoc.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/jodd/jodd-core/3.6.3/jodd-core-3.6.3-javadoc.jar
-[info] 	[SUCCESSFUL ] org.jodd#jodd-core;3.6.3!jodd-core.jar(doc) (663ms)
-[debug] 		tried https://repo1.maven.org/maven2/org/jodd/jodd-core/3.6.3/jodd-core-3.6.3-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/jodd/jodd-core/3.6.3/jodd-core-3.6.3-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/jodd/jodd-core/3.6.3/jodd-core-3.6.3-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/jodd/jodd-core/3.6.3/jodd-core-3.6.3-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/jodd/jodd-core/3.6.3/jodd-core-3.6.3-sources.jar
-[info] 	[SUCCESSFUL ] org.jodd#jodd-core;3.6.3!jodd-core.jar(src) (472ms)
-[debug] 		tried /Users/mengchending/.ivy2/local/org.apache.spark/spark-graphx_2.10/1.3.0/docs/spark-graphx_2.10-javadoc.jar
-[debug] 		tried /Users/mengchending/.ivy2/local/org.apache.spark/spark-graphx_2.10/1.3.0/srcs/spark-graphx_2.10-sources.jar
+[debug] 	[NOT REQUIRED] org.apache.spark#spark-graphx_2.10;1.3.0!spark-graphx_2.10.jar(doc)
+[debug] 	[NOT REQUIRED] org.apache.spark#spark-graphx_2.10;1.3.0!spark-graphx_2.10.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.spark#spark-graphx_2.10;1.3.0!spark-graphx_2.10.jar
-[debug] 		tried /Users/mengchending/.activator/repository/org.apache.spark/spark-graphx_2.10/1.3.0/docs/spark-graphx_2.10-javadoc.jar
-[debug] 		tried /Users/mengchending/.activator/repository/org.apache.spark/spark-graphx_2.10/1.3.0/srcs/spark-graphx_2.10-sources.jar
-[debug] 		tried /Users/mengchending/Downloads/activator-dist-1.3.6/repository/org.apache.spark/spark-graphx_2.10/1.3.0/docs/spark-graphx_2.10-javadoc.jar
-[debug] 		tried /Users/mengchending/Downloads/activator-dist-1.3.6/repository/org.apache.spark/spark-graphx_2.10/1.3.0/srcs/spark-graphx_2.10-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/apache/spark/spark-graphx_2.10/1.3.0/spark-graphx_2.10-1.3.0-javadoc.jar
-[info] downloading https://repo1.maven.org/maven2/org/apache/spark/spark-graphx_2.10/1.3.0/spark-graphx_2.10-1.3.0-javadoc.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-graphx_2.10/1.3.0/spark-graphx_2.10-1.3.0-javadoc.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-graphx_2.10/1.3.0/spark-graphx_2.10-1.3.0-javadoc.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-graphx_2.10/1.3.0/spark-graphx_2.10-1.3.0-javadoc.jar
-[info] 	[SUCCESSFUL ] org.apache.spark#spark-graphx_2.10;1.3.0!spark-graphx_2.10.jar(doc) (620ms)
-[debug] 		tried https://repo1.maven.org/maven2/org/apache/spark/spark-graphx_2.10/1.3.0/spark-graphx_2.10-1.3.0-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/apache/spark/spark-graphx_2.10/1.3.0/spark-graphx_2.10-1.3.0-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-graphx_2.10/1.3.0/spark-graphx_2.10-1.3.0-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-graphx_2.10/1.3.0/spark-graphx_2.10-1.3.0-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-graphx_2.10/1.3.0/spark-graphx_2.10-1.3.0-sources.jar
-[info] 	[SUCCESSFUL ] org.apache.spark#spark-graphx_2.10;1.3.0!spark-graphx_2.10.jar(src) (396ms)
 [debug] 	[NOT REQUIRED] org.jblas#jblas;1.2.3!jblas.jar
-[debug] 		tried /Users/mengchending/.ivy2/local/org.jblas/jblas/1.2.3/srcs/jblas-sources.jar
-[debug] 		tried /Users/mengchending/.ivy2/local/org.jblas/jblas/1.2.3/docs/jblas-javadoc.jar
-[debug] 		tried /Users/mengchending/.activator/repository/org.jblas/jblas/1.2.3/srcs/jblas-sources.jar
-[debug] 		tried /Users/mengchending/.activator/repository/org.jblas/jblas/1.2.3/docs/jblas-javadoc.jar
-[debug] 		tried /Users/mengchending/Downloads/activator-dist-1.3.6/repository/org.jblas/jblas/1.2.3/srcs/jblas-sources.jar
-[debug] 		tried /Users/mengchending/Downloads/activator-dist-1.3.6/repository/org.jblas/jblas/1.2.3/docs/jblas-javadoc.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/jblas/jblas/1.2.3/jblas-1.2.3-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/jblas/jblas/1.2.3/jblas-1.2.3-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/jblas/jblas/1.2.3/jblas-1.2.3-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/jblas/jblas/1.2.3/jblas-1.2.3-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/jblas/jblas/1.2.3/jblas-1.2.3-sources.jar
-[info] 	[SUCCESSFUL ] org.jblas#jblas;1.2.3!jblas.jar(src) (377ms)
-[debug] 		tried https://repo1.maven.org/maven2/org/jblas/jblas/1.2.3/jblas-1.2.3-javadoc.jar
-[info] downloading https://repo1.maven.org/maven2/org/jblas/jblas/1.2.3/jblas-1.2.3-javadoc.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/jblas/jblas/1.2.3/jblas-1.2.3-javadoc.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/jblas/jblas/1.2.3/jblas-1.2.3-javadoc.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/jblas/jblas/1.2.3/jblas-1.2.3-javadoc.jar
-[info] 	[SUCCESSFUL ] org.jblas#jblas;1.2.3!jblas.jar(doc) (569ms)
-[debug] 		tried /Users/mengchending/.ivy2/local/org.scalanlp/breeze_2.10/0.11.1/docs/breeze_2.10-javadoc.jar
-[debug] 		tried /Users/mengchending/.ivy2/local/org.scalanlp/breeze_2.10/0.11.1/srcs/breeze_2.10-sources.jar
+[debug] 	[NOT REQUIRED] org.jblas#jblas;1.2.3!jblas.jar(src)
+[debug] 	[NOT REQUIRED] org.jblas#jblas;1.2.3!jblas.jar(doc)
+[debug] 	[NOT REQUIRED] org.scalanlp#breeze_2.10;0.11.1!breeze_2.10.jar(doc)
+[debug] 	[NOT REQUIRED] org.scalanlp#breeze_2.10;0.11.1!breeze_2.10.jar(src)
 [debug] 	[NOT REQUIRED] org.scalanlp#breeze_2.10;0.11.1!breeze_2.10.jar
-[debug] 		tried /Users/mengchending/.activator/repository/org.scalanlp/breeze_2.10/0.11.1/docs/breeze_2.10-javadoc.jar
-[debug] 		tried /Users/mengchending/.activator/repository/org.scalanlp/breeze_2.10/0.11.1/srcs/breeze_2.10-sources.jar
-[debug] 		tried /Users/mengchending/Downloads/activator-dist-1.3.6/repository/org.scalanlp/breeze_2.10/0.11.1/docs/breeze_2.10-javadoc.jar
-[debug] 		tried /Users/mengchending/Downloads/activator-dist-1.3.6/repository/org.scalanlp/breeze_2.10/0.11.1/srcs/breeze_2.10-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scalanlp/breeze_2.10/0.11.1/breeze_2.10-0.11.1-javadoc.jar
-[info] downloading https://repo1.maven.org/maven2/org/scalanlp/breeze_2.10/0.11.1/breeze_2.10-0.11.1-javadoc.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalanlp/breeze_2.10/0.11.1/breeze_2.10-0.11.1-javadoc.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalanlp/breeze_2.10/0.11.1/breeze_2.10-0.11.1-javadoc.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scalanlp/breeze_2.10/0.11.1/breeze_2.10-0.11.1-javadoc.jar
-[info] 	[SUCCESSFUL ] org.scalanlp#breeze_2.10;0.11.1!breeze_2.10.jar(doc) (3569ms)
-[debug] 		tried https://repo1.maven.org/maven2/org/scalanlp/breeze_2.10/0.11.1/breeze_2.10-0.11.1-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/scalanlp/breeze_2.10/0.11.1/breeze_2.10-0.11.1-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalanlp/breeze_2.10/0.11.1/breeze_2.10-0.11.1-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalanlp/breeze_2.10/0.11.1/breeze_2.10-0.11.1-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scalanlp/breeze_2.10/0.11.1/breeze_2.10-0.11.1-sources.jar
-[info] 	[SUCCESSFUL ] org.scalanlp#breeze_2.10;0.11.1!breeze_2.10.jar(src) (568ms)
-[debug] 		tried /Users/mengchending/.ivy2/local/org.scalanlp/breeze-macros_2.10/0.11.1/docs/breeze-macros_2.10-javadoc.jar
-[debug] 		tried /Users/mengchending/.ivy2/local/org.scalanlp/breeze-macros_2.10/0.11.1/srcs/breeze-macros_2.10-sources.jar
+[debug] 	[NOT REQUIRED] org.scalanlp#breeze-macros_2.10;0.11.1!breeze-macros_2.10.jar(doc)
+[debug] 	[NOT REQUIRED] org.scalanlp#breeze-macros_2.10;0.11.1!breeze-macros_2.10.jar(src)
 [debug] 	[NOT REQUIRED] org.scalanlp#breeze-macros_2.10;0.11.1!breeze-macros_2.10.jar
-[debug] 		tried /Users/mengchending/.activator/repository/org.scalanlp/breeze-macros_2.10/0.11.1/docs/breeze-macros_2.10-javadoc.jar
-[debug] 		tried /Users/mengchending/.activator/repository/org.scalanlp/breeze-macros_2.10/0.11.1/srcs/breeze-macros_2.10-sources.jar
-[debug] 		tried /Users/mengchending/Downloads/activator-dist-1.3.6/repository/org.scalanlp/breeze-macros_2.10/0.11.1/docs/breeze-macros_2.10-javadoc.jar
-[debug] 		tried /Users/mengchending/Downloads/activator-dist-1.3.6/repository/org.scalanlp/breeze-macros_2.10/0.11.1/srcs/breeze-macros_2.10-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scalanlp/breeze-macros_2.10/0.11.1/breeze-macros_2.10-0.11.1-javadoc.jar
-[info] downloading https://repo1.maven.org/maven2/org/scalanlp/breeze-macros_2.10/0.11.1/breeze-macros_2.10-0.11.1-javadoc.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalanlp/breeze-macros_2.10/0.11.1/breeze-macros_2.10-0.11.1-javadoc.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalanlp/breeze-macros_2.10/0.11.1/breeze-macros_2.10-0.11.1-javadoc.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scalanlp/breeze-macros_2.10/0.11.1/breeze-macros_2.10-0.11.1-javadoc.jar
-[info] 	[SUCCESSFUL ] org.scalanlp#breeze-macros_2.10;0.11.1!breeze-macros_2.10.jar(doc) (537ms)
-[debug] 		tried https://repo1.maven.org/maven2/org/scalanlp/breeze-macros_2.10/0.11.1/breeze-macros_2.10-0.11.1-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/scalanlp/breeze-macros_2.10/0.11.1/breeze-macros_2.10-0.11.1-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalanlp/breeze-macros_2.10/0.11.1/breeze-macros_2.10-0.11.1-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalanlp/breeze-macros_2.10/0.11.1/breeze-macros_2.10-0.11.1-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scalanlp/breeze-macros_2.10/0.11.1/breeze-macros_2.10-0.11.1-sources.jar
-[info] 	[SUCCESSFUL ] org.scalanlp#breeze-macros_2.10;0.11.1!breeze-macros_2.10.jar(src) (298ms)
 [debug] 	[NOT REQUIRED] com.github.fommil.netlib#core;1.1.2!core.jar
 [debug] 	[NOT REQUIRED] com.github.fommil.netlib#core;1.1.2!core.jar(doc)
 [debug] 	[NOT REQUIRED] com.github.fommil.netlib#core;1.1.2!core.jar(src)
@@ -9463,14 +9155,7 @@
 [debug] 	[NOT REQUIRED] org.scala-lang#jline;2.10.4!jline.jar(doc)
 [debug] 	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar(doc)
 [debug] 	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar(src)
-[debug] :: resolution report :: resolve 8223ms :: artifacts dl 22446ms
-[warn] 	::::::::::::::::::::::::::::::::::::::::::::::
-[warn] 	::              FAILED DOWNLOADS            ::
-[warn] 	:: ^ see resolution messages for details  ^ ::
-[warn] 	::::::::::::::::::::::::::::::::::::::::::::::
-[warn] 	:: org.codehaus.jackson#jackson-mapper-asl;1.9.11!jackson-mapper-asl.jar(doc)
-[warn] 	:: org.codehaus.jackson#jackson-core-asl;1.9.11!jackson-core-asl.jar(doc)
-[warn] 	::::::::::::::::::::::::::::::::::::::::::::::
+[debug] :: resolution report :: resolve 7259ms :: artifacts dl 217ms
 [debug] 	report for default#streaming$sources_javadoc_2.10;1.0 compile produced in /Users/mengchending/IdeaProjects/streaming/target/resolution-cache/reports/default-streaming$sources_javadoc_2.10-compile.xml
 [debug] 	report for default#streaming$sources_javadoc_2.10;1.0 runtime produced in /Users/mengchending/IdeaProjects/streaming/target/resolution-cache/reports/default-streaming$sources_javadoc_2.10-runtime.xml
 [debug] 	report for default#streaming$sources_javadoc_2.10;1.0 test produced in /Users/mengchending/IdeaProjects/streaming/target/resolution-cache/reports/default-streaming$sources_javadoc_2.10-test.xml
@@ -9484,4 +9169,4 @@
 [debug] 	report for default#streaming$sources_javadoc_2.10;1.0 docs produced in /Users/mengchending/IdeaProjects/streaming/target/resolution-cache/reports/default-streaming$sources_javadoc_2.10-docs.xml
 [debug] 	report for default#streaming$sources_javadoc_2.10;1.0 pom produced in /Users/mengchending/IdeaProjects/streaming/target/resolution-cache/reports/default-streaming$sources_javadoc_2.10-pom.xml
 [debug] 	report for default#streaming$sources_javadoc_2.10;1.0 scala-tool produced in /Users/mengchending/IdeaProjects/streaming/target/resolution-cache/reports/default-streaming$sources_javadoc_2.10-scala-tool.xml
-[debug] 	resolve done (8223ms resolve - 22446ms download)
+[debug] 	resolve done (7259ms resolve - 217ms download)

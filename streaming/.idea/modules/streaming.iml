@@ -54,7 +54,7 @@
     <orderEntry type="module-library">
       <library name="SBT: aopalliance:aopalliance:1.0:jar">
         <CLASSES>
-          <root url="jar://$USER_HOME$/Downloads/activator-dist-1.3.6/repository/aopalliance/aopalliance/1.0/jars/aopalliance.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/aopalliance/aopalliance/jars/aopalliance-1.0.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES>
@@ -202,7 +202,7 @@
     <orderEntry type="module-library">
       <library name="SBT: com.google.code.findbugs:jsr305:1.3.9:jar">
         <CLASSES>
-          <root url="jar://$USER_HOME$/Downloads/activator-dist-1.3.6/repository/com.google.code.findbugs/jsr305/1.3.9/jars/jsr305.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/com.google.code.findbugs/jsr305/jars/jsr305-1.3.9.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -517,7 +517,7 @@
     <orderEntry type="module-library">
       <library name="SBT: commons-collections:commons-collections:3.2.1:jar">
         <CLASSES>
-          <root url="jar://$USER_HOME$/Downloads/activator-dist-1.3.6/repository/commons-collections/commons-collections/3.2.1/jars/commons-collections.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/commons-collections/commons-collections/jars/commons-collections-3.2.1.jar!/" />
         </CLASSES>
         <JAVADOC>
           <root url="jar://$USER_HOME$/.ivy2/cache/commons-collections/commons-collections/docs/commons-collections-3.2.1-javadoc.jar!/" />
@@ -563,7 +563,7 @@
     <orderEntry type="module-library">
       <library name="SBT: commons-io:commons-io:2.4:jar">
         <CLASSES>
-          <root url="jar://$USER_HOME$/Downloads/activator-dist-1.3.6/repository/commons-io/commons-io/2.4/jars/commons-io.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/commons-io/commons-io/jars/commons-io-2.4.jar!/" />
         </CLASSES>
         <JAVADOC>
           <root url="jar://$USER_HOME$/.ivy2/cache/commons-io/commons-io/docs/commons-io-2.4-javadoc.jar!/" />
@@ -667,7 +667,7 @@
     <orderEntry type="module-library">
       <library name="SBT: io.netty:netty:3.8.0.Final:jar">
         <CLASSES>
-          <root url="jar://$USER_HOME$/Downloads/activator-dist-1.3.6/repository/io.netty/netty/3.8.0.Final/bundles/netty.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/io.netty/netty/bundles/netty-3.8.0.Final.jar!/" />
         </CLASSES>
         <JAVADOC>
           <root url="jar://$USER_HOME$/.ivy2/cache/io.netty/netty/docs/netty-3.8.0.Final-javadoc.jar!/" />
@@ -704,7 +704,7 @@
     <orderEntry type="module-library">
       <library name="SBT: javax.inject:javax.inject:1:jar">
         <CLASSES>
-          <root url="jar://$USER_HOME$/Downloads/activator-dist-1.3.6/repository/javax.inject/javax.inject/1/jars/javax.inject.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/javax.inject/javax.inject/jars/javax.inject-1.jar!/" />
         </CLASSES>
         <JAVADOC>
           <root url="jar://$USER_HOME$/.ivy2/cache/javax.inject/javax.inject/docs/javax.inject-1-javadoc.jar!/" />
@@ -1387,7 +1387,7 @@
     <orderEntry type="module-library">
       <library name="SBT: org.objenesis:objenesis:1.2:jar">
         <CLASSES>
-          <root url="jar://$USER_HOME$/Downloads/activator-dist-1.3.6/repository/org.objenesis/objenesis/1.2/jars/objenesis.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.objenesis/objenesis/jars/objenesis-1.2.jar!/" />
         </CLASSES>
         <JAVADOC>
           <root url="jar://$USER_HOME$/.ivy2/cache/org.objenesis/objenesis/docs/objenesis-1.2-javadoc.jar!/" />
@@ -1446,7 +1446,7 @@
     <orderEntry type="module-library" scope="TEST">
       <library name="SBT: org.scala-lang:scala-library:2.11.2:jar">
         <CLASSES>
-          <root url="jar://$USER_HOME$/Downloads/activator-dist-1.3.6/repository/org.scala-lang/scala-library/2.11.2/jars/scala-library.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.2.jar!/" />
         </CLASSES>
         <JAVADOC>
           <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/docs/scala-library-2.11.2-javadoc.jar!/" />
@@ -1472,7 +1472,7 @@
     <orderEntry type="module-library" scope="TEST">
       <library name="SBT: org.scala-lang:scala-reflect:2.11.2:jar">
         <CLASSES>
-          <root url="jar://$USER_HOME$/Downloads/activator-dist-1.3.6/repository/org.scala-lang/scala-reflect/2.11.2/jars/scala-reflect.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.2.jar!/" />
         </CLASSES>
         <JAVADOC>
           <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-reflect/docs/scala-reflect-2.11.2-javadoc.jar!/" />
@@ -1550,7 +1550,7 @@
     <orderEntry type="module-library" scope="TEST">
       <library name="SBT: org.scalatest:scalatest_2.11:2.2.4:jar">
         <CLASSES>
-          <root url="jar://$USER_HOME$/Downloads/activator-dist-1.3.6/repository/org.scalatest/scalatest_2.11/2.2.4/bundles/scalatest_2.11.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.scalatest/scalatest_2.11/bundles/scalatest_2.11-2.2.4.jar!/" />
         </CLASSES>
         <JAVADOC>
           <root url="jar://$USER_HOME$/.ivy2/cache/org.scalatest/scalatest_2.11/docs/scalatest_2.11-2.2.4-javadoc.jar!/" />
@@ -1589,7 +1589,7 @@
     <orderEntry type="module-library">
       <library name="SBT: org.slf4j:slf4j-api:1.6.4:jar">
         <CLASSES>
-          <root url="jar://$USER_HOME$/Downloads/activator-dist-1.3.6/repository/org.slf4j/slf4j-api/1.6.4/jars/slf4j-api.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.6.4.jar!/" />
         </CLASSES>
         <JAVADOC>
           <root url="jar://$USER_HOME$/.ivy2/cache/org.slf4j/slf4j-api/docs/slf4j-api-1.6.4-javadoc.jar!/" />
@@ -1795,7 +1795,7 @@
     <orderEntry type="module-library">
       <library name="SBT: org.uncommons.maths:uncommons-maths:1.2.2a:jar">
         <CLASSES>
-          <root url="jar://$USER_HOME$/Downloads/activator-dist-1.3.6/repository/org.uncommons.maths/uncommons-maths/1.2.2a/jars/uncommons-maths.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.uncommons.maths/uncommons-maths/jars/uncommons-maths-1.2.2a.jar!/" />
         </CLASSES>
         <JAVADOC>
           <root url="jar://$USER_HOME$/.ivy2/cache/org.uncommons.maths/uncommons-maths/docs/uncommons-maths-1.2.2a-javadoc.jar!/" />

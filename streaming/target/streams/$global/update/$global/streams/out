@@ -7,7 +7,7 @@
 [debug] == resolving dependencies for default#streaming_2.10;1.0 [compile]
 [debug] == resolving dependencies default#streaming_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.10.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@75e7ec08
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@189b60f0
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.4
 [debug] 	found org.scala-lang#scala-library;2.10.4 in sbt-chain
 [debug] 	[2.10.4] org.scala-lang#scala-library;2.10.4
@@ -59,8 +59,50 @@
 [debug] == resolving dependencies com.esotericsoftware.kryo#kryo;2.21->org.objenesis#objenesis;1.2 [compile->master(compile)]
 [info] Resolving org.objenesis#objenesis;1.2 ...
 [debug] sbt-chain: Checking cache for: dependency: org.objenesis#objenesis;1.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] sbt-chain: module revision found in cache: org.objenesis#objenesis;1.2
-[debug] 	found org.objenesis#objenesis;1.2 in sbt-chain
+[info] Resolving org.objenesis#objenesis;1.2 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.objenesis#objenesis;1.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] 		tried /Users/mengchending/.ivy2/local/org.objenesis/objenesis/1.2/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.objenesis#objenesis;1.2
+[debug] 		tried /Users/mengchending/.activator/repository/org.objenesis/objenesis/1.2/ivys/ivy.xml
+[debug] 	activator-launcher-local: no ivy file found for org.objenesis#objenesis;1.2
+[debug] 		tried /Users/mengchending/Downloads/activator-dist-1.3.6/repository/org.objenesis/objenesis/1.2/ivys/ivy.xml
+[debug] 	activator-local: no ivy file found for org.objenesis#objenesis;1.2
+[debug] 		tried https://repo1.maven.org/maven2/org/objenesis/objenesis/1.2/objenesis-1.2.pom
+[debug] 	public: found md file for org.objenesis#objenesis;1.2
+[debug] 		=> https://repo1.maven.org/maven2/org/objenesis/objenesis/1.2/objenesis-1.2.pom (1.2)
+[debug] downloading https://repo1.maven.org/maven2/org/objenesis/objenesis/1.2/objenesis-1.2.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/objenesis/objenesis/1.2/objenesis-1.2.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/objenesis/objenesis/1.2/objenesis-1.2.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/objenesis/objenesis/1.2/objenesis-1.2.pom
+[debug] 	[SUCCESSFUL ] org.objenesis#objenesis;1.2!objenesis.pom(pom.original) (904ms)
+[info] Resolving org.objenesis#objenesis-parent;1.2 ...
+[debug] sbt-chain: Checking cache for: dependency: org.objenesis#objenesis-parent;1.2 {}
+[info] Resolving org.objenesis#objenesis-parent;1.2 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.objenesis#objenesis-parent;1.2 {}
+[debug] 		tried /Users/mengchending/.ivy2/local/org.objenesis/objenesis-parent/1.2/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.objenesis#objenesis-parent;1.2
+[debug] 		tried /Users/mengchending/.activator/repository/org.objenesis/objenesis-parent/1.2/ivys/ivy.xml
+[debug] 	activator-launcher-local: no ivy file found for org.objenesis#objenesis-parent;1.2
+[debug] 		tried /Users/mengchending/Downloads/activator-dist-1.3.6/repository/org.objenesis/objenesis-parent/1.2/ivys/ivy.xml
+[debug] 	activator-local: no ivy file found for org.objenesis#objenesis-parent;1.2
+[debug] 		tried https://repo1.maven.org/maven2/org/objenesis/objenesis-parent/1.2/objenesis-parent-1.2.pom
+[debug] 	public: found md file for org.objenesis#objenesis-parent;1.2
+[debug] 		=> https://repo1.maven.org/maven2/org/objenesis/objenesis-parent/1.2/objenesis-parent-1.2.pom (1.2)
+[debug] downloading https://repo1.maven.org/maven2/org/objenesis/objenesis-parent/1.2/objenesis-parent-1.2.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/objenesis/objenesis-parent/1.2/objenesis-parent-1.2.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/objenesis/objenesis-parent/1.2/objenesis-parent-1.2.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/objenesis/objenesis-parent/1.2/objenesis-parent-1.2.pom
+[debug] 	[SUCCESSFUL ] org.objenesis#objenesis-parent;1.2!objenesis-parent.pom(pom.original) (209ms)
+[debug] 		tried /Users/mengchending/.ivy2/local/org.objenesis/objenesis-parent/1.2/jars/objenesis-parent.jar
+[debug] 		tried /Users/mengchending/.activator/repository/org.objenesis/objenesis-parent/1.2/jars/objenesis-parent.jar
+[debug] 		tried /Users/mengchending/Downloads/activator-dist-1.3.6/repository/org.objenesis/objenesis-parent/1.2/jars/objenesis-parent.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/objenesis/objenesis-parent/1.2/objenesis-parent-1.2.jar
+[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/objenesis/objenesis-parent/1.2/objenesis-parent-1.2.jar
+[debug] 		tried http://repo.typesafe.com/typesafe/releases/org/objenesis/objenesis-parent/1.2/objenesis-parent-1.2.jar
+[debug] CLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/releases/org/objenesis/objenesis-parent/1.2/objenesis-parent-1.2.jar
+[debug] 		tried http://repo.typesafe.com/typesafe/ivy-releases/org.objenesis/objenesis-parent/1.2/jars/objenesis-parent.jar
+[debug] CLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/org.objenesis/objenesis-parent/1.2/jars/objenesis-parent.jar
+[debug] 	found org.objenesis#objenesis;1.2 in public
 [debug] == resolving dependencies com.esotericsoftware.kryo#kryo;2.21->org.objenesis#objenesis;1.2 [compile->compile(*)]
 [debug] == resolving dependencies com.twitter#chill_2.10;0.5.0->com.twitter#chill-java;0.5.0 [compile->runtime(*)]
 [debug] == resolving dependencies com.twitter#chill_2.10;0.5.0->com.twitter#chill-java;0.5.0 [compile->compile]
@@ -144,8 +186,23 @@
 [debug] excluding dependency: com.jcraft#jsch;0.1.42 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile
 [info] Resolving com.google.code.findbugs#jsr305;1.3.9 ...
 [debug] sbt-chain: Checking cache for: dependency: com.google.code.findbugs#jsr305;1.3.9 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] sbt-chain: module revision found in cache: com.google.code.findbugs#jsr305;1.3.9
-[debug] 	found com.google.code.findbugs#jsr305;1.3.9 in sbt-chain
+[info] Resolving com.google.code.findbugs#jsr305;1.3.9 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: com.google.code.findbugs#jsr305;1.3.9 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] 		tried /Users/mengchending/.ivy2/local/com.google.code.findbugs/jsr305/1.3.9/ivys/ivy.xml
+[debug] 	local: no ivy file found for com.google.code.findbugs#jsr305;1.3.9
+[debug] 		tried /Users/mengchending/.activator/repository/com.google.code.findbugs/jsr305/1.3.9/ivys/ivy.xml
+[debug] 	activator-launcher-local: no ivy file found for com.google.code.findbugs#jsr305;1.3.9
+[debug] 		tried /Users/mengchending/Downloads/activator-dist-1.3.6/repository/com.google.code.findbugs/jsr305/1.3.9/ivys/ivy.xml
+[debug] 	activator-local: no ivy file found for com.google.code.findbugs#jsr305;1.3.9
+[debug] 		tried https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.pom
+[debug] 	public: found md file for com.google.code.findbugs#jsr305;1.3.9
+[debug] 		=> https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.pom (1.3.9)
+[debug] downloading https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.pom
+[debug] 	[SUCCESSFUL ] com.google.code.findbugs#jsr305;1.3.9!jsr305.pom(pom.original) (209ms)
+[debug] 	found com.google.code.findbugs#jsr305;1.3.9 in public
 [debug] == resolving dependencies com.google.guava#guava;11.0.2->com.google.code.findbugs#jsr305;1.3.9 [compile->compile(*)]
 [debug] == resolving dependencies com.google.guava#guava;11.0.2->com.google.code.findbugs#jsr305;1.3.9 [compile->runtime(*)]
 [debug] == resolving dependencies com.google.guava#guava;11.0.2->com.google.code.findbugs#jsr305;1.3.9 [compile->compile]
@@ -316,8 +373,26 @@
 [debug] excluding dependency: com.jcraft#jsch;0.1.42 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile
 [info] Resolving commons-collections#commons-collections;3.2.1 ...
 [debug] sbt-chain: Checking cache for: dependency: commons-collections#commons-collections;3.2.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] sbt-chain: module revision found in cache: commons-collections#commons-collections;3.2.1
-[debug] 	found commons-collections#commons-collections;3.2.1 in sbt-chain
+[info] Resolving commons-collections#commons-collections;3.2.1 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: commons-collections#commons-collections;3.2.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] 		tried /Users/mengchending/.ivy2/local/commons-collections/commons-collections/3.2.1/ivys/ivy.xml
+[debug] 	local: no ivy file found for commons-collections#commons-collections;3.2.1
+[debug] 		tried /Users/mengchending/.activator/repository/commons-collections/commons-collections/3.2.1/ivys/ivy.xml
+[debug] 	activator-launcher-local: no ivy file found for commons-collections#commons-collections;3.2.1
+[debug] 		tried /Users/mengchending/Downloads/activator-dist-1.3.6/repository/commons-collections/commons-collections/3.2.1/ivys/ivy.xml
+[debug] 	activator-local: no ivy file found for commons-collections#commons-collections;3.2.1
+[debug] 		tried https://repo1.maven.org/maven2/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.pom
+[debug] 	public: found md file for commons-collections#commons-collections;3.2.1
+[debug] 		=> https://repo1.maven.org/maven2/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.pom (3.2.1)
+[debug] downloading https://repo1.maven.org/maven2/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.pom
+[debug] 	[SUCCESSFUL ] commons-collections#commons-collections;3.2.1!commons-collections.pom(pom.original) (204ms)
+[info] Resolving org.apache.commons#commons-parent;9 ...
+[debug] sbt-chain: Checking cache for: dependency: org.apache.commons#commons-parent;9 {}
+[debug] sbt-chain: module revision found in cache: org.apache.commons#commons-parent;9
+[debug] 	found commons-collections#commons-collections;3.2.1 in public
 [debug] == resolving dependencies commons-configuration#commons-configuration;1.6->commons-collections#commons-collections;3.2.1 [compile->compile(*)]
 [debug] == resolving dependencies commons-configuration#commons-configuration;1.6->commons-lang#commons-lang;2.4 [compile->master(compile)]
 [debug] == resolving dependencies commons-configuration#commons-configuration;1.6->commons-lang#commons-lang;2.5 [compile->master(compile)]
@@ -859,8 +934,23 @@
 [debug] excluding dependency: io.netty#netty;3.6.2.Final {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile
 [info] Resolving javax.inject#javax.inject;1 ...
 [debug] sbt-chain: Checking cache for: dependency: javax.inject#javax.inject;1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] sbt-chain: module revision found in cache: javax.inject#javax.inject;1
-[debug] 	found javax.inject#javax.inject;1 in sbt-chain
+[info] Resolving javax.inject#javax.inject;1 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: javax.inject#javax.inject;1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] 		tried /Users/mengchending/.ivy2/local/javax.inject/javax.inject/1/ivys/ivy.xml
+[debug] 	local: no ivy file found for javax.inject#javax.inject;1
+[debug] 		tried /Users/mengchending/.activator/repository/javax.inject/javax.inject/1/ivys/ivy.xml
+[debug] 	activator-launcher-local: no ivy file found for javax.inject#javax.inject;1
+[debug] 		tried /Users/mengchending/Downloads/activator-dist-1.3.6/repository/javax.inject/javax.inject/1/ivys/ivy.xml
+[debug] 	activator-local: no ivy file found for javax.inject#javax.inject;1
+[debug] 		tried https://repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.pom
+[debug] 	public: found md file for javax.inject#javax.inject;1
+[debug] 		=> https://repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.pom (1)
+[debug] downloading https://repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.pom
+[debug] 	[SUCCESSFUL ] javax.inject#javax.inject;1!javax.inject.pom(pom.original) (206ms)
+[debug] 	found javax.inject#javax.inject;1 in public
 [debug] == resolving dependencies com.google.inject#guice;3.0->javax.inject#javax.inject;1 [compile->compile(*)]
 [debug] == resolving dependencies com.google.inject#guice;3.0->aopalliance#aopalliance;1.0 [compile->master(compile)]
 [debug] excluding dependency: org.apache.hadoop#hadoop-annotations;2.2.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile
@@ -880,8 +970,23 @@
 [debug] excluding dependency: io.netty#netty;3.6.2.Final {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile
 [info] Resolving aopalliance#aopalliance;1.0 ...
 [debug] sbt-chain: Checking cache for: dependency: aopalliance#aopalliance;1.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] sbt-chain: module revision found in cache: aopalliance#aopalliance;1.0
-[debug] 	found aopalliance#aopalliance;1.0 in sbt-chain
+[info] Resolving aopalliance#aopalliance;1.0 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: aopalliance#aopalliance;1.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] 		tried /Users/mengchending/.ivy2/local/aopalliance/aopalliance/1.0/ivys/ivy.xml
+[debug] 	local: no ivy file found for aopalliance#aopalliance;1.0
+[debug] 		tried /Users/mengchending/.activator/repository/aopalliance/aopalliance/1.0/ivys/ivy.xml
+[debug] 	activator-launcher-local: no ivy file found for aopalliance#aopalliance;1.0
+[debug] 		tried /Users/mengchending/Downloads/activator-dist-1.3.6/repository/aopalliance/aopalliance/1.0/ivys/ivy.xml
+[debug] 	activator-local: no ivy file found for aopalliance#aopalliance;1.0
+[debug] 		tried https://repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.pom
+[debug] 	public: found md file for aopalliance#aopalliance;1.0
+[debug] 		=> https://repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.pom (1.0)
+[debug] downloading https://repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.pom
+[debug] 	[SUCCESSFUL ] aopalliance#aopalliance;1.0!aopalliance.pom(pom.original) (196ms)
+[debug] 	found aopalliance#aopalliance;1.0 in public
 [debug] == resolving dependencies com.google.inject#guice;3.0->aopalliance#aopalliance;1.0 [compile->compile(*)]
 [debug] == resolving dependencies com.google.inject#guice;3.0->org.sonatype.sisu.inject#cglib;2.2.1-v20090111 [compile->master(compile)]
 [debug] excluding dependency: org.apache.hadoop#hadoop-annotations;2.2.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile
@@ -2364,8 +2469,50 @@
 [debug] == resolving dependencies org.apache.curator#curator-client;2.4.0->org.slf4j#slf4j-api;1.6.4 [compile->master(compile)]
 [info] Resolving org.slf4j#slf4j-api;1.6.4 ...
 [debug] sbt-chain: Checking cache for: dependency: org.slf4j#slf4j-api;1.6.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] sbt-chain: module revision found in cache: org.slf4j#slf4j-api;1.6.4
-[debug] 	found org.slf4j#slf4j-api;1.6.4 in sbt-chain
+[info] Resolving org.slf4j#slf4j-api;1.6.4 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.slf4j#slf4j-api;1.6.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] 		tried /Users/mengchending/.ivy2/local/org.slf4j/slf4j-api/1.6.4/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.slf4j#slf4j-api;1.6.4
+[debug] 		tried /Users/mengchending/.activator/repository/org.slf4j/slf4j-api/1.6.4/ivys/ivy.xml
+[debug] 	activator-launcher-local: no ivy file found for org.slf4j#slf4j-api;1.6.4
+[debug] 		tried /Users/mengchending/Downloads/activator-dist-1.3.6/repository/org.slf4j/slf4j-api/1.6.4/ivys/ivy.xml
+[debug] 	activator-local: no ivy file found for org.slf4j#slf4j-api;1.6.4
+[debug] 		tried https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.6.4/slf4j-api-1.6.4.pom
+[debug] 	public: found md file for org.slf4j#slf4j-api;1.6.4
+[debug] 		=> https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.6.4/slf4j-api-1.6.4.pom (1.6.4)
+[debug] downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.6.4/slf4j-api-1.6.4.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.6.4/slf4j-api-1.6.4.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.6.4/slf4j-api-1.6.4.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.6.4/slf4j-api-1.6.4.pom
+[debug] 	[SUCCESSFUL ] org.slf4j#slf4j-api;1.6.4!slf4j-api.pom(pom.original) (207ms)
+[info] Resolving org.slf4j#slf4j-parent;1.6.4 ...
+[debug] sbt-chain: Checking cache for: dependency: org.slf4j#slf4j-parent;1.6.4 {}
+[info] Resolving org.slf4j#slf4j-parent;1.6.4 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.slf4j#slf4j-parent;1.6.4 {}
+[debug] 		tried /Users/mengchending/.ivy2/local/org.slf4j/slf4j-parent/1.6.4/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.slf4j#slf4j-parent;1.6.4
+[debug] 		tried /Users/mengchending/.activator/repository/org.slf4j/slf4j-parent/1.6.4/ivys/ivy.xml
+[debug] 	activator-launcher-local: no ivy file found for org.slf4j#slf4j-parent;1.6.4
+[debug] 		tried /Users/mengchending/Downloads/activator-dist-1.3.6/repository/org.slf4j/slf4j-parent/1.6.4/ivys/ivy.xml
+[debug] 	activator-local: no ivy file found for org.slf4j#slf4j-parent;1.6.4
+[debug] 		tried https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.6.4/slf4j-parent-1.6.4.pom
+[debug] 	public: found md file for org.slf4j#slf4j-parent;1.6.4
+[debug] 		=> https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.6.4/slf4j-parent-1.6.4.pom (1.6.4)
+[debug] downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.6.4/slf4j-parent-1.6.4.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.6.4/slf4j-parent-1.6.4.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.6.4/slf4j-parent-1.6.4.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.6.4/slf4j-parent-1.6.4.pom
+[debug] 	[SUCCESSFUL ] org.slf4j#slf4j-parent;1.6.4!slf4j-parent.pom(pom.original) (225ms)
+[debug] 		tried /Users/mengchending/.ivy2/local/org.slf4j/slf4j-parent/1.6.4/jars/slf4j-parent.jar
+[debug] 		tried /Users/mengchending/.activator/repository/org.slf4j/slf4j-parent/1.6.4/jars/slf4j-parent.jar
+[debug] 		tried /Users/mengchending/Downloads/activator-dist-1.3.6/repository/org.slf4j/slf4j-parent/1.6.4/jars/slf4j-parent.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.6.4/slf4j-parent-1.6.4.jar
+[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.6.4/slf4j-parent-1.6.4.jar
+[debug] 		tried http://repo.typesafe.com/typesafe/releases/org/slf4j/slf4j-parent/1.6.4/slf4j-parent-1.6.4.jar
+[debug] CLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/releases/org/slf4j/slf4j-parent/1.6.4/slf4j-parent-1.6.4.jar
+[debug] 		tried http://repo.typesafe.com/typesafe/ivy-releases/org.slf4j/slf4j-parent/1.6.4/jars/slf4j-parent.jar
+[debug] CLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/org.slf4j/slf4j-parent/1.6.4/jars/slf4j-parent.jar
+[debug] 	found org.slf4j#slf4j-api;1.6.4 in public
 [debug] == resolving dependencies org.apache.curator#curator-client;2.4.0->org.slf4j#slf4j-api;1.6.4 [compile->compile(*)]
 [debug] == resolving dependencies org.apache.curator#curator-client;2.4.0->org.slf4j#slf4j-api;1.6.4 [compile->runtime(*)]
 [debug] == resolving dependencies org.apache.curator#curator-client;2.4.0->org.slf4j#slf4j-api;1.6.4 [compile->compile]
@@ -2616,8 +2763,26 @@
 [debug] == resolving dependencies org.spark-project.akka#akka-remote_2.10;2.3.4-spark->io.netty#netty;3.8.0.Final [compile->master(compile)]
 [info] Resolving io.netty#netty;3.8.0.Final ...
 [debug] sbt-chain: Checking cache for: dependency: io.netty#netty;3.8.0.Final {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] sbt-chain: module revision found in cache: io.netty#netty;3.8.0.Final
-[debug] 	found io.netty#netty;3.8.0.Final in sbt-chain
+[info] Resolving io.netty#netty;3.8.0.Final ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: io.netty#netty;3.8.0.Final {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] 		tried /Users/mengchending/.ivy2/local/io.netty/netty/3.8.0.Final/ivys/ivy.xml
+[debug] 	local: no ivy file found for io.netty#netty;3.8.0.Final
+[debug] 		tried /Users/mengchending/.activator/repository/io.netty/netty/3.8.0.Final/ivys/ivy.xml
+[debug] 	activator-launcher-local: no ivy file found for io.netty#netty;3.8.0.Final
+[debug] 		tried /Users/mengchending/Downloads/activator-dist-1.3.6/repository/io.netty/netty/3.8.0.Final/ivys/ivy.xml
+[debug] 	activator-local: no ivy file found for io.netty#netty;3.8.0.Final
+[debug] 		tried https://repo1.maven.org/maven2/io/netty/netty/3.8.0.Final/netty-3.8.0.Final.pom
+[debug] 	public: found md file for io.netty#netty;3.8.0.Final
+[debug] 		=> https://repo1.maven.org/maven2/io/netty/netty/3.8.0.Final/netty-3.8.0.Final.pom (3.8.0.Final)
+[debug] downloading https://repo1.maven.org/maven2/io/netty/netty/3.8.0.Final/netty-3.8.0.Final.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/io/netty/netty/3.8.0.Final/netty-3.8.0.Final.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/io/netty/netty/3.8.0.Final/netty-3.8.0.Final.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/io/netty/netty/3.8.0.Final/netty-3.8.0.Final.pom
+[debug] 	[SUCCESSFUL ] io.netty#netty;3.8.0.Final!netty.pom(pom.original) (300ms)
+[info] Resolving org.sonatype.oss#oss-parent;7 ...
+[debug] sbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;7 {}
+[debug] sbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;7
+[debug] 	found io.netty#netty;3.8.0.Final in public
 [debug] == resolving dependencies org.spark-project.akka#akka-remote_2.10;2.3.4-spark->io.netty#netty;3.8.0.Final [compile->compile(*)]
 [debug] == resolving dependencies org.spark-project.akka#akka-remote_2.10;2.3.4-spark->org.spark-project.protobuf#protobuf-java;2.5.0-spark [compile->master(compile)]
 [info] Resolving org.spark-project.protobuf#protobuf-java;2.5.0-spark ...
@@ -2628,8 +2793,23 @@
 [debug] == resolving dependencies org.spark-project.akka#akka-remote_2.10;2.3.4-spark->org.uncommons.maths#uncommons-maths;1.2.2a [compile->master(compile)]
 [info] Resolving org.uncommons.maths#uncommons-maths;1.2.2a ...
 [debug] sbt-chain: Checking cache for: dependency: org.uncommons.maths#uncommons-maths;1.2.2a {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] sbt-chain: module revision found in cache: org.uncommons.maths#uncommons-maths;1.2.2a
-[debug] 	found org.uncommons.maths#uncommons-maths;1.2.2a in sbt-chain
+[info] Resolving org.uncommons.maths#uncommons-maths;1.2.2a ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.uncommons.maths#uncommons-maths;1.2.2a {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] 		tried /Users/mengchending/.ivy2/local/org.uncommons.maths/uncommons-maths/1.2.2a/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.uncommons.maths#uncommons-maths;1.2.2a
+[debug] 		tried /Users/mengchending/.activator/repository/org.uncommons.maths/uncommons-maths/1.2.2a/ivys/ivy.xml
+[debug] 	activator-launcher-local: no ivy file found for org.uncommons.maths#uncommons-maths;1.2.2a
+[debug] 		tried /Users/mengchending/Downloads/activator-dist-1.3.6/repository/org.uncommons.maths/uncommons-maths/1.2.2a/ivys/ivy.xml
+[debug] 	activator-local: no ivy file found for org.uncommons.maths#uncommons-maths;1.2.2a
+[debug] 		tried https://repo1.maven.org/maven2/org/uncommons/maths/uncommons-maths/1.2.2a/uncommons-maths-1.2.2a.pom
+[debug] 	public: found md file for org.uncommons.maths#uncommons-maths;1.2.2a
+[debug] 		=> https://repo1.maven.org/maven2/org/uncommons/maths/uncommons-maths/1.2.2a/uncommons-maths-1.2.2a.pom (1.2.2a)
+[debug] downloading https://repo1.maven.org/maven2/org/uncommons/maths/uncommons-maths/1.2.2a/uncommons-maths-1.2.2a.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/uncommons/maths/uncommons-maths/1.2.2a/uncommons-maths-1.2.2a.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/uncommons/maths/uncommons-maths/1.2.2a/uncommons-maths-1.2.2a.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/uncommons/maths/uncommons-maths/1.2.2a/uncommons-maths-1.2.2a.pom
+[debug] 	[SUCCESSFUL ] org.uncommons.maths#uncommons-maths;1.2.2a!uncommons-maths.pom(pom.original) (214ms)
+[debug] 	found org.uncommons.maths#uncommons-maths;1.2.2a in public
 [debug] == resolving dependencies org.spark-project.akka#akka-remote_2.10;2.3.4-spark->org.uncommons.maths#uncommons-maths;1.2.2a [compile->compile(*)]
 [debug] excluding dependency: jfree#jcommon;1.0.12 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile
 [debug] excluding dependency: jfree#jfreechart;1.0.8a {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile
@@ -3028,8 +3208,53 @@
 [debug] excluding dependency: org.apache.hadoop#hadoop-client;1.0.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile
 [info] Resolving commons-io#commons-io;2.4 ...
 [debug] sbt-chain: Checking cache for: dependency: commons-io#commons-io;2.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] sbt-chain: module revision found in cache: commons-io#commons-io;2.4
-[debug] 	found commons-io#commons-io;2.4 in sbt-chain
+[info] Resolving commons-io#commons-io;2.4 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: commons-io#commons-io;2.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] 		tried /Users/mengchending/.ivy2/local/commons-io/commons-io/2.4/ivys/ivy.xml
+[debug] 	local: no ivy file found for commons-io#commons-io;2.4
+[debug] 		tried /Users/mengchending/.activator/repository/commons-io/commons-io/2.4/ivys/ivy.xml
+[debug] 	activator-launcher-local: no ivy file found for commons-io#commons-io;2.4
+[debug] 		tried /Users/mengchending/Downloads/activator-dist-1.3.6/repository/commons-io/commons-io/2.4/ivys/ivy.xml
+[debug] 	activator-local: no ivy file found for commons-io#commons-io;2.4
+[debug] 		tried https://repo1.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4.pom
+[debug] 	public: found md file for commons-io#commons-io;2.4
+[debug] 		=> https://repo1.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4.pom (2.4)
+[debug] downloading https://repo1.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4.pom
+[debug] 	[SUCCESSFUL ] commons-io#commons-io;2.4!commons-io.pom(pom.original) (209ms)
+[info] Resolving org.apache.commons#commons-parent;25 ...
+[debug] sbt-chain: Checking cache for: dependency: org.apache.commons#commons-parent;25 {}
+[info] Resolving org.apache.commons#commons-parent;25 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.apache.commons#commons-parent;25 {}
+[debug] 		tried /Users/mengchending/.ivy2/local/org.apache.commons/commons-parent/25/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.apache.commons#commons-parent;25
+[debug] 		tried /Users/mengchending/.activator/repository/org.apache.commons/commons-parent/25/ivys/ivy.xml
+[debug] 	activator-launcher-local: no ivy file found for org.apache.commons#commons-parent;25
+[debug] 		tried /Users/mengchending/Downloads/activator-dist-1.3.6/repository/org.apache.commons/commons-parent/25/ivys/ivy.xml
+[debug] 	activator-local: no ivy file found for org.apache.commons#commons-parent;25
+[debug] 		tried https://repo1.maven.org/maven2/org/apache/commons/commons-parent/25/commons-parent-25.pom
+[debug] 	public: found md file for org.apache.commons#commons-parent;25
+[debug] 		=> https://repo1.maven.org/maven2/org/apache/commons/commons-parent/25/commons-parent-25.pom (25)
+[debug] downloading https://repo1.maven.org/maven2/org/apache/commons/commons-parent/25/commons-parent-25.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-parent/25/commons-parent-25.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-parent/25/commons-parent-25.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/commons/commons-parent/25/commons-parent-25.pom
+[debug] 	[SUCCESSFUL ] org.apache.commons#commons-parent;25!commons-parent.pom(pom.original) (260ms)
+[info] Resolving org.apache#apache;9 ...
+[debug] sbt-chain: Checking cache for: dependency: org.apache#apache;9 {}
+[debug] sbt-chain: module revision found in cache: org.apache#apache;9
+[debug] 		tried /Users/mengchending/.ivy2/local/org.apache.commons/commons-parent/25/jars/commons-parent.jar
+[debug] 		tried /Users/mengchending/.activator/repository/org.apache.commons/commons-parent/25/jars/commons-parent.jar
+[debug] 		tried /Users/mengchending/Downloads/activator-dist-1.3.6/repository/org.apache.commons/commons-parent/25/jars/commons-parent.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/apache/commons/commons-parent/25/commons-parent-25.jar
+[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/apache/commons/commons-parent/25/commons-parent-25.jar
+[debug] 		tried http://repo.typesafe.com/typesafe/releases/org/apache/commons/commons-parent/25/commons-parent-25.jar
+[debug] CLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/releases/org/apache/commons/commons-parent/25/commons-parent-25.jar
+[debug] 		tried http://repo.typesafe.com/typesafe/ivy-releases/org.apache.commons/commons-parent/25/jars/commons-parent.jar
+[debug] CLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/org.apache.commons/commons-parent/25/jars/commons-parent.jar
+[debug] 	found commons-io#commons-io;2.4 in public
 [debug] == resolving dependencies org.tachyonproject#tachyon;0.5.0->commons-io#commons-io;2.4 [compile->compile(*)]
 [debug] == resolving dependencies org.tachyonproject#tachyon;0.5.0->commons-io#commons-io;2.4 [compile->runtime(*)]
 [debug] == resolving dependencies org.tachyonproject#tachyon;0.5.0->commons-io#commons-io;2.4 [compile->compile]
@@ -3204,30 +3429,8 @@
 [debug] == resolving dependencies default#streaming_2.10;1.0->org.apache.spark#spark-mllib_2.10;1.3.0 [compile->default(compile)]
 [info] Resolving org.apache.spark#spark-mllib_2.10;1.3.0 ...
 [debug] sbt-chain: Checking cache for: dependency: org.apache.spark#spark-mllib_2.10;1.3.0 {compile=[default(compile)]}
-[info] Resolving org.apache.spark#spark-mllib_2.10;1.3.0 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.apache.spark#spark-mllib_2.10;1.3.0 {compile=[default(compile)]}
-[debug] 		tried /Users/mengchending/.ivy2/local/org.apache.spark/spark-mllib_2.10/1.3.0/ivys/ivy.xml
-[debug] 	local: no ivy file found for org.apache.spark#spark-mllib_2.10;1.3.0
-[debug] 		tried /Users/mengchending/.activator/repository/org.apache.spark/spark-mllib_2.10/1.3.0/ivys/ivy.xml
-[debug] 	activator-launcher-local: no ivy file found for org.apache.spark#spark-mllib_2.10;1.3.0
-[debug] 		tried /Users/mengchending/Downloads/activator-dist-1.3.6/repository/org.apache.spark/spark-mllib_2.10/1.3.0/ivys/ivy.xml
-[debug] 	activator-local: no ivy file found for org.apache.spark#spark-mllib_2.10;1.3.0
-[debug] 		tried https://repo1.maven.org/maven2/org/apache/spark/spark-mllib_2.10/1.3.0/spark-mllib_2.10-1.3.0.pom
-[debug] 	public: found md file for org.apache.spark#spark-mllib_2.10;1.3.0
-[debug] 		=> https://repo1.maven.org/maven2/org/apache/spark/spark-mllib_2.10/1.3.0/spark-mllib_2.10-1.3.0.pom (1.3.0)
-[debug] downloading https://repo1.maven.org/maven2/org/apache/spark/spark-mllib_2.10/1.3.0/spark-mllib_2.10-1.3.0.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-mllib_2.10/1.3.0/spark-mllib_2.10-1.3.0.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-mllib_2.10/1.3.0/spark-mllib_2.10-1.3.0.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-mllib_2.10/1.3.0/spark-mllib_2.10-1.3.0.pom
-[debug] 	[SUCCESSFUL ] org.apache.spark#spark-mllib_2.10;1.3.0!spark-mllib_2.10.pom(pom.original) (259ms)
-[info] Resolving org.apache.spark#spark-parent_2.10;1.3.0 ...
-[debug] sbt-chain: Checking cache for: dependency: org.apache.spark#spark-parent_2.10;1.3.0 {}
-[debug] sbt-chain: module revision found in cache: org.apache.spark#spark-parent_2.10;1.3.0
-[debug] 		tried /Users/mengchending/.ivy2/local/org.apache.spark/spark-mllib_2.10/1.3.0/jars/spark-mllib_2.10.jar
-[debug] 		tried /Users/mengchending/.activator/repository/org.apache.spark/spark-mllib_2.10/1.3.0/jars/spark-mllib_2.10.jar
-[debug] 		tried /Users/mengchending/Downloads/activator-dist-1.3.6/repository/org.apache.spark/spark-mllib_2.10/1.3.0/jars/spark-mllib_2.10.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/apache/spark/spark-mllib_2.10/1.3.0/spark-mllib_2.10-1.3.0.jar
-[debug] 	found org.apache.spark#spark-mllib_2.10;1.3.0 in public
+[debug] sbt-chain: module revision found in cache: org.apache.spark#spark-mllib_2.10;1.3.0
+[debug] 	found org.apache.spark#spark-mllib_2.10;1.3.0 in sbt-chain
 [debug] == resolving dependencies default#streaming_2.10;1.0->org.apache.spark#spark-mllib_2.10;1.3.0 [compile->runtime]
 [debug] == resolving dependencies default#streaming_2.10;1.0->org.apache.spark#spark-mllib_2.10;1.3.0 [compile->compile]
 [debug] == resolving dependencies org.apache.spark#spark-mllib_2.10;1.3.0->org.apache.spark#spark-core_2.10;1.3.0 [compile->master(compile)]
@@ -3239,60 +3442,16 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib_2.10;1.3.0->org.apache.spark#spark-sql_2.10;1.3.0 [compile->master(compile)]
 [info] Resolving org.apache.spark#spark-sql_2.10;1.3.0 ...
 [debug] sbt-chain: Checking cache for: dependency: org.apache.spark#spark-sql_2.10;1.3.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[info] Resolving org.apache.spark#spark-sql_2.10;1.3.0 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.apache.spark#spark-sql_2.10;1.3.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried /Users/mengchending/.ivy2/local/org.apache.spark/spark-sql_2.10/1.3.0/ivys/ivy.xml
-[debug] 	local: no ivy file found for org.apache.spark#spark-sql_2.10;1.3.0
-[debug] 		tried /Users/mengchending/.activator/repository/org.apache.spark/spark-sql_2.10/1.3.0/ivys/ivy.xml
-[debug] 	activator-launcher-local: no ivy file found for org.apache.spark#spark-sql_2.10;1.3.0
-[debug] 		tried /Users/mengchending/Downloads/activator-dist-1.3.6/repository/org.apache.spark/spark-sql_2.10/1.3.0/ivys/ivy.xml
-[debug] 	activator-local: no ivy file found for org.apache.spark#spark-sql_2.10;1.3.0
-[debug] 		tried https://repo1.maven.org/maven2/org/apache/spark/spark-sql_2.10/1.3.0/spark-sql_2.10-1.3.0.pom
-[debug] 	public: found md file for org.apache.spark#spark-sql_2.10;1.3.0
-[debug] 		=> https://repo1.maven.org/maven2/org/apache/spark/spark-sql_2.10/1.3.0/spark-sql_2.10-1.3.0.pom (1.3.0)
-[debug] downloading https://repo1.maven.org/maven2/org/apache/spark/spark-sql_2.10/1.3.0/spark-sql_2.10-1.3.0.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-sql_2.10/1.3.0/spark-sql_2.10-1.3.0.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-sql_2.10/1.3.0/spark-sql_2.10-1.3.0.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-sql_2.10/1.3.0/spark-sql_2.10-1.3.0.pom
-[debug] 	[SUCCESSFUL ] org.apache.spark#spark-sql_2.10;1.3.0!spark-sql_2.10.pom(pom.original) (235ms)
-[info] Resolving org.apache.spark#spark-parent_2.10;1.3.0 ...
-[debug] sbt-chain: Checking cache for: dependency: org.apache.spark#spark-parent_2.10;1.3.0 {}
-[debug] sbt-chain: module revision found in cache: org.apache.spark#spark-parent_2.10;1.3.0
-[debug] 		tried /Users/mengchending/.ivy2/local/org.apache.spark/spark-sql_2.10/1.3.0/jars/spark-sql_2.10.jar
-[debug] 		tried /Users/mengchending/.activator/repository/org.apache.spark/spark-sql_2.10/1.3.0/jars/spark-sql_2.10.jar
-[debug] 		tried /Users/mengchending/Downloads/activator-dist-1.3.6/repository/org.apache.spark/spark-sql_2.10/1.3.0/jars/spark-sql_2.10.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/apache/spark/spark-sql_2.10/1.3.0/spark-sql_2.10-1.3.0.jar
-[debug] 	found org.apache.spark#spark-sql_2.10;1.3.0 in public
+[debug] sbt-chain: module revision found in cache: org.apache.spark#spark-sql_2.10;1.3.0
+[debug] 	found org.apache.spark#spark-sql_2.10;1.3.0 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-mllib_2.10;1.3.0->org.apache.spark#spark-sql_2.10;1.3.0 [compile->compile(*)]
 [debug] == resolving dependencies org.apache.spark#spark-sql_2.10;1.3.0->org.apache.spark#spark-core_2.10;1.3.0 [compile->master(compile)]
 [debug] == resolving dependencies org.apache.spark#spark-sql_2.10;1.3.0->org.apache.spark#spark-core_2.10;1.3.0 [compile->compile(*)]
 [debug] == resolving dependencies org.apache.spark#spark-sql_2.10;1.3.0->org.apache.spark#spark-catalyst_2.10;1.3.0 [compile->master(compile)]
 [info] Resolving org.apache.spark#spark-catalyst_2.10;1.3.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4f321ba4
-[info] Resolving org.apache.spark#spark-catalyst_2.10;1.3.0 ...
-[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@4f321ba4
-[debug] 		tried /Users/mengchending/.ivy2/local/org.apache.spark/spark-catalyst_2.10/1.3.0/ivys/ivy.xml
-[debug] 	local: no ivy file found for org.apache.spark#spark-catalyst_2.10;1.3.0
-[debug] 		tried /Users/mengchending/.activator/repository/org.apache.spark/spark-catalyst_2.10/1.3.0/ivys/ivy.xml
-[debug] 	activator-launcher-local: no ivy file found for org.apache.spark#spark-catalyst_2.10;1.3.0
-[debug] 		tried /Users/mengchending/Downloads/activator-dist-1.3.6/repository/org.apache.spark/spark-catalyst_2.10/1.3.0/ivys/ivy.xml
-[debug] 	activator-local: no ivy file found for org.apache.spark#spark-catalyst_2.10;1.3.0
-[debug] 		tried https://repo1.maven.org/maven2/org/apache/spark/spark-catalyst_2.10/1.3.0/spark-catalyst_2.10-1.3.0.pom
-[debug] 	public: found md file for org.apache.spark#spark-catalyst_2.10;1.3.0
-[debug] 		=> https://repo1.maven.org/maven2/org/apache/spark/spark-catalyst_2.10/1.3.0/spark-catalyst_2.10-1.3.0.pom (1.3.0)
-[debug] downloading https://repo1.maven.org/maven2/org/apache/spark/spark-catalyst_2.10/1.3.0/spark-catalyst_2.10-1.3.0.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-catalyst_2.10/1.3.0/spark-catalyst_2.10-1.3.0.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-catalyst_2.10/1.3.0/spark-catalyst_2.10-1.3.0.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-catalyst_2.10/1.3.0/spark-catalyst_2.10-1.3.0.pom
-[debug] 	[SUCCESSFUL ] org.apache.spark#spark-catalyst_2.10;1.3.0!spark-catalyst_2.10.pom(pom.original) (247ms)
-[info] Resolving org.apache.spark#spark-parent_2.10;1.3.0 ...
-[debug] sbt-chain: Checking cache for: dependency: org.apache.spark#spark-parent_2.10;1.3.0 {}
-[debug] sbt-chain: module revision found in cache: org.apache.spark#spark-parent_2.10;1.3.0
-[debug] 		tried /Users/mengchending/.ivy2/local/org.apache.spark/spark-catalyst_2.10/1.3.0/jars/spark-catalyst_2.10.jar
-[debug] 		tried /Users/mengchending/.activator/repository/org.apache.spark/spark-catalyst_2.10/1.3.0/jars/spark-catalyst_2.10.jar
-[debug] 		tried /Users/mengchending/Downloads/activator-dist-1.3.6/repository/org.apache.spark/spark-catalyst_2.10/1.3.0/jars/spark-catalyst_2.10.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/apache/spark/spark-catalyst_2.10/1.3.0/spark-catalyst_2.10-1.3.0.jar
-[debug] 	found org.apache.spark#spark-catalyst_2.10;1.3.0 in public
+[debug] sbt-chain: Checking cache for: dependency: org.apache.spark#spark-catalyst_2.10;1.3.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)], test=[runtime(*), master(compile)]}
+[debug] sbt-chain: module revision found in cache: org.apache.spark#spark-catalyst_2.10;1.3.0
+[debug] 	found org.apache.spark#spark-catalyst_2.10;1.3.0 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-sql_2.10;1.3.0->org.apache.spark#spark-catalyst_2.10;1.3.0 [compile->compile(*)]
 [debug] == resolving dependencies org.apache.spark#spark-catalyst_2.10;1.3.0->org.scala-lang#scala-compiler;2.10.4 [compile->master(compile)]
 [info] Resolving org.scala-lang#scala-compiler;2.10.4 ...
@@ -3329,140 +3488,28 @@
 [debug] == resolving dependencies org.apache.spark#spark-sql_2.10;1.3.0->com.twitter#parquet-column;1.6.0rc3 [compile->master(compile)]
 [info] Resolving com.twitter#parquet-column;1.6.0rc3 ...
 [debug] sbt-chain: Checking cache for: dependency: com.twitter#parquet-column;1.6.0rc3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[info] Resolving com.twitter#parquet-column;1.6.0rc3 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: com.twitter#parquet-column;1.6.0rc3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried /Users/mengchending/.ivy2/local/com.twitter/parquet-column/1.6.0rc3/ivys/ivy.xml
-[debug] 	local: no ivy file found for com.twitter#parquet-column;1.6.0rc3
-[debug] 		tried /Users/mengchending/.activator/repository/com.twitter/parquet-column/1.6.0rc3/ivys/ivy.xml
-[debug] 	activator-launcher-local: no ivy file found for com.twitter#parquet-column;1.6.0rc3
-[debug] 		tried /Users/mengchending/Downloads/activator-dist-1.3.6/repository/com.twitter/parquet-column/1.6.0rc3/ivys/ivy.xml
-[debug] 	activator-local: no ivy file found for com.twitter#parquet-column;1.6.0rc3
-[debug] 		tried https://repo1.maven.org/maven2/com/twitter/parquet-column/1.6.0rc3/parquet-column-1.6.0rc3.pom
-[debug] 	public: found md file for com.twitter#parquet-column;1.6.0rc3
-[debug] 		=> https://repo1.maven.org/maven2/com/twitter/parquet-column/1.6.0rc3/parquet-column-1.6.0rc3.pom (1.6.0rc3)
-[debug] downloading https://repo1.maven.org/maven2/com/twitter/parquet-column/1.6.0rc3/parquet-column-1.6.0rc3.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/twitter/parquet-column/1.6.0rc3/parquet-column-1.6.0rc3.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/twitter/parquet-column/1.6.0rc3/parquet-column-1.6.0rc3.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/twitter/parquet-column/1.6.0rc3/parquet-column-1.6.0rc3.pom
-[debug] 	[SUCCESSFUL ] com.twitter#parquet-column;1.6.0rc3!parquet-column.pom(pom.original) (231ms)
-[info] Resolving com.twitter#parquet;1.6.0rc3 ...
-[debug] sbt-chain: Checking cache for: dependency: com.twitter#parquet;1.6.0rc3 {}
-[info] Resolving com.twitter#parquet;1.6.0rc3 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: com.twitter#parquet;1.6.0rc3 {}
-[debug] 		tried /Users/mengchending/.ivy2/local/com.twitter/parquet/1.6.0rc3/ivys/ivy.xml
-[debug] 	local: no ivy file found for com.twitter#parquet;1.6.0rc3
-[debug] 		tried /Users/mengchending/.activator/repository/com.twitter/parquet/1.6.0rc3/ivys/ivy.xml
-[debug] 	activator-launcher-local: no ivy file found for com.twitter#parquet;1.6.0rc3
-[debug] 		tried /Users/mengchending/Downloads/activator-dist-1.3.6/repository/com.twitter/parquet/1.6.0rc3/ivys/ivy.xml
-[debug] 	activator-local: no ivy file found for com.twitter#parquet;1.6.0rc3
-[debug] 		tried https://repo1.maven.org/maven2/com/twitter/parquet/1.6.0rc3/parquet-1.6.0rc3.pom
-[debug] 	public: found md file for com.twitter#parquet;1.6.0rc3
-[debug] 		=> https://repo1.maven.org/maven2/com/twitter/parquet/1.6.0rc3/parquet-1.6.0rc3.pom (1.6.0rc3)
-[debug] downloading https://repo1.maven.org/maven2/com/twitter/parquet/1.6.0rc3/parquet-1.6.0rc3.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/twitter/parquet/1.6.0rc3/parquet-1.6.0rc3.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/twitter/parquet/1.6.0rc3/parquet-1.6.0rc3.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/twitter/parquet/1.6.0rc3/parquet-1.6.0rc3.pom
-[debug] 	[SUCCESSFUL ] com.twitter#parquet;1.6.0rc3!parquet.pom(pom.original) (438ms)
-[debug] 		tried /Users/mengchending/.ivy2/local/com.twitter/parquet/1.6.0rc3/jars/parquet.jar
-[debug] 		tried /Users/mengchending/.activator/repository/com.twitter/parquet/1.6.0rc3/jars/parquet.jar
-[debug] 		tried /Users/mengchending/Downloads/activator-dist-1.3.6/repository/com.twitter/parquet/1.6.0rc3/jars/parquet.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/twitter/parquet/1.6.0rc3/parquet-1.6.0rc3.jar
-[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/twitter/parquet/1.6.0rc3/parquet-1.6.0rc3.jar
-[debug] 		tried http://repo.typesafe.com/typesafe/releases/com/twitter/parquet/1.6.0rc3/parquet-1.6.0rc3.jar
-[debug] CLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/releases/com/twitter/parquet/1.6.0rc3/parquet-1.6.0rc3.jar
-[debug] 		tried http://repo.typesafe.com/typesafe/ivy-releases/com.twitter/parquet/1.6.0rc3/jars/parquet.jar
-[debug] CLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/com.twitter/parquet/1.6.0rc3/jars/parquet.jar
-[debug] 		tried /Users/mengchending/.ivy2/local/com.twitter/parquet-column/1.6.0rc3/jars/parquet-column.jar
-[debug] 		tried /Users/mengchending/.activator/repository/com.twitter/parquet-column/1.6.0rc3/jars/parquet-column.jar
-[debug] 		tried /Users/mengchending/Downloads/activator-dist-1.3.6/repository/com.twitter/parquet-column/1.6.0rc3/jars/parquet-column.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/twitter/parquet-column/1.6.0rc3/parquet-column-1.6.0rc3.jar
-[debug] 	found com.twitter#parquet-column;1.6.0rc3 in public
+[debug] sbt-chain: module revision found in cache: com.twitter#parquet-column;1.6.0rc3
+[debug] 	found com.twitter#parquet-column;1.6.0rc3 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-sql_2.10;1.3.0->com.twitter#parquet-column;1.6.0rc3 [compile->compile(*)]
 [debug] == resolving dependencies com.twitter#parquet-column;1.6.0rc3->com.twitter#parquet-common;1.6.0rc3 [compile->master(compile)]
 [info] Resolving com.twitter#parquet-common;1.6.0rc3 ...
 [debug] sbt-chain: Checking cache for: dependency: com.twitter#parquet-common;1.6.0rc3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[info] Resolving com.twitter#parquet-common;1.6.0rc3 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: com.twitter#parquet-common;1.6.0rc3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried /Users/mengchending/.ivy2/local/com.twitter/parquet-common/1.6.0rc3/ivys/ivy.xml
-[debug] 	local: no ivy file found for com.twitter#parquet-common;1.6.0rc3
-[debug] 		tried /Users/mengchending/.activator/repository/com.twitter/parquet-common/1.6.0rc3/ivys/ivy.xml
-[debug] 	activator-launcher-local: no ivy file found for com.twitter#parquet-common;1.6.0rc3
-[debug] 		tried /Users/mengchending/Downloads/activator-dist-1.3.6/repository/com.twitter/parquet-common/1.6.0rc3/ivys/ivy.xml
-[debug] 	activator-local: no ivy file found for com.twitter#parquet-common;1.6.0rc3
-[debug] 		tried https://repo1.maven.org/maven2/com/twitter/parquet-common/1.6.0rc3/parquet-common-1.6.0rc3.pom
-[debug] 	public: found md file for com.twitter#parquet-common;1.6.0rc3
-[debug] 		=> https://repo1.maven.org/maven2/com/twitter/parquet-common/1.6.0rc3/parquet-common-1.6.0rc3.pom (1.6.0rc3)
-[debug] downloading https://repo1.maven.org/maven2/com/twitter/parquet-common/1.6.0rc3/parquet-common-1.6.0rc3.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/twitter/parquet-common/1.6.0rc3/parquet-common-1.6.0rc3.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/twitter/parquet-common/1.6.0rc3/parquet-common-1.6.0rc3.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/twitter/parquet-common/1.6.0rc3/parquet-common-1.6.0rc3.pom
-[debug] 	[SUCCESSFUL ] com.twitter#parquet-common;1.6.0rc3!parquet-common.pom(pom.original) (239ms)
-[info] Resolving com.twitter#parquet;1.6.0rc3 ...
-[debug] sbt-chain: Checking cache for: dependency: com.twitter#parquet;1.6.0rc3 {}
-[debug] sbt-chain: module revision found in cache: com.twitter#parquet;1.6.0rc3
-[debug] 		tried /Users/mengchending/.ivy2/local/com.twitter/parquet-common/1.6.0rc3/jars/parquet-common.jar
-[debug] 		tried /Users/mengchending/.activator/repository/com.twitter/parquet-common/1.6.0rc3/jars/parquet-common.jar
-[debug] 		tried /Users/mengchending/Downloads/activator-dist-1.3.6/repository/com.twitter/parquet-common/1.6.0rc3/jars/parquet-common.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/twitter/parquet-common/1.6.0rc3/parquet-common-1.6.0rc3.jar
-[debug] 	found com.twitter#parquet-common;1.6.0rc3 in public
+[debug] sbt-chain: module revision found in cache: com.twitter#parquet-common;1.6.0rc3
+[debug] 	found com.twitter#parquet-common;1.6.0rc3 in sbt-chain
 [debug] == resolving dependencies com.twitter#parquet-column;1.6.0rc3->com.twitter#parquet-common;1.6.0rc3 [compile->compile(*)]
 [debug] == resolving dependencies com.twitter#parquet-column;1.6.0rc3->com.twitter#parquet-encoding;1.6.0rc3 [compile->master(compile)]
 [info] Resolving com.twitter#parquet-encoding;1.6.0rc3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5348fbfa
-[info] Resolving com.twitter#parquet-encoding;1.6.0rc3 ...
-[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@5348fbfa
-[debug] 		tried /Users/mengchending/.ivy2/local/com.twitter/parquet-encoding/1.6.0rc3/ivys/ivy.xml
-[debug] 	local: no ivy file found for com.twitter#parquet-encoding;1.6.0rc3
-[debug] 		tried /Users/mengchending/.activator/repository/com.twitter/parquet-encoding/1.6.0rc3/ivys/ivy.xml
-[debug] 	activator-launcher-local: no ivy file found for com.twitter#parquet-encoding;1.6.0rc3
-[debug] 		tried /Users/mengchending/Downloads/activator-dist-1.3.6/repository/com.twitter/parquet-encoding/1.6.0rc3/ivys/ivy.xml
-[debug] 	activator-local: no ivy file found for com.twitter#parquet-encoding;1.6.0rc3
-[debug] 		tried https://repo1.maven.org/maven2/com/twitter/parquet-encoding/1.6.0rc3/parquet-encoding-1.6.0rc3.pom
-[debug] 	public: found md file for com.twitter#parquet-encoding;1.6.0rc3
-[debug] 		=> https://repo1.maven.org/maven2/com/twitter/parquet-encoding/1.6.0rc3/parquet-encoding-1.6.0rc3.pom (1.6.0rc3)
-[debug] downloading https://repo1.maven.org/maven2/com/twitter/parquet-encoding/1.6.0rc3/parquet-encoding-1.6.0rc3.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/twitter/parquet-encoding/1.6.0rc3/parquet-encoding-1.6.0rc3.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/twitter/parquet-encoding/1.6.0rc3/parquet-encoding-1.6.0rc3.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/twitter/parquet-encoding/1.6.0rc3/parquet-encoding-1.6.0rc3.pom
-[debug] 	[SUCCESSFUL ] com.twitter#parquet-encoding;1.6.0rc3!parquet-encoding.pom(pom.original) (230ms)
-[info] Resolving com.twitter#parquet;1.6.0rc3 ...
-[debug] sbt-chain: Checking cache for: dependency: com.twitter#parquet;1.6.0rc3 {}
-[debug] sbt-chain: module revision found in cache: com.twitter#parquet;1.6.0rc3
-[debug] 		tried /Users/mengchending/.ivy2/local/com.twitter/parquet-encoding/1.6.0rc3/jars/parquet-encoding.jar
-[debug] 		tried /Users/mengchending/.activator/repository/com.twitter/parquet-encoding/1.6.0rc3/jars/parquet-encoding.jar
-[debug] 		tried /Users/mengchending/Downloads/activator-dist-1.3.6/repository/com.twitter/parquet-encoding/1.6.0rc3/jars/parquet-encoding.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/twitter/parquet-encoding/1.6.0rc3/parquet-encoding-1.6.0rc3.jar
-[debug] 	found com.twitter#parquet-encoding;1.6.0rc3 in public
+[debug] sbt-chain: Checking cache for: dependency: com.twitter#parquet-encoding;1.6.0rc3 {compile=[compile(*), master(compile)], runtime=[runtime(*)], test=[runtime(*), master(compile)]}
+[debug] sbt-chain: module revision found in cache: com.twitter#parquet-encoding;1.6.0rc3
+[debug] 	found com.twitter#parquet-encoding;1.6.0rc3 in sbt-chain
 [debug] == resolving dependencies com.twitter#parquet-column;1.6.0rc3->com.twitter#parquet-encoding;1.6.0rc3 [compile->compile(*)]
 [debug] == resolving dependencies com.twitter#parquet-encoding;1.6.0rc3->com.twitter#parquet-common;1.6.0rc3 [compile->master(compile)]
 [debug] == resolving dependencies com.twitter#parquet-encoding;1.6.0rc3->com.twitter#parquet-common;1.6.0rc3 [compile->compile(*)]
 [debug] == resolving dependencies com.twitter#parquet-encoding;1.6.0rc3->com.twitter#parquet-generator;1.6.0rc3 [compile->master(compile)]
 [info] Resolving com.twitter#parquet-generator;1.6.0rc3 ...
 [debug] sbt-chain: Checking cache for: dependency: com.twitter#parquet-generator;1.6.0rc3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[info] Resolving com.twitter#parquet-generator;1.6.0rc3 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: com.twitter#parquet-generator;1.6.0rc3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried /Users/mengchending/.ivy2/local/com.twitter/parquet-generator/1.6.0rc3/ivys/ivy.xml
-[debug] 	local: no ivy file found for com.twitter#parquet-generator;1.6.0rc3
-[debug] 		tried /Users/mengchending/.activator/repository/com.twitter/parquet-generator/1.6.0rc3/ivys/ivy.xml
-[debug] 	activator-launcher-local: no ivy file found for com.twitter#parquet-generator;1.6.0rc3
-[debug] 		tried /Users/mengchending/Downloads/activator-dist-1.3.6/repository/com.twitter/parquet-generator/1.6.0rc3/ivys/ivy.xml
-[debug] 	activator-local: no ivy file found for com.twitter#parquet-generator;1.6.0rc3
-[debug] 		tried https://repo1.maven.org/maven2/com/twitter/parquet-generator/1.6.0rc3/parquet-generator-1.6.0rc3.pom
-[debug] 	public: found md file for com.twitter#parquet-generator;1.6.0rc3
-[debug] 		=> https://repo1.maven.org/maven2/com/twitter/parquet-generator/1.6.0rc3/parquet-generator-1.6.0rc3.pom (1.6.0rc3)
-[debug] downloading https://repo1.maven.org/maven2/com/twitter/parquet-generator/1.6.0rc3/parquet-generator-1.6.0rc3.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/twitter/parquet-generator/1.6.0rc3/parquet-generator-1.6.0rc3.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/twitter/parquet-generator/1.6.0rc3/parquet-generator-1.6.0rc3.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/twitter/parquet-generator/1.6.0rc3/parquet-generator-1.6.0rc3.pom
-[debug] 	[SUCCESSFUL ] com.twitter#parquet-generator;1.6.0rc3!parquet-generator.pom(pom.original) (239ms)
-[info] Resolving com.twitter#parquet;1.6.0rc3 ...
-[debug] sbt-chain: Checking cache for: dependency: com.twitter#parquet;1.6.0rc3 {}
-[debug] sbt-chain: module revision found in cache: com.twitter#parquet;1.6.0rc3
-[debug] 		tried /Users/mengchending/.ivy2/local/com.twitter/parquet-generator/1.6.0rc3/jars/parquet-generator.jar
-[debug] 		tried /Users/mengchending/.activator/repository/com.twitter/parquet-generator/1.6.0rc3/jars/parquet-generator.jar
-[debug] 		tried /Users/mengchending/Downloads/activator-dist-1.3.6/repository/com.twitter/parquet-generator/1.6.0rc3/jars/parquet-generator.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/twitter/parquet-generator/1.6.0rc3/parquet-generator-1.6.0rc3.jar
-[debug] 	found com.twitter#parquet-generator;1.6.0rc3 in public
+[debug] sbt-chain: module revision found in cache: com.twitter#parquet-generator;1.6.0rc3
+[debug] 	found com.twitter#parquet-generator;1.6.0rc3 in sbt-chain
 [debug] == resolving dependencies com.twitter#parquet-encoding;1.6.0rc3->com.twitter#parquet-generator;1.6.0rc3 [compile->compile(*)]
 [debug] == resolving dependencies com.twitter#parquet-generator;1.6.0rc3->com.twitter#parquet-common;1.6.0rc3 [compile->master(compile)]
 [debug] == resolving dependencies com.twitter#parquet-generator;1.6.0rc3->com.twitter#parquet-common;1.6.0rc3 [compile->compile(*)]
@@ -3479,138 +3526,34 @@
 [debug] == resolving dependencies org.apache.spark#spark-sql_2.10;1.3.0->com.twitter#parquet-hadoop;1.6.0rc3 [compile->master(compile)]
 [info] Resolving com.twitter#parquet-hadoop;1.6.0rc3 ...
 [debug] sbt-chain: Checking cache for: dependency: com.twitter#parquet-hadoop;1.6.0rc3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[info] Resolving com.twitter#parquet-hadoop;1.6.0rc3 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: com.twitter#parquet-hadoop;1.6.0rc3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried /Users/mengchending/.ivy2/local/com.twitter/parquet-hadoop/1.6.0rc3/ivys/ivy.xml
-[debug] 	local: no ivy file found for com.twitter#parquet-hadoop;1.6.0rc3
-[debug] 		tried /Users/mengchending/.activator/repository/com.twitter/parquet-hadoop/1.6.0rc3/ivys/ivy.xml
-[debug] 	activator-launcher-local: no ivy file found for com.twitter#parquet-hadoop;1.6.0rc3
-[debug] 		tried /Users/mengchending/Downloads/activator-dist-1.3.6/repository/com.twitter/parquet-hadoop/1.6.0rc3/ivys/ivy.xml
-[debug] 	activator-local: no ivy file found for com.twitter#parquet-hadoop;1.6.0rc3
-[debug] 		tried https://repo1.maven.org/maven2/com/twitter/parquet-hadoop/1.6.0rc3/parquet-hadoop-1.6.0rc3.pom
-[debug] 	public: found md file for com.twitter#parquet-hadoop;1.6.0rc3
-[debug] 		=> https://repo1.maven.org/maven2/com/twitter/parquet-hadoop/1.6.0rc3/parquet-hadoop-1.6.0rc3.pom (1.6.0rc3)
-[debug] downloading https://repo1.maven.org/maven2/com/twitter/parquet-hadoop/1.6.0rc3/parquet-hadoop-1.6.0rc3.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/twitter/parquet-hadoop/1.6.0rc3/parquet-hadoop-1.6.0rc3.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/twitter/parquet-hadoop/1.6.0rc3/parquet-hadoop-1.6.0rc3.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/twitter/parquet-hadoop/1.6.0rc3/parquet-hadoop-1.6.0rc3.pom
-[debug] 	[SUCCESSFUL ] com.twitter#parquet-hadoop;1.6.0rc3!parquet-hadoop.pom(pom.original) (231ms)
-[info] Resolving com.twitter#parquet;1.6.0rc3 ...
-[debug] sbt-chain: Checking cache for: dependency: com.twitter#parquet;1.6.0rc3 {}
-[debug] sbt-chain: module revision found in cache: com.twitter#parquet;1.6.0rc3
-[debug] 		tried /Users/mengchending/.ivy2/local/com.twitter/parquet-hadoop/1.6.0rc3/jars/parquet-hadoop.jar
-[debug] 		tried /Users/mengchending/.activator/repository/com.twitter/parquet-hadoop/1.6.0rc3/jars/parquet-hadoop.jar
-[debug] 		tried /Users/mengchending/Downloads/activator-dist-1.3.6/repository/com.twitter/parquet-hadoop/1.6.0rc3/jars/parquet-hadoop.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/twitter/parquet-hadoop/1.6.0rc3/parquet-hadoop-1.6.0rc3.jar
-[debug] 	found com.twitter#parquet-hadoop;1.6.0rc3 in public
+[debug] sbt-chain: module revision found in cache: com.twitter#parquet-hadoop;1.6.0rc3
+[debug] 	found com.twitter#parquet-hadoop;1.6.0rc3 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-sql_2.10;1.3.0->com.twitter#parquet-hadoop;1.6.0rc3 [compile->compile(*)]
 [debug] == resolving dependencies com.twitter#parquet-hadoop;1.6.0rc3->com.twitter#parquet-column;1.6.0rc3 [compile->master(compile)]
 [debug] == resolving dependencies com.twitter#parquet-hadoop;1.6.0rc3->com.twitter#parquet-column;1.6.0rc3 [compile->compile(*)]
 [debug] == resolving dependencies com.twitter#parquet-hadoop;1.6.0rc3->com.twitter#parquet-format;2.2.0-rc1 [compile->master(compile)]
 [info] Resolving com.twitter#parquet-format;2.2.0-rc1 ...
 [debug] sbt-chain: Checking cache for: dependency: com.twitter#parquet-format;2.2.0-rc1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[info] Resolving com.twitter#parquet-format;2.2.0-rc1 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: com.twitter#parquet-format;2.2.0-rc1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried /Users/mengchending/.ivy2/local/com.twitter/parquet-format/2.2.0-rc1/ivys/ivy.xml
-[debug] 	local: no ivy file found for com.twitter#parquet-format;2.2.0-rc1
-[debug] 		tried /Users/mengchending/.activator/repository/com.twitter/parquet-format/2.2.0-rc1/ivys/ivy.xml
-[debug] 	activator-launcher-local: no ivy file found for com.twitter#parquet-format;2.2.0-rc1
-[debug] 		tried /Users/mengchending/Downloads/activator-dist-1.3.6/repository/com.twitter/parquet-format/2.2.0-rc1/ivys/ivy.xml
-[debug] 	activator-local: no ivy file found for com.twitter#parquet-format;2.2.0-rc1
-[debug] 		tried https://repo1.maven.org/maven2/com/twitter/parquet-format/2.2.0-rc1/parquet-format-2.2.0-rc1.pom
-[debug] 	public: found md file for com.twitter#parquet-format;2.2.0-rc1
-[debug] 		=> https://repo1.maven.org/maven2/com/twitter/parquet-format/2.2.0-rc1/parquet-format-2.2.0-rc1.pom (2.2.0-rc1)
-[debug] downloading https://repo1.maven.org/maven2/com/twitter/parquet-format/2.2.0-rc1/parquet-format-2.2.0-rc1.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/twitter/parquet-format/2.2.0-rc1/parquet-format-2.2.0-rc1.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/twitter/parquet-format/2.2.0-rc1/parquet-format-2.2.0-rc1.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/twitter/parquet-format/2.2.0-rc1/parquet-format-2.2.0-rc1.pom
-[debug] 	[SUCCESSFUL ] com.twitter#parquet-format;2.2.0-rc1!parquet-format.pom(pom.original) (234ms)
-[info] Resolving org.apache#apache;14 ...
-[debug] sbt-chain: Checking cache for: dependency: org.apache#apache;14 {}
-[debug] sbt-chain: module revision found in cache: org.apache#apache;14
-[debug] 		tried /Users/mengchending/.ivy2/local/com.twitter/parquet-format/2.2.0-rc1/jars/parquet-format.jar
-[debug] 		tried /Users/mengchending/.activator/repository/com.twitter/parquet-format/2.2.0-rc1/jars/parquet-format.jar
-[debug] 		tried /Users/mengchending/Downloads/activator-dist-1.3.6/repository/com.twitter/parquet-format/2.2.0-rc1/jars/parquet-format.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/twitter/parquet-format/2.2.0-rc1/parquet-format-2.2.0-rc1.jar
-[debug] 	found com.twitter#parquet-format;2.2.0-rc1 in public
+[debug] sbt-chain: module revision found in cache: com.twitter#parquet-format;2.2.0-rc1
+[debug] 	found com.twitter#parquet-format;2.2.0-rc1 in sbt-chain
 [debug] == resolving dependencies com.twitter#parquet-hadoop;1.6.0rc3->com.twitter#parquet-format;2.2.0-rc1 [compile->compile(*)]
 [debug] == resolving dependencies com.twitter#parquet-hadoop;1.6.0rc3->com.twitter#parquet-jackson;1.6.0rc3 [compile->master(compile)]
 [info] Resolving com.twitter#parquet-jackson;1.6.0rc3 ...
 [debug] sbt-chain: Checking cache for: dependency: com.twitter#parquet-jackson;1.6.0rc3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[info] Resolving com.twitter#parquet-jackson;1.6.0rc3 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: com.twitter#parquet-jackson;1.6.0rc3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried /Users/mengchending/.ivy2/local/com.twitter/parquet-jackson/1.6.0rc3/ivys/ivy.xml
-[debug] 	local: no ivy file found for com.twitter#parquet-jackson;1.6.0rc3
-[debug] 		tried /Users/mengchending/.activator/repository/com.twitter/parquet-jackson/1.6.0rc3/ivys/ivy.xml
-[debug] 	activator-launcher-local: no ivy file found for com.twitter#parquet-jackson;1.6.0rc3
-[debug] 		tried /Users/mengchending/Downloads/activator-dist-1.3.6/repository/com.twitter/parquet-jackson/1.6.0rc3/ivys/ivy.xml
-[debug] 	activator-local: no ivy file found for com.twitter#parquet-jackson;1.6.0rc3
-[debug] 		tried https://repo1.maven.org/maven2/com/twitter/parquet-jackson/1.6.0rc3/parquet-jackson-1.6.0rc3.pom
-[debug] 	public: found md file for com.twitter#parquet-jackson;1.6.0rc3
-[debug] 		=> https://repo1.maven.org/maven2/com/twitter/parquet-jackson/1.6.0rc3/parquet-jackson-1.6.0rc3.pom (1.6.0rc3)
-[debug] downloading https://repo1.maven.org/maven2/com/twitter/parquet-jackson/1.6.0rc3/parquet-jackson-1.6.0rc3.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/twitter/parquet-jackson/1.6.0rc3/parquet-jackson-1.6.0rc3.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/twitter/parquet-jackson/1.6.0rc3/parquet-jackson-1.6.0rc3.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/twitter/parquet-jackson/1.6.0rc3/parquet-jackson-1.6.0rc3.pom
-[debug] 	[SUCCESSFUL ] com.twitter#parquet-jackson;1.6.0rc3!parquet-jackson.pom(pom.original) (237ms)
-[info] Resolving com.twitter#parquet;1.6.0rc3 ...
-[debug] sbt-chain: Checking cache for: dependency: com.twitter#parquet;1.6.0rc3 {}
-[debug] sbt-chain: module revision found in cache: com.twitter#parquet;1.6.0rc3
-[debug] 		tried /Users/mengchending/.ivy2/local/com.twitter/parquet-jackson/1.6.0rc3/jars/parquet-jackson.jar
-[debug] 		tried /Users/mengchending/.activator/repository/com.twitter/parquet-jackson/1.6.0rc3/jars/parquet-jackson.jar
-[debug] 		tried /Users/mengchending/Downloads/activator-dist-1.3.6/repository/com.twitter/parquet-jackson/1.6.0rc3/jars/parquet-jackson.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/twitter/parquet-jackson/1.6.0rc3/parquet-jackson-1.6.0rc3.jar
-[debug] 	found com.twitter#parquet-jackson;1.6.0rc3 in public
+[debug] sbt-chain: module revision found in cache: com.twitter#parquet-jackson;1.6.0rc3
+[debug] 	found com.twitter#parquet-jackson;1.6.0rc3 in sbt-chain
 [debug] == resolving dependencies com.twitter#parquet-hadoop;1.6.0rc3->com.twitter#parquet-jackson;1.6.0rc3 [compile->compile(*)]
 [debug] == resolving dependencies com.twitter#parquet-hadoop;1.6.0rc3->org.codehaus.jackson#jackson-mapper-asl;1.9.11 [compile->master(compile)]
 [info] Resolving org.codehaus.jackson#jackson-mapper-asl;1.9.11 ...
 [debug] sbt-chain: Checking cache for: dependency: org.codehaus.jackson#jackson-mapper-asl;1.9.11 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[info] Resolving org.codehaus.jackson#jackson-mapper-asl;1.9.11 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.codehaus.jackson#jackson-mapper-asl;1.9.11 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried /Users/mengchending/.ivy2/local/org.codehaus.jackson/jackson-mapper-asl/1.9.11/ivys/ivy.xml
-[debug] 	local: no ivy file found for org.codehaus.jackson#jackson-mapper-asl;1.9.11
-[debug] 		tried /Users/mengchending/.activator/repository/org.codehaus.jackson/jackson-mapper-asl/1.9.11/ivys/ivy.xml
-[debug] 	activator-launcher-local: no ivy file found for org.codehaus.jackson#jackson-mapper-asl;1.9.11
-[debug] 		tried /Users/mengchending/Downloads/activator-dist-1.3.6/repository/org.codehaus.jackson/jackson-mapper-asl/1.9.11/ivys/ivy.xml
-[debug] 	activator-local: no ivy file found for org.codehaus.jackson#jackson-mapper-asl;1.9.11
-[debug] 		tried https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.9.11/jackson-mapper-asl-1.9.11.pom
-[debug] 	public: found md file for org.codehaus.jackson#jackson-mapper-asl;1.9.11
-[debug] 		=> https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.9.11/jackson-mapper-asl-1.9.11.pom (1.9.11)
-[debug] downloading https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.9.11/jackson-mapper-asl-1.9.11.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.9.11/jackson-mapper-asl-1.9.11.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.9.11/jackson-mapper-asl-1.9.11.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.9.11/jackson-mapper-asl-1.9.11.pom
-[debug] 	[SUCCESSFUL ] org.codehaus.jackson#jackson-mapper-asl;1.9.11!jackson-mapper-asl.pom(pom.original) (210ms)
-[debug] 		tried /Users/mengchending/.ivy2/local/org.codehaus.jackson/jackson-mapper-asl/1.9.11/jars/jackson-mapper-asl.jar
-[debug] 		tried /Users/mengchending/.activator/repository/org.codehaus.jackson/jackson-mapper-asl/1.9.11/jars/jackson-mapper-asl.jar
-[debug] 		tried /Users/mengchending/Downloads/activator-dist-1.3.6/repository/org.codehaus.jackson/jackson-mapper-asl/1.9.11/jars/jackson-mapper-asl.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.9.11/jackson-mapper-asl-1.9.11.jar
-[debug] 	found org.codehaus.jackson#jackson-mapper-asl;1.9.11 in public
+[debug] sbt-chain: module revision found in cache: org.codehaus.jackson#jackson-mapper-asl;1.9.11
+[debug] 	found org.codehaus.jackson#jackson-mapper-asl;1.9.11 in sbt-chain
 [debug] == resolving dependencies com.twitter#parquet-hadoop;1.6.0rc3->org.codehaus.jackson#jackson-mapper-asl;1.9.11 [compile->compile(*)]
 [debug] == resolving dependencies org.codehaus.jackson#jackson-mapper-asl;1.9.11->org.codehaus.jackson#jackson-core-asl;1.9.11 [compile->master(compile)]
 [info] Resolving org.codehaus.jackson#jackson-core-asl;1.9.11 ...
 [debug] sbt-chain: Checking cache for: dependency: org.codehaus.jackson#jackson-core-asl;1.9.11 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[info] Resolving org.codehaus.jackson#jackson-core-asl;1.9.11 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.codehaus.jackson#jackson-core-asl;1.9.11 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried /Users/mengchending/.ivy2/local/org.codehaus.jackson/jackson-core-asl/1.9.11/ivys/ivy.xml
-[debug] 	local: no ivy file found for org.codehaus.jackson#jackson-core-asl;1.9.11
-[debug] 		tried /Users/mengchending/.activator/repository/org.codehaus.jackson/jackson-core-asl/1.9.11/ivys/ivy.xml
-[debug] 	activator-launcher-local: no ivy file found for org.codehaus.jackson#jackson-core-asl;1.9.11
-[debug] 		tried /Users/mengchending/Downloads/activator-dist-1.3.6/repository/org.codehaus.jackson/jackson-core-asl/1.9.11/ivys/ivy.xml
-[debug] 	activator-local: no ivy file found for org.codehaus.jackson#jackson-core-asl;1.9.11
-[debug] 		tried https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.9.11/jackson-core-asl-1.9.11.pom
-[debug] 	public: found md file for org.codehaus.jackson#jackson-core-asl;1.9.11
-[debug] 		=> https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.9.11/jackson-core-asl-1.9.11.pom (1.9.11)
-[debug] downloading https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.9.11/jackson-core-asl-1.9.11.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.9.11/jackson-core-asl-1.9.11.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.9.11/jackson-core-asl-1.9.11.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.9.11/jackson-core-asl-1.9.11.pom
-[debug] 	[SUCCESSFUL ] org.codehaus.jackson#jackson-core-asl;1.9.11!jackson-core-asl.pom(pom.original) (225ms)
-[debug] 		tried /Users/mengchending/.ivy2/local/org.codehaus.jackson/jackson-core-asl/1.9.11/jars/jackson-core-asl.jar
-[debug] 		tried /Users/mengchending/.activator/repository/org.codehaus.jackson/jackson-core-asl/1.9.11/jars/jackson-core-asl.jar
-[debug] 		tried /Users/mengchending/Downloads/activator-dist-1.3.6/repository/org.codehaus.jackson/jackson-core-asl/1.9.11/jars/jackson-core-asl.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.9.11/jackson-core-asl-1.9.11.jar
-[debug] 	found org.codehaus.jackson#jackson-core-asl;1.9.11 in public
+[debug] sbt-chain: module revision found in cache: org.codehaus.jackson#jackson-core-asl;1.9.11
+[debug] 	found org.codehaus.jackson#jackson-core-asl;1.9.11 in sbt-chain
 [debug] == resolving dependencies org.codehaus.jackson#jackson-mapper-asl;1.9.11->org.codehaus.jackson#jackson-core-asl;1.9.11 [compile->compile(*)]
 [debug] == resolving dependencies org.codehaus.jackson#jackson-mapper-asl;1.9.11->org.codehaus.jackson#jackson-core-asl;1.9.11 [compile->runtime(*)]
 [debug] == resolving dependencies org.codehaus.jackson#jackson-mapper-asl;1.9.11->org.codehaus.jackson#jackson-core-asl;1.9.11 [compile->compile]
@@ -3631,27 +3574,8 @@
 [debug] == resolving dependencies org.apache.spark#spark-sql_2.10;1.3.0->org.jodd#jodd-core;3.6.3 [compile->master(compile)]
 [info] Resolving org.jodd#jodd-core;3.6.3 ...
 [debug] sbt-chain: Checking cache for: dependency: org.jodd#jodd-core;3.6.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[info] Resolving org.jodd#jodd-core;3.6.3 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.jodd#jodd-core;3.6.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried /Users/mengchending/.ivy2/local/org.jodd/jodd-core/3.6.3/ivys/ivy.xml
-[debug] 	local: no ivy file found for org.jodd#jodd-core;3.6.3
-[debug] 		tried /Users/mengchending/.activator/repository/org.jodd/jodd-core/3.6.3/ivys/ivy.xml
-[debug] 	activator-launcher-local: no ivy file found for org.jodd#jodd-core;3.6.3
-[debug] 		tried /Users/mengchending/Downloads/activator-dist-1.3.6/repository/org.jodd/jodd-core/3.6.3/ivys/ivy.xml
-[debug] 	activator-local: no ivy file found for org.jodd#jodd-core;3.6.3
-[debug] 		tried https://repo1.maven.org/maven2/org/jodd/jodd-core/3.6.3/jodd-core-3.6.3.pom
-[debug] 	public: found md file for org.jodd#jodd-core;3.6.3
-[debug] 		=> https://repo1.maven.org/maven2/org/jodd/jodd-core/3.6.3/jodd-core-3.6.3.pom (3.6.3)
-[debug] downloading https://repo1.maven.org/maven2/org/jodd/jodd-core/3.6.3/jodd-core-3.6.3.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/jodd/jodd-core/3.6.3/jodd-core-3.6.3.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/jodd/jodd-core/3.6.3/jodd-core-3.6.3.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/jodd/jodd-core/3.6.3/jodd-core-3.6.3.pom
-[debug] 	[SUCCESSFUL ] org.jodd#jodd-core;3.6.3!jodd-core.pom(pom.original) (235ms)
-[debug] 		tried /Users/mengchending/.ivy2/local/org.jodd/jodd-core/3.6.3/jars/jodd-core.jar
-[debug] 		tried /Users/mengchending/.activator/repository/org.jodd/jodd-core/3.6.3/jars/jodd-core.jar
-[debug] 		tried /Users/mengchending/Downloads/activator-dist-1.3.6/repository/org.jodd/jodd-core/3.6.3/jars/jodd-core.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/jodd/jodd-core/3.6.3/jodd-core-3.6.3.jar
-[debug] 	found org.jodd#jodd-core;3.6.3 in public
+[debug] sbt-chain: module revision found in cache: org.jodd#jodd-core;3.6.3
+[debug] 	found org.jodd#jodd-core;3.6.3 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-sql_2.10;1.3.0->org.jodd#jodd-core;3.6.3 [compile->compile(*)]
 [debug] == resolving dependencies org.apache.spark#spark-sql_2.10;1.3.0->org.spark-project.spark#unused;1.0.0 [compile->master(compile)]
 [debug] == resolving dependencies org.apache.spark#spark-sql_2.10;1.3.0->org.spark-project.spark#unused;1.0.0 [compile->compile(*)]
@@ -3716,60 +3640,16 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib_2.10;1.3.0->org.apache.spark#spark-graphx_2.10;1.3.0 [compile->master(compile)]
 [info] Resolving org.apache.spark#spark-graphx_2.10;1.3.0 ...
 [debug] sbt-chain: Checking cache for: dependency: org.apache.spark#spark-graphx_2.10;1.3.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[info] Resolving org.apache.spark#spark-graphx_2.10;1.3.0 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.apache.spark#spark-graphx_2.10;1.3.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried /Users/mengchending/.ivy2/local/org.apache.spark/spark-graphx_2.10/1.3.0/ivys/ivy.xml
-[debug] 	local: no ivy file found for org.apache.spark#spark-graphx_2.10;1.3.0
-[debug] 		tried /Users/mengchending/.activator/repository/org.apache.spark/spark-graphx_2.10/1.3.0/ivys/ivy.xml
-[debug] 	activator-launcher-local: no ivy file found for org.apache.spark#spark-graphx_2.10;1.3.0
-[debug] 		tried /Users/mengchending/Downloads/activator-dist-1.3.6/repository/org.apache.spark/spark-graphx_2.10/1.3.0/ivys/ivy.xml
-[debug] 	activator-local: no ivy file found for org.apache.spark#spark-graphx_2.10;1.3.0
-[debug] 		tried https://repo1.maven.org/maven2/org/apache/spark/spark-graphx_2.10/1.3.0/spark-graphx_2.10-1.3.0.pom
-[debug] 	public: found md file for org.apache.spark#spark-graphx_2.10;1.3.0
-[debug] 		=> https://repo1.maven.org/maven2/org/apache/spark/spark-graphx_2.10/1.3.0/spark-graphx_2.10-1.3.0.pom (1.3.0)
-[debug] downloading https://repo1.maven.org/maven2/org/apache/spark/spark-graphx_2.10/1.3.0/spark-graphx_2.10-1.3.0.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-graphx_2.10/1.3.0/spark-graphx_2.10-1.3.0.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-graphx_2.10/1.3.0/spark-graphx_2.10-1.3.0.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-graphx_2.10/1.3.0/spark-graphx_2.10-1.3.0.pom
-[debug] 	[SUCCESSFUL ] org.apache.spark#spark-graphx_2.10;1.3.0!spark-graphx_2.10.pom(pom.original) (259ms)
-[info] Resolving org.apache.spark#spark-parent_2.10;1.3.0 ...
-[debug] sbt-chain: Checking cache for: dependency: org.apache.spark#spark-parent_2.10;1.3.0 {}
-[debug] sbt-chain: module revision found in cache: org.apache.spark#spark-parent_2.10;1.3.0
-[debug] 		tried /Users/mengchending/.ivy2/local/org.apache.spark/spark-graphx_2.10/1.3.0/jars/spark-graphx_2.10.jar
-[debug] 		tried /Users/mengchending/.activator/repository/org.apache.spark/spark-graphx_2.10/1.3.0/jars/spark-graphx_2.10.jar
-[debug] 		tried /Users/mengchending/Downloads/activator-dist-1.3.6/repository/org.apache.spark/spark-graphx_2.10/1.3.0/jars/spark-graphx_2.10.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/apache/spark/spark-graphx_2.10/1.3.0/spark-graphx_2.10-1.3.0.jar
-[debug] 	found org.apache.spark#spark-graphx_2.10;1.3.0 in public
+[debug] sbt-chain: module revision found in cache: org.apache.spark#spark-graphx_2.10;1.3.0
+[debug] 	found org.apache.spark#spark-graphx_2.10;1.3.0 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-mllib_2.10;1.3.0->org.apache.spark#spark-graphx_2.10;1.3.0 [compile->compile(*)]
 [debug] == resolving dependencies org.apache.spark#spark-graphx_2.10;1.3.0->org.apache.spark#spark-core_2.10;1.3.0 [compile->master(compile)]
 [debug] == resolving dependencies org.apache.spark#spark-graphx_2.10;1.3.0->org.apache.spark#spark-core_2.10;1.3.0 [compile->compile(*)]
 [debug] == resolving dependencies org.apache.spark#spark-graphx_2.10;1.3.0->org.jblas#jblas;1.2.3 [compile->master(compile)]
 [info] Resolving org.jblas#jblas;1.2.3 ...
 [debug] sbt-chain: Checking cache for: dependency: org.jblas#jblas;1.2.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[info] Resolving org.jblas#jblas;1.2.3 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.jblas#jblas;1.2.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried /Users/mengchending/.ivy2/local/org.jblas/jblas/1.2.3/ivys/ivy.xml
-[debug] 	local: no ivy file found for org.jblas#jblas;1.2.3
-[debug] 		tried /Users/mengchending/.activator/repository/org.jblas/jblas/1.2.3/ivys/ivy.xml
-[debug] 	activator-launcher-local: no ivy file found for org.jblas#jblas;1.2.3
-[debug] 		tried /Users/mengchending/Downloads/activator-dist-1.3.6/repository/org.jblas/jblas/1.2.3/ivys/ivy.xml
-[debug] 	activator-local: no ivy file found for org.jblas#jblas;1.2.3
-[debug] 		tried https://repo1.maven.org/maven2/org/jblas/jblas/1.2.3/jblas-1.2.3.pom
-[debug] 	public: found md file for org.jblas#jblas;1.2.3
-[debug] 		=> https://repo1.maven.org/maven2/org/jblas/jblas/1.2.3/jblas-1.2.3.pom (1.2.3)
-[debug] downloading https://repo1.maven.org/maven2/org/jblas/jblas/1.2.3/jblas-1.2.3.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/jblas/jblas/1.2.3/jblas-1.2.3.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/jblas/jblas/1.2.3/jblas-1.2.3.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/jblas/jblas/1.2.3/jblas-1.2.3.pom
-[debug] 	[SUCCESSFUL ] org.jblas#jblas;1.2.3!jblas.pom(pom.original) (242ms)
-[info] Resolving org.sonatype.oss#oss-parent;7 ...
-[debug] sbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;7 {}
-[debug] sbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;7
-[debug] 		tried /Users/mengchending/.ivy2/local/org.jblas/jblas/1.2.3/jars/jblas.jar
-[debug] 		tried /Users/mengchending/.activator/repository/org.jblas/jblas/1.2.3/jars/jblas.jar
-[debug] 		tried /Users/mengchending/Downloads/activator-dist-1.3.6/repository/org.jblas/jblas/1.2.3/jars/jblas.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/jblas/jblas/1.2.3/jblas-1.2.3.jar
-[debug] 	found org.jblas#jblas;1.2.3 in public
+[debug] sbt-chain: module revision found in cache: org.jblas#jblas;1.2.3
+[debug] 	found org.jblas#jblas;1.2.3 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-graphx_2.10;1.3.0->org.jblas#jblas;1.2.3 [compile->compile(*)]
 [debug] == resolving dependencies org.apache.spark#spark-graphx_2.10;1.3.0->org.jblas#jblas;1.2.3 [compile->runtime(*)]
 [debug] == resolving dependencies org.apache.spark#spark-graphx_2.10;1.3.0->org.jblas#jblas;1.2.3 [compile->compile]
@@ -3788,27 +3668,8 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib_2.10;1.3.0->org.scalanlp#breeze_2.10;0.11.1 [compile->master(compile)]
 [info] Resolving org.scalanlp#breeze_2.10;0.11.1 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scalanlp#breeze_2.10;0.11.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[info] Resolving org.scalanlp#breeze_2.10;0.11.1 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.scalanlp#breeze_2.10;0.11.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried /Users/mengchending/.ivy2/local/org.scalanlp/breeze_2.10/0.11.1/ivys/ivy.xml
-[debug] 	local: no ivy file found for org.scalanlp#breeze_2.10;0.11.1
-[debug] 		tried /Users/mengchending/.activator/repository/org.scalanlp/breeze_2.10/0.11.1/ivys/ivy.xml
-[debug] 	activator-launcher-local: no ivy file found for org.scalanlp#breeze_2.10;0.11.1
-[debug] 		tried /Users/mengchending/Downloads/activator-dist-1.3.6/repository/org.scalanlp/breeze_2.10/0.11.1/ivys/ivy.xml
-[debug] 	activator-local: no ivy file found for org.scalanlp#breeze_2.10;0.11.1
-[debug] 		tried https://repo1.maven.org/maven2/org/scalanlp/breeze_2.10/0.11.1/breeze_2.10-0.11.1.pom
-[debug] 	public: found md file for org.scalanlp#breeze_2.10;0.11.1
-[debug] 		=> https://repo1.maven.org/maven2/org/scalanlp/breeze_2.10/0.11.1/breeze_2.10-0.11.1.pom (0.11.1)
-[debug] downloading https://repo1.maven.org/maven2/org/scalanlp/breeze_2.10/0.11.1/breeze_2.10-0.11.1.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalanlp/breeze_2.10/0.11.1/breeze_2.10-0.11.1.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalanlp/breeze_2.10/0.11.1/breeze_2.10-0.11.1.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scalanlp/breeze_2.10/0.11.1/breeze_2.10-0.11.1.pom
-[debug] 	[SUCCESSFUL ] org.scalanlp#breeze_2.10;0.11.1!breeze_2.10.pom(pom.original) (227ms)
-[debug] 		tried /Users/mengchending/.ivy2/local/org.scalanlp/breeze_2.10/0.11.1/jars/breeze_2.10.jar
-[debug] 		tried /Users/mengchending/.activator/repository/org.scalanlp/breeze_2.10/0.11.1/jars/breeze_2.10.jar
-[debug] 		tried /Users/mengchending/Downloads/activator-dist-1.3.6/repository/org.scalanlp/breeze_2.10/0.11.1/jars/breeze_2.10.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scalanlp/breeze_2.10/0.11.1/breeze_2.10-0.11.1.jar
-[debug] 	found org.scalanlp#breeze_2.10;0.11.1 in public
+[debug] sbt-chain: module revision found in cache: org.scalanlp#breeze_2.10;0.11.1
+[debug] 	found org.scalanlp#breeze_2.10;0.11.1 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-mllib_2.10;1.3.0->org.scalanlp#breeze_2.10;0.11.1 [compile->compile(*)]
 [debug] excluding dependency: org.apache.commons#commons-math3;3.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile
 [debug] == resolving dependencies org.scalanlp#breeze_2.10;0.11.1->org.scala-lang#scala-library;2.10.4 [compile->master(compile)]
@@ -3818,27 +3679,8 @@
 [debug] excluding dependency: org.apache.commons#commons-math3;3.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile
 [info] Resolving org.scalanlp#breeze-macros_2.10;0.11.1 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scalanlp#breeze-macros_2.10;0.11.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[info] Resolving org.scalanlp#breeze-macros_2.10;0.11.1 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.scalanlp#breeze-macros_2.10;0.11.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried /Users/mengchending/.ivy2/local/org.scalanlp/breeze-macros_2.10/0.11.1/ivys/ivy.xml
-[debug] 	local: no ivy file found for org.scalanlp#breeze-macros_2.10;0.11.1
-[debug] 		tried /Users/mengchending/.activator/repository/org.scalanlp/breeze-macros_2.10/0.11.1/ivys/ivy.xml
-[debug] 	activator-launcher-local: no ivy file found for org.scalanlp#breeze-macros_2.10;0.11.1
-[debug] 		tried /Users/mengchending/Downloads/activator-dist-1.3.6/repository/org.scalanlp/breeze-macros_2.10/0.11.1/ivys/ivy.xml
-[debug] 	activator-local: no ivy file found for org.scalanlp#breeze-macros_2.10;0.11.1
-[debug] 		tried https://repo1.maven.org/maven2/org/scalanlp/breeze-macros_2.10/0.11.1/breeze-macros_2.10-0.11.1.pom
-[debug] 	public: found md file for org.scalanlp#breeze-macros_2.10;0.11.1
-[debug] 		=> https://repo1.maven.org/maven2/org/scalanlp/breeze-macros_2.10/0.11.1/breeze-macros_2.10-0.11.1.pom (0.11.1)
-[debug] downloading https://repo1.maven.org/maven2/org/scalanlp/breeze-macros_2.10/0.11.1/breeze-macros_2.10-0.11.1.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalanlp/breeze-macros_2.10/0.11.1/breeze-macros_2.10-0.11.1.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalanlp/breeze-macros_2.10/0.11.1/breeze-macros_2.10-0.11.1.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scalanlp/breeze-macros_2.10/0.11.1/breeze-macros_2.10-0.11.1.pom
-[debug] 	[SUCCESSFUL ] org.scalanlp#breeze-macros_2.10;0.11.1!breeze-macros_2.10.pom(pom.original) (221ms)
-[debug] 		tried /Users/mengchending/.ivy2/local/org.scalanlp/breeze-macros_2.10/0.11.1/jars/breeze-macros_2.10.jar
-[debug] 		tried /Users/mengchending/.activator/repository/org.scalanlp/breeze-macros_2.10/0.11.1/jars/breeze-macros_2.10.jar
-[debug] 		tried /Users/mengchending/Downloads/activator-dist-1.3.6/repository/org.scalanlp/breeze-macros_2.10/0.11.1/jars/breeze-macros_2.10.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scalanlp/breeze-macros_2.10/0.11.1/breeze-macros_2.10-0.11.1.jar
-[debug] 	found org.scalanlp#breeze-macros_2.10;0.11.1 in public
+[debug] sbt-chain: module revision found in cache: org.scalanlp#breeze-macros_2.10;0.11.1
+[debug] 	found org.scalanlp#breeze-macros_2.10;0.11.1 in sbt-chain
 [debug] == resolving dependencies org.scalanlp#breeze_2.10;0.11.1->org.scalanlp#breeze-macros_2.10;0.11.1 [compile->compile(*)]
 [debug] == resolving dependencies org.scalanlp#breeze-macros_2.10;0.11.1->org.scala-lang#scala-library;2.10.4 [compile->master(compile)]
 [debug] == resolving dependencies org.scalanlp#breeze-macros_2.10;0.11.1->org.scala-lang#scala-library;2.10.4 [compile->compile(*)]
@@ -10129,15 +9971,49 @@
 [debug] == resolving dependencies default#streaming_2.10;1.0->org.scalatest#scalatest_2.11;2.2.4 [test->default(compile)]
 [info] Resolving org.scalatest#scalatest_2.11;2.2.4 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scalatest#scalatest_2.11;2.2.4 {test=[default(compile)]}
-[debug] sbt-chain: module revision found in cache: org.scalatest#scalatest_2.11;2.2.4
-[debug] 	found org.scalatest#scalatest_2.11;2.2.4 in sbt-chain
+[info] Resolving org.scalatest#scalatest_2.11;2.2.4 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.scalatest#scalatest_2.11;2.2.4 {test=[default(compile)]}
+[debug] 		tried /Users/mengchending/.ivy2/local/org.scalatest/scalatest_2.11/2.2.4/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.scalatest#scalatest_2.11;2.2.4
+[debug] 		tried /Users/mengchending/.activator/repository/org.scalatest/scalatest_2.11/2.2.4/ivys/ivy.xml
+[debug] 	activator-launcher-local: no ivy file found for org.scalatest#scalatest_2.11;2.2.4
+[debug] 		tried /Users/mengchending/Downloads/activator-dist-1.3.6/repository/org.scalatest/scalatest_2.11/2.2.4/ivys/ivy.xml
+[debug] 	activator-local: no ivy file found for org.scalatest#scalatest_2.11;2.2.4
+[debug] 		tried https://repo1.maven.org/maven2/org/scalatest/scalatest_2.11/2.2.4/scalatest_2.11-2.2.4.pom
+[debug] 	public: found md file for org.scalatest#scalatest_2.11;2.2.4
+[debug] 		=> https://repo1.maven.org/maven2/org/scalatest/scalatest_2.11/2.2.4/scalatest_2.11-2.2.4.pom (2.2.4)
+[debug] downloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.11/2.2.4/scalatest_2.11-2.2.4.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.11/2.2.4/scalatest_2.11-2.2.4.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.11/2.2.4/scalatest_2.11-2.2.4.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scalatest/scalatest_2.11/2.2.4/scalatest_2.11-2.2.4.pom
+[debug] 	[SUCCESSFUL ] org.scalatest#scalatest_2.11;2.2.4!scalatest_2.11.pom(pom.original) (201ms)
+[debug] 	found org.scalatest#scalatest_2.11;2.2.4 in public
 [debug] == resolving dependencies default#streaming_2.10;1.0->org.scalatest#scalatest_2.11;2.2.4 [test->runtime]
 [debug] == resolving dependencies default#streaming_2.10;1.0->org.scalatest#scalatest_2.11;2.2.4 [test->compile]
 [debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.2 [compile->master(compile)]
 [info] Resolving org.scala-lang#scala-library;2.11.2 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-library;2.11.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.2
-[debug] 	found org.scala-lang#scala-library;2.11.2 in sbt-chain
+[info] Resolving org.scala-lang#scala-library;2.11.2 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.scala-lang#scala-library;2.11.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] 		tried /Users/mengchending/.ivy2/local/org.scala-lang/scala-library/2.11.2/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.scala-lang#scala-library;2.11.2
+[debug] 		tried /Users/mengchending/.activator/repository/org.scala-lang/scala-library/2.11.2/ivys/ivy.xml
+[debug] 	activator-launcher-local: no ivy file found for org.scala-lang#scala-library;2.11.2
+[debug] 		tried /Users/mengchending/Downloads/activator-dist-1.3.6/repository/org.scala-lang/scala-library/2.11.2/ivys/ivy.xml
+[debug] 	activator-local: no ivy file found for org.scala-lang#scala-library;2.11.2
+[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.2/scala-library-2.11.2.pom
+[debug] 	public: found md file for org.scala-lang#scala-library;2.11.2
+[debug] 		=> https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.2/scala-library-2.11.2.pom (2.11.2)
+[debug] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.2/scala-library-2.11.2.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.2/scala-library-2.11.2.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.2/scala-library-2.11.2.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.2/scala-library-2.11.2.pom
+[debug] 	[SUCCESSFUL ] org.scala-lang#scala-library;2.11.2!scala-library.pom(pom.original) (212ms)
+[debug] 		tried /Users/mengchending/.ivy2/local/org.scala-lang/scala-library/2.11.2/jars/scala-library.jar
+[debug] 		tried /Users/mengchending/.activator/repository/org.scala-lang/scala-library/2.11.2/jars/scala-library.jar
+[debug] 		tried /Users/mengchending/Downloads/activator-dist-1.3.6/repository/org.scala-lang/scala-library/2.11.2/jars/scala-library.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.2/scala-library-2.11.2.jar
+[debug] 	found org.scala-lang#scala-library;2.11.2 in public
 [debug] 	[2.11.2] org.scala-lang#scala-library;2.11.2
 [debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.2 [compile->compile(*)]
 [debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.2 [compile->runtime(*)]
@@ -10151,8 +10027,27 @@
 [debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-reflect;2.11.2 [compile->master(compile)]
 [info] Resolving org.scala-lang#scala-reflect;2.11.2 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.11.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.2
-[debug] 	found org.scala-lang#scala-reflect;2.11.2 in sbt-chain
+[info] Resolving org.scala-lang#scala-reflect;2.11.2 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.scala-lang#scala-reflect;2.11.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] 		tried /Users/mengchending/.ivy2/local/org.scala-lang/scala-reflect/2.11.2/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.scala-lang#scala-reflect;2.11.2
+[debug] 		tried /Users/mengchending/.activator/repository/org.scala-lang/scala-reflect/2.11.2/ivys/ivy.xml
+[debug] 	activator-launcher-local: no ivy file found for org.scala-lang#scala-reflect;2.11.2
+[debug] 		tried /Users/mengchending/Downloads/activator-dist-1.3.6/repository/org.scala-lang/scala-reflect/2.11.2/ivys/ivy.xml
+[debug] 	activator-local: no ivy file found for org.scala-lang#scala-reflect;2.11.2
+[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.2/scala-reflect-2.11.2.pom
+[debug] 	public: found md file for org.scala-lang#scala-reflect;2.11.2
+[debug] 		=> https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.2/scala-reflect-2.11.2.pom (2.11.2)
+[debug] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.2/scala-reflect-2.11.2.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.2/scala-reflect-2.11.2.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.2/scala-reflect-2.11.2.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.2/scala-reflect-2.11.2.pom
+[debug] 	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.11.2!scala-reflect.pom(pom.original) (202ms)
+[debug] 		tried /Users/mengchending/.ivy2/local/org.scala-lang/scala-reflect/2.11.2/jars/scala-reflect.jar
+[debug] 		tried /Users/mengchending/.activator/repository/org.scala-lang/scala-reflect/2.11.2/jars/scala-reflect.jar
+[debug] 		tried /Users/mengchending/Downloads/activator-dist-1.3.6/repository/org.scala-lang/scala-reflect/2.11.2/jars/scala-reflect.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.2/scala-reflect-2.11.2.jar
+[debug] 	found org.scala-lang#scala-reflect;2.11.2 in public
 [debug] 	[2.11.2] org.scala-lang#scala-reflect;2.11.2
 [debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-reflect;2.11.2 [compile->compile(*)]
 [debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.2 [compile->master(compile)]
@@ -19444,12 +19339,7 @@
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.10.4!scala-library.jar
 [debug] 	[NOT REQUIRED] org.apache.spark#spark-core_2.10;1.3.0!spark-core_2.10.jar
 [debug] 	[NOT REQUIRED] org.apache.spark#spark-streaming_2.10;1.3.0!spark-streaming_2.10.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/apache/spark/spark-mllib_2.10/1.3.0/spark-mllib_2.10-1.3.0.jar
-[info] downloading https://repo1.maven.org/maven2/org/apache/spark/spark-mllib_2.10/1.3.0/spark-mllib_2.10-1.3.0.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-mllib_2.10/1.3.0/spark-mllib_2.10-1.3.0.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-mllib_2.10/1.3.0/spark-mllib_2.10-1.3.0.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-mllib_2.10/1.3.0/spark-mllib_2.10-1.3.0.jar
-[info] 	[SUCCESSFUL ] org.apache.spark#spark-mllib_2.10;1.3.0!spark-mllib_2.10.jar (1499ms)
+[debug] 	[NOT REQUIRED] org.apache.spark#spark-mllib_2.10;1.3.0!spark-mllib_2.10.jar
 [debug] 	[NOT REQUIRED] org.twitter4j#twitter4j-core;3.0.6!twitter4j-core.jar
 [debug] 	[NOT REQUIRED] org.twitter4j#twitter4j-stream;3.0.6!twitter4j-stream.jar
 [debug] 	[NOT REQUIRED] com.twitter#chill_2.10;0.5.0!chill_2.10.jar
@@ -19462,7 +19352,12 @@
 [debug] 	[NOT REQUIRED] org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016!javax.servlet.jar(orbit)
 [debug] 	[NOT REQUIRED] org.apache.commons#commons-lang3;3.3.2!commons-lang3.jar
 [debug] 	[NOT REQUIRED] org.apache.commons#commons-math3;3.1.1!commons-math3.jar
-[debug] 	[NOT REQUIRED] com.google.code.findbugs#jsr305;1.3.9!jsr305.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar
+[info] downloading https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar
+[info] 	[SUCCESSFUL ] com.google.code.findbugs#jsr305;1.3.9!jsr305.jar (293ms)
 [debug] 	[NOT REQUIRED] org.slf4j#jul-to-slf4j;1.7.10!jul-to-slf4j.jar
 [debug] 	[NOT REQUIRED] org.slf4j#jcl-over-slf4j;1.7.10!jcl-over-slf4j.jar
 [debug] 	[NOT REQUIRED] log4j#log4j;1.2.17!log4j.jar(bundle)
@@ -19493,7 +19388,12 @@
 [debug] 	[NOT REQUIRED] com.esotericsoftware.kryo#kryo;2.21!kryo.jar(bundle)
 [debug] 	[NOT REQUIRED] com.esotericsoftware.reflectasm#reflectasm;1.07!reflectasm.jar
 [debug] 	[NOT REQUIRED] com.esotericsoftware.minlog#minlog;1.2!minlog.jar
-[debug] 	[NOT REQUIRED] org.objenesis#objenesis;1.2!objenesis.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/objenesis/objenesis/1.2/objenesis-1.2.jar
+[info] downloading https://repo1.maven.org/maven2/org/objenesis/objenesis/1.2/objenesis-1.2.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/objenesis/objenesis/1.2/objenesis-1.2.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/objenesis/objenesis/1.2/objenesis-1.2.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/objenesis/objenesis/1.2/objenesis-1.2.jar
+[info] 	[SUCCESSFUL ] org.objenesis#objenesis;1.2!objenesis.jar (300ms)
 [debug] 	[NOT REQUIRED] org.apache.hadoop#hadoop-common;2.2.0!hadoop-common.jar
 [debug] 	[NOT REQUIRED] org.apache.hadoop#hadoop-hdfs;2.2.0!hadoop-hdfs.jar
 [debug] 	[NOT REQUIRED] org.apache.hadoop#hadoop-mapreduce-client-app;2.2.0!hadoop-mapreduce-client-app.jar
@@ -19512,11 +19412,21 @@
 [debug] 	[NOT REQUIRED] com.google.protobuf#protobuf-java;2.5.0!protobuf-java.jar(bundle)
 [debug] 	[NOT REQUIRED] org.apache.hadoop#hadoop-auth;2.2.0!hadoop-auth.jar
 [debug] 	[NOT REQUIRED] org.apache.commons#commons-compress;1.4.1!commons-compress.jar
-[debug] 	[NOT REQUIRED] commons-collections#commons-collections;3.2.1!commons-collections.jar
+[debug] 		tried https://repo1.maven.org/maven2/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar
+[info] downloading https://repo1.maven.org/maven2/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar
+[info] 	[SUCCESSFUL ] commons-collections#commons-collections;3.2.1!commons-collections.jar (610ms)
 [debug] 	[NOT REQUIRED] commons-digester#commons-digester;1.8!commons-digester.jar
 [debug] 	[NOT REQUIRED] commons-beanutils#commons-beanutils-core;1.8.0!commons-beanutils-core.jar
 [debug] 	[NOT REQUIRED] commons-beanutils#commons-beanutils;1.7.0!commons-beanutils.jar
-[debug] 	[NOT REQUIRED] org.slf4j#slf4j-api;1.6.4!slf4j-api.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.6.4/slf4j-api-1.6.4.jar
+[info] downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.6.4/slf4j-api-1.6.4.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.6.4/slf4j-api-1.6.4.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.6.4/slf4j-api-1.6.4.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.6.4/slf4j-api-1.6.4.jar
+[info] 	[SUCCESSFUL ] org.slf4j#slf4j-api;1.6.4!slf4j-api.jar (248ms)
 [debug] 	[NOT REQUIRED] org.tukaani#xz;1.0!xz.jar
 [debug] 	[NOT REQUIRED] org.mortbay.jetty#jetty-util;6.1.26!jetty-util.jar
 [debug] 	[NOT REQUIRED] org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0!hadoop-mapreduce-client-common.jar
@@ -19529,8 +19439,18 @@
 [debug] 	[NOT REQUIRED] com.sun.jersey#jersey-server;1.9!jersey-server.jar(bundle)
 [debug] 	[NOT REQUIRED] com.sun.jersey#jersey-json;1.9!jersey-json.jar(bundle)
 [debug] 	[NOT REQUIRED] com.sun.jersey.contribs#jersey-guice;1.9!jersey-guice.jar
-[debug] 	[NOT REQUIRED] javax.inject#javax.inject;1!javax.inject.jar
-[debug] 	[NOT REQUIRED] aopalliance#aopalliance;1.0!aopalliance.jar
+[debug] 		tried https://repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.jar
+[info] downloading https://repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.jar
+[info] 	[SUCCESSFUL ] javax.inject#javax.inject;1!javax.inject.jar (251ms)
+[debug] 		tried https://repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.jar
+[info] downloading https://repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.jar
+[info] 	[SUCCESSFUL ] aopalliance#aopalliance;1.0!aopalliance.jar (252ms)
 [debug] 	[NOT REQUIRED] org.sonatype.sisu.inject#cglib;2.2.1-v20090111!cglib.jar
 [debug] 	[NOT REQUIRED] asm#asm;3.1!asm.jar
 [debug] 	[NOT REQUIRED] org.codehaus.jettison#jettison;1.1!jettison.jar(bundle)
@@ -19547,9 +19467,19 @@
 [debug] 	[NOT REQUIRED] org.apache.curator#curator-client;2.4.0!curator-client.jar(bundle)
 [debug] 	[NOT REQUIRED] jline#jline;0.9.94!jline.jar
 [debug] 	[NOT REQUIRED] org.spark-project.akka#akka-actor_2.10;2.3.4-spark!akka-actor_2.10.jar
-[debug] 	[NOT REQUIRED] io.netty#netty;3.8.0.Final!netty.jar(bundle)
+[debug] 		tried https://repo1.maven.org/maven2/io/netty/netty/3.8.0.Final/netty-3.8.0.Final.jar
+[info] downloading https://repo1.maven.org/maven2/io/netty/netty/3.8.0.Final/netty-3.8.0.Final.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/io/netty/netty/3.8.0.Final/netty-3.8.0.Final.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/io/netty/netty/3.8.0.Final/netty-3.8.0.Final.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/io/netty/netty/3.8.0.Final/netty-3.8.0.Final.jar
+[info] 	[SUCCESSFUL ] io.netty#netty;3.8.0.Final!netty.jar(bundle) (650ms)
 [debug] 	[NOT REQUIRED] org.spark-project.protobuf#protobuf-java;2.5.0-spark!protobuf-java.jar(bundle)
-[debug] 	[NOT REQUIRED] org.uncommons.maths#uncommons-maths;1.2.2a!uncommons-maths.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/uncommons/maths/uncommons-maths/1.2.2a/uncommons-maths-1.2.2a.jar
+[info] downloading https://repo1.maven.org/maven2/org/uncommons/maths/uncommons-maths/1.2.2a/uncommons-maths-1.2.2a.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/uncommons/maths/uncommons-maths/1.2.2a/uncommons-maths-1.2.2a.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/uncommons/maths/uncommons-maths/1.2.2a/uncommons-maths-1.2.2a.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/uncommons/maths/uncommons-maths/1.2.2a/uncommons-maths-1.2.2a.jar
+[info] 	[SUCCESSFUL ] org.uncommons.maths#uncommons-maths;1.2.2a!uncommons-maths.jar (266ms)
 [debug] 	[NOT REQUIRED] com.typesafe#config;1.2.1!config.jar(bundle)
 [debug] 	[NOT REQUIRED] org.json4s#json4s-core_2.10;3.2.10!json4s-core_2.10.jar
 [debug] 	[NOT REQUIRED] org.json4s#json4s-ast_2.10;3.2.10!json4s-ast_2.10.jar
@@ -19559,106 +19489,31 @@
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.4!scala-reflect.jar
 [debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-annotations;2.4.4!jackson-annotations.jar(bundle)
 [debug] 	[NOT REQUIRED] org.tachyonproject#tachyon;0.5.0!tachyon.jar
-[debug] 	[NOT REQUIRED] commons-io#commons-io;2.4!commons-io.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/apache/spark/spark-sql_2.10/1.3.0/spark-sql_2.10-1.3.0.jar
-[info] downloading https://repo1.maven.org/maven2/org/apache/spark/spark-sql_2.10/1.3.0/spark-sql_2.10-1.3.0.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-sql_2.10/1.3.0/spark-sql_2.10-1.3.0.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-sql_2.10/1.3.0/spark-sql_2.10-1.3.0.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-sql_2.10/1.3.0/spark-sql_2.10-1.3.0.jar
-[info] 	[SUCCESSFUL ] org.apache.spark#spark-sql_2.10;1.3.0!spark-sql_2.10.jar (1458ms)
-[debug] 		tried https://repo1.maven.org/maven2/org/apache/spark/spark-graphx_2.10/1.3.0/spark-graphx_2.10-1.3.0.jar
-[info] downloading https://repo1.maven.org/maven2/org/apache/spark/spark-graphx_2.10/1.3.0/spark-graphx_2.10-1.3.0.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-graphx_2.10/1.3.0/spark-graphx_2.10-1.3.0.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-graphx_2.10/1.3.0/spark-graphx_2.10-1.3.0.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-graphx_2.10/1.3.0/spark-graphx_2.10-1.3.0.jar
-[info] 	[SUCCESSFUL ] org.apache.spark#spark-graphx_2.10;1.3.0!spark-graphx_2.10.jar (716ms)
-[debug] 		tried https://repo1.maven.org/maven2/org/jblas/jblas/1.2.3/jblas-1.2.3.jar
-[info] downloading https://repo1.maven.org/maven2/org/jblas/jblas/1.2.3/jblas-1.2.3.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/jblas/jblas/1.2.3/jblas-1.2.3.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/jblas/jblas/1.2.3/jblas-1.2.3.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/jblas/jblas/1.2.3/jblas-1.2.3.jar
-[info] 	[SUCCESSFUL ] org.jblas#jblas;1.2.3!jblas.jar (5541ms)
-[debug] 		tried https://repo1.maven.org/maven2/org/scalanlp/breeze_2.10/0.11.1/breeze_2.10-0.11.1.jar
-[info] downloading https://repo1.maven.org/maven2/org/scalanlp/breeze_2.10/0.11.1/breeze_2.10-0.11.1.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalanlp/breeze_2.10/0.11.1/breeze_2.10-0.11.1.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalanlp/breeze_2.10/0.11.1/breeze_2.10-0.11.1.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scalanlp/breeze_2.10/0.11.1/breeze_2.10-0.11.1.jar
-[info] 	[SUCCESSFUL ] org.scalanlp#breeze_2.10;0.11.1!breeze_2.10.jar (8376ms)
-[debug] 		tried https://repo1.maven.org/maven2/org/apache/spark/spark-catalyst_2.10/1.3.0/spark-catalyst_2.10-1.3.0.jar
-[info] downloading https://repo1.maven.org/maven2/org/apache/spark/spark-catalyst_2.10/1.3.0/spark-catalyst_2.10-1.3.0.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-catalyst_2.10/1.3.0/spark-catalyst_2.10-1.3.0.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-catalyst_2.10/1.3.0/spark-catalyst_2.10-1.3.0.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-catalyst_2.10/1.3.0/spark-catalyst_2.10-1.3.0.jar
-[info] 	[SUCCESSFUL ] org.apache.spark#spark-catalyst_2.10;1.3.0!spark-catalyst_2.10.jar (1787ms)
-[debug] 		tried https://repo1.maven.org/maven2/com/twitter/parquet-column/1.6.0rc3/parquet-column-1.6.0rc3.jar
-[info] downloading https://repo1.maven.org/maven2/com/twitter/parquet-column/1.6.0rc3/parquet-column-1.6.0rc3.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/twitter/parquet-column/1.6.0rc3/parquet-column-1.6.0rc3.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/twitter/parquet-column/1.6.0rc3/parquet-column-1.6.0rc3.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/twitter/parquet-column/1.6.0rc3/parquet-column-1.6.0rc3.jar
-[info] 	[SUCCESSFUL ] com.twitter#parquet-column;1.6.0rc3!parquet-column.jar (748ms)
-[debug] 		tried https://repo1.maven.org/maven2/com/twitter/parquet-hadoop/1.6.0rc3/parquet-hadoop-1.6.0rc3.jar
-[info] downloading https://repo1.maven.org/maven2/com/twitter/parquet-hadoop/1.6.0rc3/parquet-hadoop-1.6.0rc3.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/twitter/parquet-hadoop/1.6.0rc3/parquet-hadoop-1.6.0rc3.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/twitter/parquet-hadoop/1.6.0rc3/parquet-hadoop-1.6.0rc3.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/twitter/parquet-hadoop/1.6.0rc3/parquet-hadoop-1.6.0rc3.jar
-[info] 	[SUCCESSFUL ] com.twitter#parquet-hadoop;1.6.0rc3!parquet-hadoop.jar (328ms)
-[debug] 		tried https://repo1.maven.org/maven2/org/jodd/jodd-core/3.6.3/jodd-core-3.6.3.jar
-[info] downloading https://repo1.maven.org/maven2/org/jodd/jodd-core/3.6.3/jodd-core-3.6.3.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/jodd/jodd-core/3.6.3/jodd-core-3.6.3.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/jodd/jodd-core/3.6.3/jodd-core-3.6.3.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/jodd/jodd-core/3.6.3/jodd-core-3.6.3.jar
-[info] 	[SUCCESSFUL ] org.jodd#jodd-core;3.6.3!jodd-core.jar (436ms)
+[debug] 		tried https://repo1.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4.jar
+[info] downloading https://repo1.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4.jar
+[info] 	[SUCCESSFUL ] commons-io#commons-io;2.4!commons-io.jar (318ms)
+[debug] 	[NOT REQUIRED] org.apache.spark#spark-sql_2.10;1.3.0!spark-sql_2.10.jar
+[debug] 	[NOT REQUIRED] org.apache.spark#spark-graphx_2.10;1.3.0!spark-graphx_2.10.jar
+[debug] 	[NOT REQUIRED] org.jblas#jblas;1.2.3!jblas.jar
+[debug] 	[NOT REQUIRED] org.scalanlp#breeze_2.10;0.11.1!breeze_2.10.jar
+[debug] 	[NOT REQUIRED] org.apache.spark#spark-catalyst_2.10;1.3.0!spark-catalyst_2.10.jar
+[debug] 	[NOT REQUIRED] com.twitter#parquet-column;1.6.0rc3!parquet-column.jar
+[debug] 	[NOT REQUIRED] com.twitter#parquet-hadoop;1.6.0rc3!parquet-hadoop.jar
+[debug] 	[NOT REQUIRED] org.jodd#jodd-core;3.6.3!jodd-core.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.10.4!scala-compiler.jar
 [debug] 	[NOT REQUIRED] org.scalamacros#quasiquotes_2.10;2.0.1!quasiquotes_2.10.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/twitter/parquet-common/1.6.0rc3/parquet-common-1.6.0rc3.jar
-[info] downloading https://repo1.maven.org/maven2/com/twitter/parquet-common/1.6.0rc3/parquet-common-1.6.0rc3.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/twitter/parquet-common/1.6.0rc3/parquet-common-1.6.0rc3.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/twitter/parquet-common/1.6.0rc3/parquet-common-1.6.0rc3.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/twitter/parquet-common/1.6.0rc3/parquet-common-1.6.0rc3.jar
-[info] 	[SUCCESSFUL ] com.twitter#parquet-common;1.6.0rc3!parquet-common.jar (236ms)
-[debug] 		tried https://repo1.maven.org/maven2/com/twitter/parquet-encoding/1.6.0rc3/parquet-encoding-1.6.0rc3.jar
-[info] downloading https://repo1.maven.org/maven2/com/twitter/parquet-encoding/1.6.0rc3/parquet-encoding-1.6.0rc3.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/twitter/parquet-encoding/1.6.0rc3/parquet-encoding-1.6.0rc3.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/twitter/parquet-encoding/1.6.0rc3/parquet-encoding-1.6.0rc3.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/twitter/parquet-encoding/1.6.0rc3/parquet-encoding-1.6.0rc3.jar
-[info] 	[SUCCESSFUL ] com.twitter#parquet-encoding;1.6.0rc3!parquet-encoding.jar (376ms)
+[debug] 	[NOT REQUIRED] com.twitter#parquet-common;1.6.0rc3!parquet-common.jar
+[debug] 	[NOT REQUIRED] com.twitter#parquet-encoding;1.6.0rc3!parquet-encoding.jar
 [debug] 	[NOT REQUIRED] commons-codec#commons-codec;1.5!commons-codec.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/twitter/parquet-generator/1.6.0rc3/parquet-generator-1.6.0rc3.jar
-[info] downloading https://repo1.maven.org/maven2/com/twitter/parquet-generator/1.6.0rc3/parquet-generator-1.6.0rc3.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/twitter/parquet-generator/1.6.0rc3/parquet-generator-1.6.0rc3.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/twitter/parquet-generator/1.6.0rc3/parquet-generator-1.6.0rc3.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/twitter/parquet-generator/1.6.0rc3/parquet-generator-1.6.0rc3.jar
-[info] 	[SUCCESSFUL ] com.twitter#parquet-generator;1.6.0rc3!parquet-generator.jar (208ms)
-[debug] 		tried https://repo1.maven.org/maven2/com/twitter/parquet-format/2.2.0-rc1/parquet-format-2.2.0-rc1.jar
-[info] downloading https://repo1.maven.org/maven2/com/twitter/parquet-format/2.2.0-rc1/parquet-format-2.2.0-rc1.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/twitter/parquet-format/2.2.0-rc1/parquet-format-2.2.0-rc1.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/twitter/parquet-format/2.2.0-rc1/parquet-format-2.2.0-rc1.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/twitter/parquet-format/2.2.0-rc1/parquet-format-2.2.0-rc1.jar
-[info] 	[SUCCESSFUL ] com.twitter#parquet-format;2.2.0-rc1!parquet-format.jar (470ms)
-[debug] 		tried https://repo1.maven.org/maven2/com/twitter/parquet-jackson/1.6.0rc3/parquet-jackson-1.6.0rc3.jar
-[info] downloading https://repo1.maven.org/maven2/com/twitter/parquet-jackson/1.6.0rc3/parquet-jackson-1.6.0rc3.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/twitter/parquet-jackson/1.6.0rc3/parquet-jackson-1.6.0rc3.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/twitter/parquet-jackson/1.6.0rc3/parquet-jackson-1.6.0rc3.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/twitter/parquet-jackson/1.6.0rc3/parquet-jackson-1.6.0rc3.jar
-[info] 	[SUCCESSFUL ] com.twitter#parquet-jackson;1.6.0rc3!parquet-jackson.jar (849ms)
-[debug] 		tried https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.9.11/jackson-mapper-asl-1.9.11.jar
-[info] downloading https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.9.11/jackson-mapper-asl-1.9.11.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.9.11/jackson-mapper-asl-1.9.11.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.9.11/jackson-mapper-asl-1.9.11.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.9.11/jackson-mapper-asl-1.9.11.jar
-[info] 	[SUCCESSFUL ] org.codehaus.jackson#jackson-mapper-asl;1.9.11!jackson-mapper-asl.jar (639ms)
-[debug] 		tried https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.9.11/jackson-core-asl-1.9.11.jar
-[info] downloading https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.9.11/jackson-core-asl-1.9.11.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.9.11/jackson-core-asl-1.9.11.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.9.11/jackson-core-asl-1.9.11.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.9.11/jackson-core-asl-1.9.11.jar
-[info] 	[SUCCESSFUL ] org.codehaus.jackson#jackson-core-asl;1.9.11!jackson-core-asl.jar (342ms)
-[debug] 		tried https://repo1.maven.org/maven2/org/scalanlp/breeze-macros_2.10/0.11.1/breeze-macros_2.10-0.11.1.jar
-[info] downloading https://repo1.maven.org/maven2/org/scalanlp/breeze-macros_2.10/0.11.1/breeze-macros_2.10-0.11.1.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalanlp/breeze-macros_2.10/0.11.1/breeze-macros_2.10-0.11.1.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalanlp/breeze-macros_2.10/0.11.1/breeze-macros_2.10-0.11.1.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scalanlp/breeze-macros_2.10/0.11.1/breeze-macros_2.10-0.11.1.jar
-[info] 	[SUCCESSFUL ] org.scalanlp#breeze-macros_2.10;0.11.1!breeze-macros_2.10.jar (334ms)
+[debug] 	[NOT REQUIRED] com.twitter#parquet-generator;1.6.0rc3!parquet-generator.jar
+[debug] 	[NOT REQUIRED] com.twitter#parquet-format;2.2.0-rc1!parquet-format.jar
+[debug] 	[NOT REQUIRED] com.twitter#parquet-jackson;1.6.0rc3!parquet-jackson.jar
+[debug] 	[NOT REQUIRED] org.codehaus.jackson#jackson-mapper-asl;1.9.11!jackson-mapper-asl.jar
+[debug] 	[NOT REQUIRED] org.codehaus.jackson#jackson-core-asl;1.9.11!jackson-core-asl.jar
+[debug] 	[NOT REQUIRED] org.scalanlp#breeze-macros_2.10;0.11.1!breeze-macros_2.10.jar
 [debug] 	[NOT REQUIRED] com.github.fommil.netlib#core;1.1.2!core.jar
 [debug] 	[NOT REQUIRED] net.sourceforge.f2j#arpack_combined_all;0.1!arpack_combined_all.jar
 [debug] 	[NOT REQUIRED] net.sourceforge.f2j#arpack_combined_all;0.1!arpack_combined_all.jar
@@ -19666,13 +19521,28 @@
 [debug] 	[NOT REQUIRED] com.github.rwl#jtransforms;2.4.0!jtransforms.jar
 [debug] 	[NOT REQUIRED] org.spire-math#spire_2.10;0.7.4!spire_2.10.jar
 [debug] 	[NOT REQUIRED] org.spire-math#spire-macros_2.10;0.7.4!spire-macros_2.10.jar
-[debug] 	[NOT REQUIRED] org.scalatest#scalatest_2.11;2.2.4!scalatest_2.11.jar(bundle)
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.11.2!scala-library.jar
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.2!scala-reflect.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/scalatest/scalatest_2.11/2.2.4/scalatest_2.11-2.2.4.jar
+[info] downloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.11/2.2.4/scalatest_2.11-2.2.4.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.11/2.2.4/scalatest_2.11-2.2.4.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.11/2.2.4/scalatest_2.11-2.2.4.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scalatest/scalatest_2.11/2.2.4/scalatest_2.11-2.2.4.jar
+[info] 	[SUCCESSFUL ] org.scalatest#scalatest_2.11;2.2.4!scalatest_2.11.jar(bundle) (3320ms)
+[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.2/scala-library-2.11.2.jar
+[info] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.2/scala-library-2.11.2.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.2/scala-library-2.11.2.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.2/scala-library-2.11.2.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.2/scala-library-2.11.2.jar
+[info] 	[SUCCESSFUL ] org.scala-lang#scala-library;2.11.2!scala-library.jar (3230ms)
+[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.2/scala-reflect-2.11.2.jar
+[info] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.2/scala-reflect-2.11.2.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.2/scala-reflect-2.11.2.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.2/scala-reflect-2.11.2.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.2/scala-reflect-2.11.2.jar
+[info] 	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.11.2!scala-reflect.jar (1375ms)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.2!scala-xml_2.11.jar(bundle)
 [debug] 	[NOT REQUIRED] org.scala-lang#jline;2.10.4!jline.jar
 [debug] 	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar
-[debug] :: resolution report :: resolve 21799ms :: artifacts dl 24556ms
+[debug] :: resolution report :: resolve 19934ms :: artifacts dl 11265ms
 [debug] 	report for default#streaming_2.10;1.0 compile produced in /Users/mengchending/IdeaProjects/streaming/target/resolution-cache/reports/default-streaming_2.10-compile.xml
 [debug] 	report for default#streaming_2.10;1.0 runtime produced in /Users/mengchending/IdeaProjects/streaming/target/resolution-cache/reports/default-streaming_2.10-runtime.xml
 [debug] 	report for default#streaming_2.10;1.0 test produced in /Users/mengchending/IdeaProjects/streaming/target/resolution-cache/reports/default-streaming_2.10-test.xml
@@ -19686,5 +19556,5 @@
 [debug] 	report for default#streaming_2.10;1.0 docs produced in /Users/mengchending/IdeaProjects/streaming/target/resolution-cache/reports/default-streaming_2.10-docs.xml
 [debug] 	report for default#streaming_2.10;1.0 pom produced in /Users/mengchending/IdeaProjects/streaming/target/resolution-cache/reports/default-streaming_2.10-pom.xml
 [debug] 	report for default#streaming_2.10;1.0 scala-tool produced in /Users/mengchending/IdeaProjects/streaming/target/resolution-cache/reports/default-streaming_2.10-scala-tool.xml
-[debug] 	resolve done (21799ms resolve - 24556ms download)
+[debug] 	resolve done (19934ms resolve - 11265ms download)
 [info] Done updating.

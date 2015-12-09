@@ -1,7 +1,0 @@
-[debug] Other repositories:
-[debug] Default repositories:
-[debug] Using inline dependencies specified in Scala.
-[warn] Binary version (2.11) for dependency org.scala-lang#scala-library;2.11.2
-[warn] 	in default#streaming$sources_javadoc_2.10;1.0 differs from Scala binary version in project (2.10).
-[warn] Binary version (2.11) for dependency org.scala-lang#scala-reflect;2.11.2
-[warn] 	in default#streaming$sources_javadoc_2.10;1.0 differs from Scala binary version in project (2.10).
